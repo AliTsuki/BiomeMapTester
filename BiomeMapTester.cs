@@ -180,6 +180,27 @@ namespace BiomeMapTester
             }
             end:;
         }
+
+        private void ResetButton_Click(object sender, EventArgs e)
+        {
+            this.TempFreqTextBox.Text = "0.005";
+            this.TempLacTextBox.Text = "1";
+            this.TempOctTextBox.Text = "2";
+            this.TempPersTextBox.Text = "5";
+            this.HumidFreqTextBox.Text = "0.005";
+            this.HumidLacTextBox.Text = "1";
+            this.HumidOctTextBox.Text = "2";
+            this.HumidPersTextBox.Text = "5";
+            this.HeightFreqTextBox.Text = "0.004";
+            this.HeightLacTextBox.Text = "2";
+            this.HeightOctTextBox.Text = "4";
+            this.HeightPersTextBox.Text = "2.2";
+            this.HumidOffsetTextBox.Text = "1";
+            this.HeightOffsetTextBox.Text = "2";
+            this.SeedTextBox.Text = "0";
+            this.WidthTextBox.Text = "1024";
+            this.HeightTextBox.Text = "1024";
+        }
     }
 
     public class Biome

@@ -153,6 +153,7 @@
             this.HumidityLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
             this.TemperatureLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
             this.BiomeMapTesterTooltip = new System.Windows.Forms.ToolTip(this.components);
+            this.ResetButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.BiomeMapPictureBox)).BeginInit();
             this.KeyPanel.SuspendLayout();
             this.KeyLayoutPanel.SuspendLayout();
@@ -1435,6 +1436,7 @@
             // 
             // ControlPanel
             // 
+            this.ControlPanel.Controls.Add(this.ResetButton);
             this.ControlPanel.Controls.Add(this.BMSeedLabel);
             this.ControlPanel.Controls.Add(this.GenerateLogsCheckBox);
             this.ControlPanel.Controls.Add(this.GeneratePNGCheckBox);
@@ -1470,7 +1472,7 @@
             this.GenerateLogsCheckBox.AutoSize = true;
             this.GenerateLogsCheckBox.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GenerateLogsCheckBox.ForeColor = System.Drawing.Color.White;
-            this.GenerateLogsCheckBox.Location = new System.Drawing.Point(62, 660);
+            this.GenerateLogsCheckBox.Location = new System.Drawing.Point(57, 678);
             this.GenerateLogsCheckBox.Name = "GenerateLogsCheckBox";
             this.GenerateLogsCheckBox.Size = new System.Drawing.Size(145, 23);
             this.GenerateLogsCheckBox.TabIndex = 27;
@@ -1483,7 +1485,7 @@
             this.GeneratePNGCheckBox.AutoSize = true;
             this.GeneratePNGCheckBox.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GeneratePNGCheckBox.ForeColor = System.Drawing.Color.White;
-            this.GeneratePNGCheckBox.Location = new System.Drawing.Point(62, 627);
+            this.GeneratePNGCheckBox.Location = new System.Drawing.Point(57, 647);
             this.GeneratePNGCheckBox.Name = "GeneratePNGCheckBox";
             this.GeneratePNGCheckBox.Size = new System.Drawing.Size(136, 23);
             this.GeneratePNGCheckBox.TabIndex = 26;
@@ -1599,6 +1601,18 @@
             this.TemperatureLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.TemperatureLayoutPanel.Size = new System.Drawing.Size(241, 106);
             this.TemperatureLayoutPanel.TabIndex = 0;
+            // 
+            // ResetButton
+            // 
+            this.ResetButton.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ResetButton.Location = new System.Drawing.Point(57, 618);
+            this.ResetButton.Name = "ResetButton";
+            this.ResetButton.Size = new System.Drawing.Size(143, 23);
+            this.ResetButton.TabIndex = 29;
+            this.ResetButton.Text = "Reset to Default";
+            this.BiomeMapTesterTooltip.SetToolTip(this.ResetButton, "Create the Biome Map and display it to the right.");
+            this.ResetButton.UseVisualStyleBackColor = true;
+            this.ResetButton.Click += new System.EventHandler(this.ResetButton_Click);
             // 
             // BiomeMapTester
             // 
@@ -1795,6 +1809,7 @@
         private System.Windows.Forms.CheckBox GeneratePNGCheckBox;
         private System.Windows.Forms.Label BMSeedLabel;
         private System.Windows.Forms.ToolTip BiomeMapTesterTooltip;
+        private System.Windows.Forms.Button ResetButton;
     }
 }
 
