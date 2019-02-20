@@ -144,6 +144,7 @@
             this.WidthTextBox = new System.Windows.Forms.TextBox();
             this.ImageSizeLabel = new System.Windows.Forms.Label();
             this.ControlPanel = new System.Windows.Forms.Panel();
+            this.BMSeedLabel = new System.Windows.Forms.Label();
             this.GenerateLogsCheckBox = new System.Windows.Forms.CheckBox();
             this.GeneratePNGCheckBox = new System.Windows.Forms.CheckBox();
             this.ImageSizeLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
@@ -151,7 +152,6 @@
             this.HeightLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
             this.HumidityLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
             this.TemperatureLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
-            this.BMSeedLabel = new System.Windows.Forms.Label();
             this.BiomeMapTesterTooltip = new System.Windows.Forms.ToolTip(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.BiomeMapPictureBox)).BeginInit();
             this.KeyPanel.SuspendLayout();
@@ -242,7 +242,7 @@
             this.HeightPersLabel.TabIndex = 31;
             this.HeightPersLabel.Text = "Persistence";
             this.BiomeMapTesterTooltip.SetToolTip(this.HeightPersLabel, "Decimal number representing the Persistence of the Height noise map. Default Valu" +
-        "e = \"2.7\"\r\n\r\nNote: Set this between 0 and 100. The higher the number the less ea" +
+        "e = \"2.2\"\r\n\r\nNote: Set this between 0 and 100. The higher the number the less ea" +
         "ch Octave will change the output.");
             // 
             // HeightOctLabel
@@ -267,9 +267,7 @@
             this.HeightLacLabel.Size = new System.Drawing.Size(88, 18);
             this.HeightLacLabel.TabIndex = 29;
             this.HeightLacLabel.Text = "Lacunarity";
-            this.BiomeMapTesterTooltip.SetToolTip(this.HeightLacLabel, "Decimal number representing the Lacunarity of the Height noise map. Default Value" +
-        " = \"1.5\"\r\n\r\nNote: Set this between 0 and 100. The higher the number the more \"ri" +
-        "ppled\" the biome edges will be.");
+            this.BiomeMapTesterTooltip.SetToolTip(this.HeightLacLabel, resources.GetString("HeightLacLabel.ToolTip"));
             // 
             // HeightPersTextBox
             // 
@@ -278,7 +276,7 @@
             this.HeightPersTextBox.Size = new System.Drawing.Size(100, 20);
             this.HeightPersTextBox.TabIndex = 11;
             this.BiomeMapTesterTooltip.SetToolTip(this.HeightPersTextBox, "Decimal number representing the Persistence of the Height noise map. Default Valu" +
-        "e = \"2.7\"\r\n\r\nNote: Set this between 0 and 100. The higher the number the less ea" +
+        "e = \"2.2\"\r\n\r\nNote: Set this between 0 and 100. The higher the number the less ea" +
         "ch Octave will change the output.");
             // 
             // HeightOctTextBox
@@ -295,9 +293,7 @@
             this.HeightLacTextBox.Name = "HeightLacTextBox";
             this.HeightLacTextBox.Size = new System.Drawing.Size(100, 20);
             this.HeightLacTextBox.TabIndex = 9;
-            this.BiomeMapTesterTooltip.SetToolTip(this.HeightLacTextBox, "Decimal number representing the Lacunarity of the Height noise map. Default Value" +
-        " = \"1.5\"\r\n\r\nNote: Set this between 0 and 100. The higher the number the more \"ri" +
-        "ppled\" the biome edges will be.");
+            this.BiomeMapTesterTooltip.SetToolTip(this.HeightLacTextBox, resources.GetString("HeightLacTextBox.ToolTip"));
             // 
             // HeightFreqTextBox
             // 
@@ -306,7 +302,7 @@
             this.HeightFreqTextBox.Size = new System.Drawing.Size(100, 20);
             this.HeightFreqTextBox.TabIndex = 8;
             this.BiomeMapTesterTooltip.SetToolTip(this.HeightFreqTextBox, "Decimal number representing the Frequency of the Height noise map. Default Value " +
-        "= \"0.006\"\r\n\r\nNote: Set this between 0 and 1. Higher numbers mean smaller and mor" +
+        "= \"0.004\"\r\n\r\nNote: Set this between 0 and 1. Higher numbers mean smaller and mor" +
         "e frequent biomes. ");
             // 
             // HeightFreqLabel
@@ -320,7 +316,7 @@
             this.HeightFreqLabel.TabIndex = 24;
             this.HeightFreqLabel.Text = "Frequency";
             this.BiomeMapTesterTooltip.SetToolTip(this.HeightFreqLabel, "Decimal number representing the Frequency of the Height noise map. Default Value " +
-        "= \"0.006\"\r\n\r\nNote: Set this between 0 and 1. Higher numbers mean smaller and mor" +
+        "= \"0.004\"\r\n\r\nNote: Set this between 0 and 1. Higher numbers mean smaller and mor" +
         "e frequent biomes. ");
             // 
             // BMHeightLabel
@@ -350,8 +346,8 @@
             this.HumidPersTextBox.Size = new System.Drawing.Size(99, 20);
             this.HumidPersTextBox.TabIndex = 7;
             this.BiomeMapTesterTooltip.SetToolTip(this.HumidPersTextBox, "Decimal number representing the Persistence of the Humidity noise map. Default Va" +
-        "lue = \"12\"\r\n\r\nNote: Set this between 0 and 100. The higher the number the less e" +
-        "ach Octave will change the output.");
+        "lue = \"5\"\r\n\r\nNote: Set this between 0 and 100. The higher the number the less ea" +
+        "ch Octave will change the output.");
             // 
             // HumidOctTextBox
             // 
@@ -367,9 +363,7 @@
             this.HumidLacTextBox.Name = "HumidLacTextBox";
             this.HumidLacTextBox.Size = new System.Drawing.Size(99, 20);
             this.HumidLacTextBox.TabIndex = 5;
-            this.BiomeMapTesterTooltip.SetToolTip(this.HumidLacTextBox, "Decimal number representing the Lacunarity of the Humidity noise map. Default Val" +
-        "ue = \"2\"\r\n\r\nNote: Set this between 0 and 100. The higher the number the more \"ri" +
-        "ppled\" the biome edges will be.");
+            this.BiomeMapTesterTooltip.SetToolTip(this.HumidLacTextBox, resources.GetString("HumidLacTextBox.ToolTip"));
             // 
             // HumidFreqTextBox
             // 
@@ -378,7 +372,7 @@
             this.HumidFreqTextBox.Size = new System.Drawing.Size(99, 20);
             this.HumidFreqTextBox.TabIndex = 4;
             this.BiomeMapTesterTooltip.SetToolTip(this.HumidFreqTextBox, "Decimal number representing the Frequency of the Humidity noise map. Default Valu" +
-        "e = \"0.008\"\r\n\r\nNote: Set this between 0 and 1. Higher numbers mean smaller and m" +
+        "e = \"0.005\"\r\n\r\nNote: Set this between 0 and 1. Higher numbers mean smaller and m" +
         "ore frequent biomes. ");
             // 
             // HumidOffsetLabel
@@ -404,8 +398,8 @@
             this.HumidPersLabel.TabIndex = 15;
             this.HumidPersLabel.Text = "Persistence";
             this.BiomeMapTesterTooltip.SetToolTip(this.HumidPersLabel, "Decimal number representing the Persistence of the Humidity noise map. Default Va" +
-        "lue = \"12\"\r\n\r\nNote: Set this between 0 and 100. The higher the number the less e" +
-        "ach Octave will change the output.");
+        "lue = \"5\"\r\n\r\nNote: Set this between 0 and 100. The higher the number the less ea" +
+        "ch Octave will change the output.");
             // 
             // HumidOctLabel
             // 
@@ -429,9 +423,7 @@
             this.HumidLacLabel.Size = new System.Drawing.Size(88, 18);
             this.HumidLacLabel.TabIndex = 13;
             this.HumidLacLabel.Text = "Lacunarity";
-            this.BiomeMapTesterTooltip.SetToolTip(this.HumidLacLabel, "Decimal number representing the Lacunarity of the Humidity noise map. Default Val" +
-        "ue = \"2\"\r\n\r\nNote: Set this between 0 and 100. The higher the number the more \"ri" +
-        "ppled\" the biome edges will be.");
+            this.BiomeMapTesterTooltip.SetToolTip(this.HumidLacLabel, resources.GetString("HumidLacLabel.ToolTip"));
             // 
             // HumidFreqLabel
             // 
@@ -444,7 +436,7 @@
             this.HumidFreqLabel.TabIndex = 12;
             this.HumidFreqLabel.Text = "Frequency";
             this.BiomeMapTesterTooltip.SetToolTip(this.HumidFreqLabel, "Decimal number representing the Frequency of the Humidity noise map. Default Valu" +
-        "e = \"0.008\"\r\n\r\nNote: Set this between 0 and 1. Higher numbers mean smaller and m" +
+        "e = \"0.005\"\r\n\r\nNote: Set this between 0 and 1. Higher numbers mean smaller and m" +
         "ore frequent biomes. ");
             // 
             // BMHumidLabel
@@ -494,8 +486,8 @@
             this.TempPersLabel.TabIndex = 8;
             this.TempPersLabel.Text = "Persistence";
             this.BiomeMapTesterTooltip.SetToolTip(this.TempPersLabel, "Decimal number representing the Persistence of the Temperature noise map. Default" +
-        " Value = \"12\"\r\n\r\nNote: Set this between 0 and 100. The higher the number the les" +
-        "s each Octave will change the output.");
+        " Value = \"5\"\r\n\r\nNote: Set this between 0 and 100. The higher the number the less" +
+        " each Octave will change the output.");
             // 
             // TempOctLabel
             // 
@@ -519,9 +511,7 @@
             this.TempLacLabel.Size = new System.Drawing.Size(88, 18);
             this.TempLacLabel.TabIndex = 6;
             this.TempLacLabel.Text = "Lacunarity";
-            this.BiomeMapTesterTooltip.SetToolTip(this.TempLacLabel, "Decimal number representing the Lacunarity of the Temperature noise map. Default " +
-        "Value = \"2\"\r\n\r\nNote: Set this between 0 and 100. The higher the number the more " +
-        "\"rippled\" the biome edges will be.");
+            this.BiomeMapTesterTooltip.SetToolTip(this.TempLacLabel, resources.GetString("TempLacLabel.ToolTip"));
             // 
             // TempFreqLabel
             // 
@@ -534,7 +524,7 @@
             this.TempFreqLabel.TabIndex = 3;
             this.TempFreqLabel.Text = "Frequency";
             this.BiomeMapTesterTooltip.SetToolTip(this.TempFreqLabel, "Decimal number representing the Frequency of the Temperature noise map. Default V" +
-        "alue = \"0.008\"\r\n\r\nNote: Set this between 0 and 1. Higher numbers mean smaller an" +
+        "alue = \"0.005\"\r\n\r\nNote: Set this between 0 and 1. Higher numbers mean smaller an" +
         "d more frequent biomes. ");
             // 
             // SeedTextBox
@@ -552,8 +542,8 @@
             this.TempPersTextBox.Size = new System.Drawing.Size(100, 20);
             this.TempPersTextBox.TabIndex = 3;
             this.BiomeMapTesterTooltip.SetToolTip(this.TempPersTextBox, "Decimal number representing the Persistence of the Temperature noise map. Default" +
-        " Value = \"12\"\r\n\r\nNote: Set this between 0 and 100. The higher the number the les" +
-        "s each Octave will change the output.");
+        " Value = \"5\"\r\n\r\nNote: Set this between 0 and 100. The higher the number the less" +
+        " each Octave will change the output.");
             // 
             // TempOctTextBox
             // 
@@ -569,9 +559,7 @@
             this.TempLacTextBox.Name = "TempLacTextBox";
             this.TempLacTextBox.Size = new System.Drawing.Size(100, 20);
             this.TempLacTextBox.TabIndex = 1;
-            this.BiomeMapTesterTooltip.SetToolTip(this.TempLacTextBox, "Decimal number representing the Lacunarity of the Temperature noise map. Default " +
-        "Value = \"2\"\r\n\r\nNote: Set this between 0 and 100. The higher the number the more " +
-        "\"rippled\" the biome edges will be.");
+            this.BiomeMapTesterTooltip.SetToolTip(this.TempLacTextBox, resources.GetString("TempLacTextBox.ToolTip"));
             // 
             // TempFreqTextBox
             // 
@@ -580,7 +568,7 @@
             this.TempFreqTextBox.Size = new System.Drawing.Size(100, 20);
             this.TempFreqTextBox.TabIndex = 0;
             this.BiomeMapTesterTooltip.SetToolTip(this.TempFreqTextBox, "Decimal number representing the Frequency of the Temperature noise map. Default V" +
-        "alue = \"0.008\"\r\n\r\nNote: Set this between 0 and 1. Higher numbers mean smaller an" +
+        "alue = \"0.005\"\r\n\r\nNote: Set this between 0 and 1. Higher numbers mean smaller an" +
         "d more frequent biomes. ");
             // 
             // BiomeMapPictureBox
@@ -1465,6 +1453,18 @@
             this.ControlPanel.Size = new System.Drawing.Size(247, 743);
             this.ControlPanel.TabIndex = 4;
             // 
+            // BMSeedLabel
+            // 
+            this.BMSeedLabel.AutoSize = true;
+            this.BMSeedLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BMSeedLabel.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BMSeedLabel.ForeColor = System.Drawing.Color.White;
+            this.BMSeedLabel.Location = new System.Drawing.Point(98, 417);
+            this.BMSeedLabel.Name = "BMSeedLabel";
+            this.BMSeedLabel.Size = new System.Drawing.Size(58, 24);
+            this.BMSeedLabel.TabIndex = 28;
+            this.BMSeedLabel.Text = "Seed";
+            // 
             // GenerateLogsCheckBox
             // 
             this.GenerateLogsCheckBox.AutoSize = true;
@@ -1599,18 +1599,6 @@
             this.TemperatureLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.TemperatureLayoutPanel.Size = new System.Drawing.Size(241, 106);
             this.TemperatureLayoutPanel.TabIndex = 0;
-            // 
-            // BMSeedLabel
-            // 
-            this.BMSeedLabel.AutoSize = true;
-            this.BMSeedLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BMSeedLabel.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BMSeedLabel.ForeColor = System.Drawing.Color.White;
-            this.BMSeedLabel.Location = new System.Drawing.Point(98, 417);
-            this.BMSeedLabel.Name = "BMSeedLabel";
-            this.BMSeedLabel.Size = new System.Drawing.Size(58, 24);
-            this.BMSeedLabel.TabIndex = 28;
-            this.BMSeedLabel.Text = "Seed";
             // 
             // BiomeMapTester
             // 

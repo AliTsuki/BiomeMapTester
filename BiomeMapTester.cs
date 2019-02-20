@@ -45,23 +45,23 @@ namespace BiomeMapTester
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            this.TempFreqTextBox.Text = "0.008";
-            this.TempLacTextBox.Text = "2";
+            this.TempFreqTextBox.Text = "0.005";
+            this.TempLacTextBox.Text = "1";
             this.TempOctTextBox.Text = "2";
-            this.TempPersTextBox.Text = "12";
-            this.HumidFreqTextBox.Text = "0.008";
-            this.HumidLacTextBox.Text = "2";
+            this.TempPersTextBox.Text = "5";
+            this.HumidFreqTextBox.Text = "0.005";
+            this.HumidLacTextBox.Text = "1";
             this.HumidOctTextBox.Text = "2";
-            this.HumidPersTextBox.Text = "12";
-            this.HeightFreqTextBox.Text = "0.006";
-            this.HeightLacTextBox.Text = "1.5";
+            this.HumidPersTextBox.Text = "5";
+            this.HeightFreqTextBox.Text = "0.004";
+            this.HeightLacTextBox.Text = "2";
             this.HeightOctTextBox.Text = "4";
-            this.HeightPersTextBox.Text = "2.7";
+            this.HeightPersTextBox.Text = "2.2";
             this.HumidOffsetTextBox.Text = "1";
             this.HeightOffsetTextBox.Text = "2";
             this.SeedTextBox.Text = "0";
-            this.WidthTextBox.Text = "256";
-            this.HeightTextBox.Text = "256";
+            this.WidthTextBox.Text = "1024";
+            this.HeightTextBox.Text = "1024";
             this.TundraPictureBox.BackColor = Biome.Tundra.BiomeColor;
             this.TaigaPictureBox.BackColor = Biome.Taiga.BiomeColor;
             this.MtnGrassPictureBox.BackColor = Biome.MntneGrass.BiomeColor;
@@ -261,9 +261,63 @@ namespace BiomeMapTester
             {
                 logBeforeNorm.Add($@"{biomeTemp.ToString()},{biomeHumid.ToString()},{biomeHeight.ToString()}");
             }
-            int indexX = (int)Math.Round((Clamp(biomeTemp, -8, 8) + 8) * 0.18);
-            int indexY = (int)Math.Round((Clamp(biomeHeight, -8, 8) + 8) * 0.18);
-            int indexZ = (int)Math.Round((Clamp(biomeHumid, -8, 8) + 8) * 0.18);
+            biomeTemp = Clamp(biomeTemp, -8, 8);
+            biomeHeight = Clamp(biomeHeight, -8, 8);
+            biomeHumid = Clamp(biomeHumid, -8, 8);
+            int indexX = 0;
+            int indexY = 0;
+            int indexZ = 0;
+            // Temp, X value
+            if(biomeTemp <= -3.2)
+            {
+                indexX = 0;
+            }
+            else if(biomeTemp > -3.2 && biomeTemp <= 0)
+            {
+                indexX = 1;
+            }
+            else if(biomeTemp > 0 && biomeTemp <= 3.2)
+            {
+                indexX = 2;
+            }
+            else
+            {
+                indexX = 3;
+            }
+            // Height, Y value
+            if(biomeHeight <= -3.2)
+            {
+                indexY = 0;
+            }
+            else if(biomeHeight > -3.2 && biomeHeight <= 0)
+            {
+                indexY = 1;
+            }
+            else if(biomeHeight > 0 && biomeHeight <= 3.2)
+            {
+                indexY = 2;
+            }
+            else
+            {
+                indexY = 3;
+            }
+            // Humidity, Z value
+            if(biomeHumid <= -3.2)
+            {
+                indexZ = 0;
+            }
+            else if(biomeHumid > -3.2 && biomeHumid <= 0)
+            {
+                indexZ = 1;
+            }
+            else if(biomeHumid > 0 && biomeHumid <= 3.2)
+            {
+                indexZ = 2;
+            }
+            else
+            {
+                indexZ = 3;
+            }
             if(BiomeMapTester.genLogs)
             {
                 logAfterNorm.Add($@"{indexX.ToString()},{indexZ.ToString()},{indexY.ToString()}");
