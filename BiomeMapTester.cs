@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Drawing;
 using System.Windows.Forms;
+using System.Collections.Generic;
 
 using SharpNoise.Modules;
 
@@ -24,34 +25,17 @@ namespace BiomeMapTester
         public static int HeightOffset;
         public static int HumidOffset;
         public static int Seed;
-        // Biome Map Noise Generators
-        public static readonly Perlin biomeMapTemp = new Perlin()
-        {
-            Frequency = TempFreq,
-            Lacunarity = TempLac,
-            OctaveCount = TempOct,
-            Persistence = TempPers,
-            Seed = Seed,
-        };
-        public static readonly Perlin biomeMapHumid = new Perlin()
-        {
-            Frequency = HumidFreq,
-            Lacunarity = HumidLac,
-            OctaveCount = HumidOct,
-            Persistence = HumidPers,
-            Seed = Seed + HumidOffset,
-        };
-        public static readonly Perlin biomeMapHeight = new Perlin()
-        {
-            Frequency = HeightFreq,
-            Lacunarity = HeightLac,
-            OctaveCount = HeightOct,
-            Persistence = HeightPers,
-            Seed = Seed + HeightOffset,
-        };
 
-        public static int height = 1080;
-        public static int width = 1920;
+        public static Perlin biomeMapTemp;
+        public static Perlin biomeMapHumid;
+        public static Perlin biomeMapHeight;
+
+        public static int height;
+        public static int width;
+
+        public static bool genPNG = false;
+        public static bool genLogs = false;
+
         public static Bitmap bmp;
 
         public BiomeMapTester()
@@ -61,7 +45,58 @@ namespace BiomeMapTester
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            this.TempFreqTextBox.Text = "0.008";
+            this.TempLacTextBox.Text = "2";
+            this.TempOctTextBox.Text = "2";
+            this.TempPersTextBox.Text = "12";
+            this.HumidFreqTextBox.Text = "0.008";
+            this.HumidLacTextBox.Text = "2";
+            this.HumidOctTextBox.Text = "2";
+            this.HumidPersTextBox.Text = "12";
+            this.HeightFreqTextBox.Text = "0.006";
+            this.HeightLacTextBox.Text = "1.5";
+            this.HeightOctTextBox.Text = "4";
+            this.HeightPersTextBox.Text = "2.7";
+            this.HumidOffsetTextBox.Text = "1";
+            this.HeightOffsetTextBox.Text = "2";
+            this.SeedTextBox.Text = "0";
+            this.WidthTextBox.Text = "256";
+            this.HeightTextBox.Text = "256";
+            this.TundraPictureBox.BackColor = Biome.Tundra.BiomeColor;
+            this.TaigaPictureBox.BackColor = Biome.Taiga.BiomeColor;
+            this.MtnGrassPictureBox.BackColor = Biome.MntneGrass.BiomeColor;
+            this.IceLandsPictureBox.BackColor = Biome.Icelands.BiomeColor;
+            this.TempConForPictureBox.BackColor = Biome.TempConForest.BiomeColor;
+            this.SnowCoastPictureBox.BackColor = Biome.SnowCoast.BiomeColor;
+            this.ColdDesertPictureBox.BackColor = Biome.ColdDesert.BiomeColor;
+            this.TempDecForPictureBox.BackColor = Biome.TempDeciForest.BiomeColor;
+            this.MediScrubPictureBox.BackColor = Biome.MediScrub.BiomeColor;
+            this.MtnLakePictureBox.BackColor = Biome.MtnLake.BiomeColor;
+            this.MtnMeadowPictureBox.BackColor = Biome.MtnMeadow.BiomeColor;
+            this.TropConForPictureBox.BackColor = Biome.TropConForest.BiomeColor;
+            this.TropGrassPictureBox.BackColor = Biome.TropGrass.BiomeColor;
+            this.JunglePictureBox.BackColor = Biome.Jungle.BiomeColor;
+            this.JungleCoastPictureBox.BackColor = Biome.JungleCoast.BiomeColor;
+            this.MtnJunglePictureBox.BackColor = Biome.MtnJungle.BiomeColor;
+            this.FloodGrassPictureBox.BackColor = Biome.FloodGrass.BiomeColor;
+            this.WetlandPictureBox.BackColor = Biome.Wetland.BiomeColor;
+            this.WarmSwampPictureBox.BackColor = Biome.WarmSwamp.BiomeColor;
+            this.MtnSwampPictureBox.BackColor = Biome.MtnSwamp.BiomeColor;
+            this.MangrovePictureBox.BackColor = Biome.Mangrove.BiomeColor;
+            this.DesertPictureBox.BackColor = Biome.Desert.BiomeColor;
+            this.MesaPictureBox.BackColor = Biome.Mesa.BiomeColor;
+            this.CanyonsPictureBox.BackColor = Biome.Canyons.BiomeColor;
+            this.PillarsPictureBox.BackColor = Biome.Pillars.BiomeColor;
+            this.VolcanoPictureBox.BackColor = Biome.Volcano.BiomeColor;
+            this.MshrmForPictureBox.BackColor = Biome.MshrmForest.BiomeColor;
+            this.LittoralPictureBox.BackColor = Biome.Littoral.BiomeColor;
+            this.KelpForPictureBox.BackColor = Biome.KelpForest.BiomeColor;
+            this.CoralPictureBox.BackColor = Biome.Coral.BiomeColor;
+            this.NeriticPictureBox.BackColor = Biome.Neritic.BiomeColor;
+            this.PelagicPictureBox.BackColor = Biome.Pelagic.BiomeColor;
+            this.OceanDesertPictureBox.BackColor = Biome.OceanDesert.BiomeColor;
+            this.BenthicPictureBox.BackColor = Biome.Benthic.BiomeColor;
+            this.AbyssalPictureBox.BackColor = Biome.Abyssal.BiomeColor;
         }
 
         private void GenerateButton_Click(object sender, EventArgs e)
@@ -83,64 +118,118 @@ namespace BiomeMapTester
                 HumidOffset = int.Parse(this.HumidOffsetTextBox.Text);
                 HeightOffset = int.Parse(this.HeightOffsetTextBox.Text);
                 Seed = int.Parse(this.SeedTextBox.Text);
+                width = int.Parse(this.WidthTextBox.Text);
+                height = int.Parse(this.HeightTextBox.Text);
+                genPNG = this.GeneratePNGCheckBox.CheckState == CheckState.Checked;
+                genLogs = this.GenerateLogsCheckBox.CheckState == CheckState.Checked;
+                // Biome Map Noise Generators
+                biomeMapTemp = new Perlin()
+                {
+                    Frequency = TempFreq,
+                    Lacunarity = TempLac,
+                    OctaveCount = TempOct,
+                    Persistence = TempPers,
+                    Seed = Seed,
+                };
+                biomeMapHumid = new Perlin()
+                {
+                    Frequency = HumidFreq,
+                    Lacunarity = HumidLac,
+                    OctaveCount = HumidOct,
+                    Persistence = HumidPers,
+                    Seed = Seed + HumidOffset,
+                };
+                biomeMapHeight = new Perlin()
+                {
+                    Frequency = HeightFreq,
+                    Lacunarity = HeightLac,
+                    OctaveCount = HeightOct,
+                    Persistence = HeightPers,
+                    Seed = Seed + HeightOffset,
+                };
             }
             catch(Exception ex)
             {
-                MessageBox.Show("Dumbass y u not put numbers in teh boxes???");
+                MessageBox.Show("Dumbass y u not put numbers in teh boxes???\n\nOctave Counts, Offsets, Seed, Width, and Height must be WHOLE NUMBERS, all other values can be DECIMAL. NUMBERS ONLY, no sneaky alphabet characters dumb dumb.");
+                goto end;
             }
             bmp = new Bitmap(width, height);
+            if(genLogs)
+            {
+                Biome.logBeforeNorm.Add("Temperature,Humidity,Height");
+                Biome.logAfterNorm.Add("Temperature,Humidity,Height");
+            }
             for(int x = 0; x < width; x++)
             {
                 for(int y = 0; y < height; y++)
                 {
-                    bmp.SetPixel(x, y, Biome.GetBiome(x, y).BiomeColor);
+                    bmp.SetPixel(x, y, Biome.GetBiome(x, y, biomeMapTemp, biomeMapHumid, biomeMapHeight).BiomeColor);
                 }
             }
             this.BiomeMapPictureBox.Image = bmp;
-            bmp.Save(Application.StartupPath + "\\BiomeMap.png", System.Drawing.Imaging.ImageFormat.Png);
+            if(genPNG)
+            {
+                bmp.Save(Application.StartupPath + "\\BiomeMap.png", System.Drawing.Imaging.ImageFormat.Png);
+            }
+            if(genLogs)
+            {
+                System.IO.File.WriteAllLines(Application.StartupPath + "\\LogBeforeNormalization.csv", Biome.logBeforeNorm);
+                System.IO.File.WriteAllLines(Application.StartupPath + "\\LogAfterNormalization.csv", Biome.logAfterNorm);
+                Biome.logBeforeNorm.Clear();
+                Biome.logAfterNorm.Clear();
+            }
+            end:;
         }
     }
 
     public class Biome
     {
         // Biome List
-        public static readonly Biome Tundra = new Biome(Color.AliceBlue);
-        public static readonly Biome Taiga = new Biome(Color.AliceBlue);
-        public static readonly Biome MntneGrass = new Biome(Color.AliceBlue);
-        public static readonly Biome TempConForest = new Biome(Color.AliceBlue);
-        public static readonly Biome Icelands = new Biome(Color.AliceBlue);
-        public static readonly Biome TempDeciForest = new Biome(Color.AliceBlue);
-        public static readonly Biome TropConForest = new Biome(Color.AliceBlue);
-        public static readonly Biome TropGrass = new Biome(Color.AliceBlue);
-        public static readonly Biome MediScrub = new Biome(Color.AliceBlue);
-        public static readonly Biome Jungle = new Biome(Color.AliceBlue);
-        public static readonly Biome Desert = new Biome(Color.AliceBlue);
-        public static readonly Biome Mesa = new Biome(Color.AliceBlue);
-        public static readonly Biome Canyons = new Biome(Color.AliceBlue);
-        public static readonly Biome WarmSwamp = new Biome(Color.AliceBlue);
-        public static readonly Biome MtnLake = new Biome(Color.AliceBlue);
-        public static readonly Biome MtnMeadow = new Biome(Color.AliceBlue);
-        public static readonly Biome Pillars = new Biome(Color.AliceBlue);
-        public static readonly Biome Volcano = new Biome(Color.AliceBlue);
-        public static readonly Biome MshrmForest = new Biome(Color.AliceBlue);
-        public static readonly Biome MtnSwamp = new Biome(Color.AliceBlue);
-        public static readonly Biome FloodGrass = new Biome(Color.AliceBlue);
-        public static readonly Biome Wetland = new Biome(Color.AliceBlue);
-        public static readonly Biome JungleCoast = new Biome(Color.AliceBlue);
-        public static readonly Biome MtnJungle = new Biome(Color.AliceBlue);
-        public static readonly Biome Littoral = new Biome(Color.AliceBlue);
-        public static readonly Biome Mangrove = new Biome(Color.AliceBlue);
-        public static readonly Biome SnowCoast = new Biome(Color.AliceBlue);
-        public static readonly Biome ColdDesert = new Biome(Color.AliceBlue);
-        public static readonly Biome KelpForest = new Biome(Color.AliceBlue);
-        public static readonly Biome Coral = new Biome(Color.AliceBlue);
-        public static readonly Biome Neritic = new Biome(Color.AliceBlue);
-        public static readonly Biome Pelagic = new Biome(Color.AliceBlue);
-        public static readonly Biome OceanDesert = new Biome(Color.AliceBlue);
-        public static readonly Biome Benthic = new Biome(Color.AliceBlue);
-        public static readonly Biome Abyssal = new Biome(Color.AliceBlue);
+        #region
+        public static readonly Biome Tundra = new Biome(Color.Lavender);
+        public static readonly Biome Taiga = new Biome(Color.AntiqueWhite);
+        public static readonly Biome MntneGrass = new Biome(Color.NavajoWhite);
+        public static readonly Biome Icelands = new Biome(Color.Snow);
+        public static readonly Biome TempConForest = new Biome(Color.DarkOliveGreen);
+        public static readonly Biome SnowCoast = new Biome(Color.Cornsilk);
+        public static readonly Biome ColdDesert = new Biome(Color.RosyBrown);
+
+        public static readonly Biome TempDeciForest = new Biome(Color.Green);
+        public static readonly Biome MediScrub = new Biome(Color.Olive);
+        public static readonly Biome MtnLake = new Biome(Color.DarkSeaGreen);
+        public static readonly Biome MtnMeadow = new Biome(Color.YellowGreen);
+
+        public static readonly Biome TropConForest = new Biome(Color.SpringGreen);
+        public static readonly Biome TropGrass = new Biome(Color.LightGreen);
+        public static readonly Biome Jungle = new Biome(Color.Lime);
+        public static readonly Biome JungleCoast = new Biome(Color.LawnGreen);
+        public static readonly Biome MtnJungle = new Biome(Color.PaleGreen);
+
+        public static readonly Biome FloodGrass = new Biome(Color.Thistle);
+        public static readonly Biome Wetland = new Biome(Color.Plum);
+        public static readonly Biome WarmSwamp = new Biome(Color.Fuchsia);
+        public static readonly Biome MtnSwamp = new Biome(Color.MediumPurple);
+        public static readonly Biome Mangrove = new Biome(Color.Indigo);
+
+        public static readonly Biome Desert = new Biome(Color.Khaki);
+        public static readonly Biome Mesa = new Biome(Color.DarkKhaki);
+        public static readonly Biome Canyons = new Biome(Color.Tomato);
+        public static readonly Biome Pillars = new Biome(Color.OrangeRed);
+
+        public static readonly Biome Volcano = new Biome(Color.Red);
+
+        public static readonly Biome MshrmForest = new Biome(Color.DeepPink);
+
+        public static readonly Biome Littoral = new Biome(Color.PaleTurquoise);
+        public static readonly Biome KelpForest = new Biome(Color.CadetBlue);
+        public static readonly Biome Coral = new Biome(Color.MediumSlateBlue);
+        public static readonly Biome Neritic = new Biome(Color.RoyalBlue);
+        public static readonly Biome Pelagic = new Biome(Color.MediumBlue);
+        public static readonly Biome OceanDesert = new Biome(Color.Blue);
+        public static readonly Biome Benthic = new Biome(Color.MidnightBlue);
+        public static readonly Biome Abyssal = new Biome(Color.Black);
+        #endregion
         // End of Biome List
-        public static readonly Biome ErrorBiome = new Biome(Color.AliceBlue);
 
         public static Biome[,,] Biomes = new Biome[4, 4, 4] {
         //Columns X, Rows Y, Units Z
@@ -152,13 +241,6 @@ namespace BiomeMapTester
         /*HOT */{{Littoral,    Neritic,    Coral,   KelpForest},   {Desert,     MediScrub, JungleCoast, Mangrove},    {MediScrub,     MediScrub, TropGrass,      Jungle},         {Volcano,    Volcano,    MtnJungle, MtnJungle}},// HOT
         };
 
-        // OLD MAP
-        //{{Abyssal, SnowCoast, Taiga, MontaneGrasslands},                       {Benthic,Tundra,TemperateConiferousForest,Taiga},        {Benthic,Tundra,TemperateConiferousForest,Taiga},                  {Benthic,Tundra,TemperateConiferousForest,IceLands}},                 // COLD
-        //{{OceanDesert,ColdDesert,TropicalConiferousForest,MontaneGrasslands},  {KelpForest,SnowCoast,TemperateBroadleafForest,23},      {Pelagic,SnowCoast,MushroomForest,27},                             {Pelagic,FloodedGrasslands,MountainousSwamp,Taiga}},                // MID-COLD
-        //{{Neritic,Desert,MediterraneanScrub,Canyonlands},                      {Neritic,Mesa,TemperateDeciduousForest,Pillars},         {Pelagic,WarmSwamp,TemperateDeciduousForest,MountainMeadow},       {Coral,Wetland,Lake,MountainLake}},                                        // MID-HOT
-        //{{Littoral,Desert,MediterraneanScrub,Volcano},                         {Neritic,MediterraneanScrub,TropicalGrasslands,Volcano}, {Coral,JungleCoast,TropicalGrasslands,MountainJungle},             {KelpForest,Mangrove,TropicalMoistBroadleafForest,MountainJungle}}, // HOT
-        //};
-
         public Color BiomeColor;
 
         public Biome(Color color)
@@ -166,17 +248,42 @@ namespace BiomeMapTester
             this.BiomeColor = color;
         }
 
-        // Returns a byte array for color representing the Biome at location, given Pixel Coords
-        public static Biome GetBiome(int x, int y)
+        public static List<string> logBeforeNorm = new List<string>();
+        public static List<string> logAfterNorm = new List<string>();
+
+        public static Biome GetBiome(int x, int z, Perlin biomeMapTemp, Perlin biomeMapHumid, Perlin biomeMapHeight)
         {
-            int z = 0;
-            float biomeTemp = (float)BiomeMapTester.biomeMapTemp.GetValue(x, y, z);
-            float biomeHumid = (float)BiomeMapTester.biomeMapHumid.GetValue(x, y, z);
-            float biomeHeight = (float)BiomeMapTester.biomeMapHeight.GetValue(x, y, z);
-            int indexX = (int)Math.Round((biomeTemp + 1) * 2);
-            int indexY = (int)Math.Round((biomeHeight + 1) * 2);
-            int indexZ = (int)Math.Round((biomeHumid + 1) * 2);
+            int y = 1;
+            float biomeTemp = (float)biomeMapTemp.GetValue(x, y, z);
+            float biomeHumid = (float)biomeMapHumid.GetValue(x, y, z);
+            float biomeHeight = (float)biomeMapHeight.GetValue(x, y, z);
+            if(BiomeMapTester.genLogs)
+            {
+                logBeforeNorm.Add($@"{biomeTemp.ToString()},{biomeHumid.ToString()},{biomeHeight.ToString()}");
+            }
+            int indexX = (int)Math.Round((Clamp(biomeTemp, -8, 8) + 8) * 0.18);
+            int indexY = (int)Math.Round((Clamp(biomeHeight, -8, 8) + 8) * 0.18);
+            int indexZ = (int)Math.Round((Clamp(biomeHumid, -8, 8) + 8) * 0.18);
+            if(BiomeMapTester.genLogs)
+            {
+                logAfterNorm.Add($@"{indexX.ToString()},{indexZ.ToString()},{indexY.ToString()}");
+            }
             return Biomes[indexX, indexY, indexZ];
+        }
+
+        public static T Clamp<T>(T value, T min, T max)
+        where T : System.IComparable<T>
+        {
+            T result = value;
+            if(value.CompareTo(max) > 0)
+            {
+                result = max;
+            }
+            if(value.CompareTo(min) < 0)
+            {
+                result = min;
+            }
+            return result;
         }
     }
 }
