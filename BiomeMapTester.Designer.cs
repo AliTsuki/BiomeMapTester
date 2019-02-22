@@ -66,77 +66,114 @@
             this.TempFreqTextBox = new System.Windows.Forms.TextBox();
             this.BiomeMapPictureBox = new System.Windows.Forms.PictureBox();
             this.KeyPanel = new System.Windows.Forms.Panel();
-            this.KeyLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
-            this.AbyssalLabel = new System.Windows.Forms.Label();
-            this.CoralPictureBox = new System.Windows.Forms.PictureBox();
-            this.KelpForPictureBox = new System.Windows.Forms.PictureBox();
-            this.LittoralPictureBox = new System.Windows.Forms.PictureBox();
-            this.MshrmForPictureBox = new System.Windows.Forms.PictureBox();
-            this.VolcanoPictureBox = new System.Windows.Forms.PictureBox();
-            this.PillarsPictureBox = new System.Windows.Forms.PictureBox();
-            this.CanyonsPictureBox = new System.Windows.Forms.PictureBox();
-            this.MesaPictureBox = new System.Windows.Forms.PictureBox();
+            this.KeyLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.AbyssalZonePictureBox = new System.Windows.Forms.PictureBox();
+            this.AbyssalZoneLabel = new System.Windows.Forms.Label();
+            this.OceanDeadZonePictureBox = new System.Windows.Forms.PictureBox();
+            this.BadlandsPictureBox = new System.Windows.Forms.PictureBox();
+            this.OceanDeadZoneLabel = new System.Windows.Forms.Label();
+            this.RuinsPictureBox = new System.Windows.Forms.PictureBox();
+            this.ThermalZonePictureBox = new System.Windows.Forms.PictureBox();
+            this.BadlandsLabel = new System.Windows.Forms.Label();
+            this.ThermalZoneLabel = new System.Windows.Forms.Label();
+            this.BlackDesertPictureBox = new System.Windows.Forms.PictureBox();
+            this.BenthicZonePictureBox = new System.Windows.Forms.PictureBox();
+            this.RuinsLabel = new System.Windows.Forms.Label();
+            this.BenthicZoneLabel = new System.Windows.Forms.Label();
+            this.CanyonlandsPictureBox = new System.Windows.Forms.PictureBox();
+            this.PelagicZonePictureBox = new System.Windows.Forms.PictureBox();
+            this.BlackDesertLabel = new System.Windows.Forms.Label();
+            this.PelagicZoneLabel = new System.Windows.Forms.Label();
+            this.CanyonlandsLabel = new System.Windows.Forms.Label();
+            this.KelpForestPictureBox = new System.Windows.Forms.PictureBox();
+            this.AcidSwampLabel = new System.Windows.Forms.Label();
+            this.KelpForestLabel = new System.Windows.Forms.Label();
+            this.MountainSwampLabel = new System.Windows.Forms.Label();
+            this.CoralReefPictureBox = new System.Windows.Forms.PictureBox();
+            this.MountainSwampPictureBox = new System.Windows.Forms.PictureBox();
+            this.CoralReefLabel = new System.Windows.Forms.Label();
+            this.AcidSwampPictureBox = new System.Windows.Forms.PictureBox();
+            this.LittoralZonePictureBox = new System.Windows.Forms.PictureBox();
             this.DesertPictureBox = new System.Windows.Forms.PictureBox();
-            this.MangrovePictureBox = new System.Windows.Forms.PictureBox();
-            this.MtnSwampPictureBox = new System.Windows.Forms.PictureBox();
-            this.WarmSwampPictureBox = new System.Windows.Forms.PictureBox();
-            this.WetlandPictureBox = new System.Windows.Forms.PictureBox();
-            this.FloodGrassPictureBox = new System.Windows.Forms.PictureBox();
-            this.MtnJunglePictureBox = new System.Windows.Forms.PictureBox();
-            this.JungleCoastPictureBox = new System.Windows.Forms.PictureBox();
-            this.JunglePictureBox = new System.Windows.Forms.PictureBox();
-            this.TropGrassPictureBox = new System.Windows.Forms.PictureBox();
-            this.TropConForPictureBox = new System.Windows.Forms.PictureBox();
-            this.MtnMeadowPictureBox = new System.Windows.Forms.PictureBox();
-            this.MtnLakePictureBox = new System.Windows.Forms.PictureBox();
-            this.MediScrubPictureBox = new System.Windows.Forms.PictureBox();
-            this.TempDecForPictureBox = new System.Windows.Forms.PictureBox();
-            this.ColdDesertPictureBox = new System.Windows.Forms.PictureBox();
-            this.SnowCoastPictureBox = new System.Windows.Forms.PictureBox();
-            this.TempConForPictureBox = new System.Windows.Forms.PictureBox();
-            this.IceLandsPictureBox = new System.Windows.Forms.PictureBox();
-            this.MtnGrassPictureBox = new System.Windows.Forms.PictureBox();
-            this.MtnGrassLabel = new System.Windows.Forms.Label();
-            this.TaigaPictureBox = new System.Windows.Forms.PictureBox();
-            this.TaigaLabel = new System.Windows.Forms.Label();
-            this.TundraPictureBox = new System.Windows.Forms.PictureBox();
-            this.TundraLabel = new System.Windows.Forms.Label();
-            this.IceLandsLabel = new System.Windows.Forms.Label();
-            this.TempConForLabel = new System.Windows.Forms.Label();
-            this.SnowCoast = new System.Windows.Forms.Label();
-            this.ColdDesertLabel = new System.Windows.Forms.Label();
-            this.TempDecForLabel = new System.Windows.Forms.Label();
-            this.MediScrubLabel = new System.Windows.Forms.Label();
-            this.MtnLakeLabel = new System.Windows.Forms.Label();
-            this.MtnMeadowLabel = new System.Windows.Forms.Label();
-            this.TropConForLabel = new System.Windows.Forms.Label();
-            this.TropGrassLabel = new System.Windows.Forms.Label();
-            this.Jungle = new System.Windows.Forms.Label();
-            this.JungleCoast = new System.Windows.Forms.Label();
-            this.MtnJungle = new System.Windows.Forms.Label();
-            this.FloodGrassLabel = new System.Windows.Forms.Label();
-            this.WetlandLabel = new System.Windows.Forms.Label();
-            this.WarmSwampLabel = new System.Windows.Forms.Label();
-            this.MtnSwampLabel = new System.Windows.Forms.Label();
-            this.MangroveLabel = new System.Windows.Forms.Label();
+            this.LittoralZoneLabel = new System.Windows.Forms.Label();
+            this.FloodedGrasslandsPictureBox = new System.Windows.Forms.PictureBox();
+            this.NeriticZonePictureBox = new System.Windows.Forms.PictureBox();
             this.DesertLabel = new System.Windows.Forms.Label();
+            this.NeriticZoneLabel = new System.Windows.Forms.Label();
+            this.FloodedGrasslandsLabel = new System.Windows.Forms.Label();
+            this.FrozenOceanPictureBox = new System.Windows.Forms.PictureBox();
+            this.WetlandPictureBox = new System.Windows.Forms.PictureBox();
+            this.FrozenOceanLabel = new System.Windows.Forms.Label();
+            this.WetlandLabel = new System.Windows.Forms.Label();
+            this.BonefieldsPictureBox = new System.Windows.Forms.PictureBox();
+            this.MesaPictureBox = new System.Windows.Forms.PictureBox();
+            this.BonefieldsLabel = new System.Windows.Forms.Label();
+            this.SandstonePillarsPictureBox = new System.Windows.Forms.PictureBox();
+            this.DeadlandsPictureBox = new System.Windows.Forms.PictureBox();
+            this.SandstonePillarsLabel = new System.Windows.Forms.Label();
+            this.DeadlandsLabel = new System.Windows.Forms.Label();
             this.MesaLabel = new System.Windows.Forms.Label();
-            this.CanyonsLabel = new System.Windows.Forms.Label();
-            this.PillarsLabel = new System.Windows.Forms.Label();
+            this.VolcanoPictureBox = new System.Windows.Forms.PictureBox();
+            this.BoulderlandsLabel = new System.Windows.Forms.Label();
             this.VolcanoLabel = new System.Windows.Forms.Label();
-            this.MshrmForLabel = new System.Windows.Forms.Label();
-            this.LittoralLabel = new System.Windows.Forms.Label();
-            this.KelpForLabel = new System.Windows.Forms.Label();
-            this.CoralLabel = new System.Windows.Forms.Label();
-            this.BenthicLabel = new System.Windows.Forms.Label();
-            this.OceanDesertLabel = new System.Windows.Forms.Label();
-            this.PelagicLabel = new System.Windows.Forms.Label();
-            this.NeriticLabel = new System.Windows.Forms.Label();
-            this.NeriticPictureBox = new System.Windows.Forms.PictureBox();
-            this.PelagicPictureBox = new System.Windows.Forms.PictureBox();
-            this.OceanDesertPictureBox = new System.Windows.Forms.PictureBox();
-            this.BenthicPictureBox = new System.Windows.Forms.PictureBox();
-            this.AbyssalPictureBox = new System.Windows.Forms.PictureBox();
+            this.BoulderlandsPictureBox = new System.Windows.Forms.PictureBox();
+            this.CrystalShardsPictureBox = new System.Windows.Forms.PictureBox();
+            this.CoastalCliffsLabel = new System.Windows.Forms.Label();
+            this.CrystalShardsLabel = new System.Windows.Forms.Label();
+            this.CoastalCliffsPictureBox = new System.Windows.Forms.PictureBox();
+            this.KeyLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.MangrovePictureBox = new System.Windows.Forms.PictureBox();
+            this.TemperateConiferousForestPictureBox = new System.Windows.Forms.PictureBox();
+            this.MangroveLabel = new System.Windows.Forms.Label();
+            this.MountainConifersPictureBox = new System.Windows.Forms.PictureBox();
+            this.CoastalJunglePictureBox = new System.Windows.Forms.PictureBox();
+            this.TemperateConiferousForestLabel = new System.Windows.Forms.Label();
+            this.CoastalJungleLabel = new System.Windows.Forms.Label();
+            this.MountainLakePictureBox = new System.Windows.Forms.PictureBox();
+            this.TropicalGrasslandsPictureBox = new System.Windows.Forms.PictureBox();
+            this.MountainConifersLabel = new System.Windows.Forms.Label();
+            this.TropicalGrasslandsLabel = new System.Windows.Forms.Label();
+            this.FrozenCoastPictureBox = new System.Windows.Forms.PictureBox();
+            this.JunglePictureBox = new System.Windows.Forms.PictureBox();
+            this.MountainLakeLabel = new System.Windows.Forms.Label();
+            this.JungleLabel = new System.Windows.Forms.Label();
+            this.FrozenCoastLabel = new System.Windows.Forms.Label();
+            this.TropicalConiferousForestPictureBox = new System.Windows.Forms.PictureBox();
+            this.SnowcappedMountainLabel = new System.Windows.Forms.Label();
+            this.TropicalConiferousForestLabel = new System.Windows.Forms.Label();
+            this.HimalayanLabel = new System.Windows.Forms.Label();
+            this.MountainJunglePictureBox = new System.Windows.Forms.PictureBox();
+            this.HimalayanPictureBox = new System.Windows.Forms.PictureBox();
+            this.MountainJungleLabel = new System.Windows.Forms.Label();
+            this.SnowcappedMountainPictureBox = new System.Windows.Forms.PictureBox();
+            this.MushroomCoastPictureBox = new System.Windows.Forms.PictureBox();
+            this.MountainMeadowPictureBox = new System.Windows.Forms.PictureBox();
+            this.MushroomCoastLabel = new System.Windows.Forms.Label();
+            this.IcePillarsPictureBox = new System.Windows.Forms.PictureBox();
+            this.MushroomForestPictureBox = new System.Windows.Forms.PictureBox();
+            this.MountainMeadowLabel = new System.Windows.Forms.Label();
+            this.MushroomForestLabel = new System.Windows.Forms.Label();
+            this.IcePillarsLabel = new System.Windows.Forms.Label();
+            this.MountainMushroomForestPictureBox = new System.Windows.Forms.PictureBox();
+            this.TaigaPictureBox = new System.Windows.Forms.PictureBox();
+            this.MountainMushroomForestLabel = new System.Windows.Forms.Label();
+            this.TaigaLabel = new System.Windows.Forms.Label();
+            this.MediterraneanScrubPictureBox = new System.Windows.Forms.PictureBox();
+            this.TundraPictureBox = new System.Windows.Forms.PictureBox();
+            this.MediterraneanScrubLabel = new System.Windows.Forms.Label();
+            this.MontaneGrasslandsPictureBox = new System.Windows.Forms.PictureBox();
+            this.TemperateGrasslandsPictureBox = new System.Windows.Forms.PictureBox();
+            this.MontaneGrasslandsLabel = new System.Windows.Forms.Label();
+            this.TemperateGrasslandsLabel = new System.Windows.Forms.Label();
+            this.TundraLabel = new System.Windows.Forms.Label();
+            this.BriarPatchPictureBox = new System.Windows.Forms.PictureBox();
+            this.TemperateMixedForestLabel = new System.Windows.Forms.Label();
+            this.BriarPatchLabel = new System.Windows.Forms.Label();
+            this.TemperateMixedForestPictureBox = new System.Windows.Forms.PictureBox();
+            this.RedwoodForestPictureBox = new System.Windows.Forms.PictureBox();
+            this.TemperateDeciduousForestLabel = new System.Windows.Forms.Label();
+            this.RedwoodForestLabel = new System.Windows.Forms.Label();
+            this.TemperateDeciduousForestPictureBox = new System.Windows.Forms.PictureBox();
             this.KeyLabel = new System.Windows.Forms.Label();
             this.HeightLabel = new System.Windows.Forms.Label();
             this.HeightTextBox = new System.Windows.Forms.TextBox();
@@ -144,6 +181,14 @@
             this.WidthTextBox = new System.Windows.Forms.TextBox();
             this.ImageSizeLabel = new System.Windows.Forms.Label();
             this.ControlPanel = new System.Windows.Forms.Panel();
+            this.GenerateSettingsCheckBox = new System.Windows.Forms.CheckBox();
+            this.NormalizerLabel = new System.Windows.Forms.Label();
+            this.NormalizerLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.FirstCutoffLabel = new System.Windows.Forms.Label();
+            this.SecondCutoffTextBox = new System.Windows.Forms.TextBox();
+            this.SecondCutoffLabel = new System.Windows.Forms.Label();
+            this.FirstCutoffTextBox = new System.Windows.Forms.TextBox();
+            this.ResetButton = new System.Windows.Forms.Button();
             this.BMSeedLabel = new System.Windows.Forms.Label();
             this.GenerateLogsCheckBox = new System.Windows.Forms.CheckBox();
             this.GeneratePNGCheckBox = new System.Windows.Forms.CheckBox();
@@ -153,46 +198,65 @@
             this.HumidityLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
             this.TemperatureLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
             this.BiomeMapTesterTooltip = new System.Windows.Forms.ToolTip(this.components);
-            this.ResetButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.BiomeMapPictureBox)).BeginInit();
             this.KeyPanel.SuspendLayout();
-            this.KeyLayoutPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.CoralPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.KelpForPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.LittoralPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MshrmForPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.VolcanoPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PillarsPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.CanyonsPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MesaPictureBox)).BeginInit();
+            this.KeyLayoutPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.AbyssalZonePictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.OceanDeadZonePictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BadlandsPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.RuinsPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ThermalZonePictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BlackDesertPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BenthicZonePictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CanyonlandsPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PelagicZonePictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.KelpForestPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CoralReefPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MountainSwampPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.AcidSwampPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LittoralZonePictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DesertPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MangrovePictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MtnSwampPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.WarmSwampPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FloodedGrasslandsPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NeriticZonePictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FrozenOceanPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.WetlandPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.FloodGrassPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MtnJunglePictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.JungleCoastPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BonefieldsPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MesaPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SandstonePillarsPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DeadlandsPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.VolcanoPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BoulderlandsPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CrystalShardsPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CoastalCliffsPictureBox)).BeginInit();
+            this.KeyLayoutPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.MangrovePictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TemperateConiferousForestPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MountainConifersPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CoastalJunglePictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MountainLakePictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TropicalGrasslandsPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FrozenCoastPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.JunglePictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TropGrassPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TropConForPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MtnMeadowPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MtnLakePictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MediScrubPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TempDecForPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ColdDesertPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SnowCoastPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TempConForPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.IceLandsPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MtnGrassPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TropicalConiferousForestPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MountainJunglePictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.HimalayanPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SnowcappedMountainPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MushroomCoastPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MountainMeadowPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.IcePillarsPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MushroomForestPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MountainMushroomForestPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TaigaPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MediterraneanScrubPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TundraPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NeriticPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PelagicPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.OceanDesertPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.BenthicPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.AbyssalPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MontaneGrasslandsPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TemperateGrasslandsPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BriarPatchPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TemperateMixedForestPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.RedwoodForestPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TemperateDeciduousForestPictureBox)).BeginInit();
             this.ControlPanel.SuspendLayout();
+            this.NormalizerLayoutPanel.SuspendLayout();
             this.ImageSizeLayoutPanel.SuspendLayout();
             this.OffsetLayoutPanel.SuspendLayout();
             this.HeightLayoutPanel.SuspendLayout();
@@ -203,10 +267,10 @@
             // GenerateButton
             // 
             this.GenerateButton.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GenerateButton.Location = new System.Drawing.Point(57, 716);
+            this.GenerateButton.Location = new System.Drawing.Point(104, 716);
             this.GenerateButton.Name = "GenerateButton";
             this.GenerateButton.Size = new System.Drawing.Size(143, 23);
-            this.GenerateButton.TabIndex = 17;
+            this.GenerateButton.TabIndex = 23;
             this.GenerateButton.Text = "Generate Biome Map";
             this.BiomeMapTesterTooltip.SetToolTip(this.GenerateButton, "Create the Biome Map and display it to the right.");
             this.GenerateButton.UseVisualStyleBackColor = true;
@@ -243,8 +307,8 @@
             this.HeightPersLabel.TabIndex = 31;
             this.HeightPersLabel.Text = "Persistence";
             this.BiomeMapTesterTooltip.SetToolTip(this.HeightPersLabel, "Decimal number representing the Persistence of the Height noise map. Default Valu" +
-        "e = \"2.2\"\r\n\r\nNote: Set this between 0 and 100. The higher the number the less ea" +
-        "ch Octave will change the output.");
+        "e = \"5\"\r\n\r\nNote: Set this between 0 and 100. The higher the number the less each" +
+        " Octave will change the output.");
             // 
             // HeightOctLabel
             // 
@@ -277,8 +341,8 @@
             this.HeightPersTextBox.Size = new System.Drawing.Size(100, 20);
             this.HeightPersTextBox.TabIndex = 11;
             this.BiomeMapTesterTooltip.SetToolTip(this.HeightPersTextBox, "Decimal number representing the Persistence of the Height noise map. Default Valu" +
-        "e = \"2.2\"\r\n\r\nNote: Set this between 0 and 100. The higher the number the less ea" +
-        "ch Octave will change the output.");
+        "e = \"5\"\r\n\r\nNote: Set this between 0 and 100. The higher the number the less each" +
+        " Octave will change the output.");
             // 
             // HeightOctTextBox
             // 
@@ -303,7 +367,7 @@
             this.HeightFreqTextBox.Size = new System.Drawing.Size(100, 20);
             this.HeightFreqTextBox.TabIndex = 8;
             this.BiomeMapTesterTooltip.SetToolTip(this.HeightFreqTextBox, "Decimal number representing the Frequency of the Height noise map. Default Value " +
-        "= \"0.004\"\r\n\r\nNote: Set this between 0 and 1. Higher numbers mean smaller and mor" +
+        "= \"0.005\"\r\n\r\nNote: Set this between 0 and 1. Higher numbers mean smaller and mor" +
         "e frequent biomes. ");
             // 
             // HeightFreqLabel
@@ -317,7 +381,7 @@
             this.HeightFreqLabel.TabIndex = 24;
             this.HeightFreqLabel.Text = "Frequency";
             this.BiomeMapTesterTooltip.SetToolTip(this.HeightFreqLabel, "Decimal number representing the Frequency of the Height noise map. Default Value " +
-        "= \"0.004\"\r\n\r\nNote: Set this between 0 and 1. Higher numbers mean smaller and mor" +
+        "= \"0.005\"\r\n\r\nNote: Set this between 0 and 1. Higher numbers mean smaller and mor" +
         "e frequent biomes. ");
             // 
             // BMHeightLabel
@@ -326,7 +390,7 @@
             this.BMHeightLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BMHeightLabel.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BMHeightLabel.ForeColor = System.Drawing.Color.White;
-            this.BMHeightLabel.Location = new System.Drawing.Point(83, 282);
+            this.BMHeightLabel.Location = new System.Drawing.Point(83, 267);
             this.BMHeightLabel.Name = "BMHeightLabel";
             this.BMHeightLabel.Size = new System.Drawing.Size(82, 24);
             this.BMHeightLabel.TabIndex = 23;
@@ -347,7 +411,7 @@
             this.HumidPersTextBox.Size = new System.Drawing.Size(99, 20);
             this.HumidPersTextBox.TabIndex = 7;
             this.BiomeMapTesterTooltip.SetToolTip(this.HumidPersTextBox, "Decimal number representing the Persistence of the Humidity noise map. Default Va" +
-        "lue = \"5\"\r\n\r\nNote: Set this between 0 and 100. The higher the number the less ea" +
+        "lue = \"2\"\r\n\r\nNote: Set this between 0 and 100. The higher the number the less ea" +
         "ch Octave will change the output.");
             // 
             // HumidOctTextBox
@@ -399,7 +463,7 @@
             this.HumidPersLabel.TabIndex = 15;
             this.HumidPersLabel.Text = "Persistence";
             this.BiomeMapTesterTooltip.SetToolTip(this.HumidPersLabel, "Decimal number representing the Persistence of the Humidity noise map. Default Va" +
-        "lue = \"5\"\r\n\r\nNote: Set this between 0 and 100. The higher the number the less ea" +
+        "lue = \"2\"\r\n\r\nNote: Set this between 0 and 100. The higher the number the less ea" +
         "ch Octave will change the output.");
             // 
             // HumidOctLabel
@@ -446,7 +510,7 @@
             this.BMHumidLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BMHumidLabel.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BMHumidLabel.ForeColor = System.Drawing.Color.White;
-            this.BMHumidLabel.Location = new System.Drawing.Point(74, 143);
+            this.BMHumidLabel.Location = new System.Drawing.Point(75, 129);
             this.BMHumidLabel.Name = "BMHumidLabel";
             this.BMHumidLabel.Size = new System.Drawing.Size(106, 24);
             this.BMHumidLabel.TabIndex = 11;
@@ -458,7 +522,7 @@
             this.BMTemperatureLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BMTemperatureLabel.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BMTemperatureLabel.ForeColor = System.Drawing.Color.White;
-            this.BMTemperatureLabel.Location = new System.Drawing.Point(58, 7);
+            this.BMTemperatureLabel.Location = new System.Drawing.Point(61, -2);
             this.BMTemperatureLabel.Name = "BMTemperatureLabel";
             this.BMTemperatureLabel.Size = new System.Drawing.Size(142, 24);
             this.BMTemperatureLabel.TabIndex = 10;
@@ -487,7 +551,7 @@
             this.TempPersLabel.TabIndex = 8;
             this.TempPersLabel.Text = "Persistence";
             this.BiomeMapTesterTooltip.SetToolTip(this.TempPersLabel, "Decimal number representing the Persistence of the Temperature noise map. Default" +
-        " Value = \"5\"\r\n\r\nNote: Set this between 0 and 100. The higher the number the less" +
+        " Value = \"2\"\r\n\r\nNote: Set this between 0 and 100. The higher the number the less" +
         " each Octave will change the output.");
             // 
             // TempOctLabel
@@ -543,7 +607,7 @@
             this.TempPersTextBox.Size = new System.Drawing.Size(100, 20);
             this.TempPersTextBox.TabIndex = 3;
             this.BiomeMapTesterTooltip.SetToolTip(this.TempPersTextBox, "Decimal number representing the Persistence of the Temperature noise map. Default" +
-        " Value = \"5\"\r\n\r\nNote: Set this between 0 and 100. The higher the number the less" +
+        " Value = \"2\"\r\n\r\nNote: Set this between 0 and 100. The higher the number the less" +
         " each Octave will change the output.");
             // 
             // TempOctTextBox
@@ -575,7 +639,7 @@
             // BiomeMapPictureBox
             // 
             this.BiomeMapPictureBox.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.BiomeMapPictureBox.Location = new System.Drawing.Point(450, 13);
+            this.BiomeMapPictureBox.Location = new System.Drawing.Point(593, 12);
             this.BiomeMapPictureBox.Name = "BiomeMapPictureBox";
             this.BiomeMapPictureBox.Size = new System.Drawing.Size(834, 742);
             this.BiomeMapPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -584,793 +648,1201 @@
             // 
             // KeyPanel
             // 
+            this.KeyPanel.Controls.Add(this.KeyLayoutPanel2);
             this.KeyPanel.Controls.Add(this.KeyLayoutPanel);
             this.KeyPanel.Controls.Add(this.KeyLabel);
             this.KeyPanel.Location = new System.Drawing.Point(266, 13);
             this.KeyPanel.Name = "KeyPanel";
-            this.KeyPanel.Size = new System.Drawing.Size(178, 742);
+            this.KeyPanel.Size = new System.Drawing.Size(321, 742);
             this.KeyPanel.TabIndex = 3;
             // 
-            // KeyLayoutPanel
+            // KeyLayoutPanel2
             // 
-            this.KeyLayoutPanel.ColumnCount = 2;
-            this.KeyLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
-            this.KeyLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
-            this.KeyLayoutPanel.Controls.Add(this.AbyssalLabel, 0, 34);
-            this.KeyLayoutPanel.Controls.Add(this.CoralPictureBox, 1, 29);
-            this.KeyLayoutPanel.Controls.Add(this.KelpForPictureBox, 1, 28);
-            this.KeyLayoutPanel.Controls.Add(this.LittoralPictureBox, 1, 27);
-            this.KeyLayoutPanel.Controls.Add(this.MshrmForPictureBox, 1, 26);
-            this.KeyLayoutPanel.Controls.Add(this.VolcanoPictureBox, 1, 25);
-            this.KeyLayoutPanel.Controls.Add(this.PillarsPictureBox, 1, 24);
-            this.KeyLayoutPanel.Controls.Add(this.CanyonsPictureBox, 1, 23);
-            this.KeyLayoutPanel.Controls.Add(this.MesaPictureBox, 1, 22);
-            this.KeyLayoutPanel.Controls.Add(this.DesertPictureBox, 1, 21);
-            this.KeyLayoutPanel.Controls.Add(this.MangrovePictureBox, 1, 20);
-            this.KeyLayoutPanel.Controls.Add(this.MtnSwampPictureBox, 1, 19);
-            this.KeyLayoutPanel.Controls.Add(this.WarmSwampPictureBox, 1, 18);
-            this.KeyLayoutPanel.Controls.Add(this.WetlandPictureBox, 1, 17);
-            this.KeyLayoutPanel.Controls.Add(this.FloodGrassPictureBox, 1, 16);
-            this.KeyLayoutPanel.Controls.Add(this.MtnJunglePictureBox, 1, 15);
-            this.KeyLayoutPanel.Controls.Add(this.JungleCoastPictureBox, 1, 14);
-            this.KeyLayoutPanel.Controls.Add(this.JunglePictureBox, 1, 13);
-            this.KeyLayoutPanel.Controls.Add(this.TropGrassPictureBox, 1, 12);
-            this.KeyLayoutPanel.Controls.Add(this.TropConForPictureBox, 1, 11);
-            this.KeyLayoutPanel.Controls.Add(this.MtnMeadowPictureBox, 1, 10);
-            this.KeyLayoutPanel.Controls.Add(this.MtnLakePictureBox, 1, 9);
-            this.KeyLayoutPanel.Controls.Add(this.MediScrubPictureBox, 1, 8);
-            this.KeyLayoutPanel.Controls.Add(this.TempDecForPictureBox, 1, 7);
-            this.KeyLayoutPanel.Controls.Add(this.ColdDesertPictureBox, 1, 6);
-            this.KeyLayoutPanel.Controls.Add(this.SnowCoastPictureBox, 1, 5);
-            this.KeyLayoutPanel.Controls.Add(this.TempConForPictureBox, 1, 4);
-            this.KeyLayoutPanel.Controls.Add(this.IceLandsPictureBox, 1, 3);
-            this.KeyLayoutPanel.Controls.Add(this.MtnGrassPictureBox, 1, 2);
-            this.KeyLayoutPanel.Controls.Add(this.MtnGrassLabel, 0, 2);
-            this.KeyLayoutPanel.Controls.Add(this.TaigaPictureBox, 1, 1);
-            this.KeyLayoutPanel.Controls.Add(this.TaigaLabel, 0, 1);
-            this.KeyLayoutPanel.Controls.Add(this.TundraPictureBox, 1, 0);
-            this.KeyLayoutPanel.Controls.Add(this.TundraLabel, 0, 0);
-            this.KeyLayoutPanel.Controls.Add(this.IceLandsLabel, 0, 3);
-            this.KeyLayoutPanel.Controls.Add(this.TempConForLabel, 0, 4);
-            this.KeyLayoutPanel.Controls.Add(this.SnowCoast, 0, 5);
-            this.KeyLayoutPanel.Controls.Add(this.ColdDesertLabel, 0, 6);
-            this.KeyLayoutPanel.Controls.Add(this.TempDecForLabel, 0, 7);
-            this.KeyLayoutPanel.Controls.Add(this.MediScrubLabel, 0, 8);
-            this.KeyLayoutPanel.Controls.Add(this.MtnLakeLabel, 0, 9);
-            this.KeyLayoutPanel.Controls.Add(this.MtnMeadowLabel, 0, 10);
-            this.KeyLayoutPanel.Controls.Add(this.TropConForLabel, 0, 11);
-            this.KeyLayoutPanel.Controls.Add(this.TropGrassLabel, 0, 12);
-            this.KeyLayoutPanel.Controls.Add(this.Jungle, 0, 13);
-            this.KeyLayoutPanel.Controls.Add(this.JungleCoast, 0, 14);
-            this.KeyLayoutPanel.Controls.Add(this.MtnJungle, 0, 15);
-            this.KeyLayoutPanel.Controls.Add(this.FloodGrassLabel, 0, 16);
-            this.KeyLayoutPanel.Controls.Add(this.WetlandLabel, 0, 17);
-            this.KeyLayoutPanel.Controls.Add(this.WarmSwampLabel, 0, 18);
-            this.KeyLayoutPanel.Controls.Add(this.MtnSwampLabel, 0, 19);
-            this.KeyLayoutPanel.Controls.Add(this.MangroveLabel, 0, 20);
-            this.KeyLayoutPanel.Controls.Add(this.DesertLabel, 0, 21);
-            this.KeyLayoutPanel.Controls.Add(this.MesaLabel, 0, 22);
-            this.KeyLayoutPanel.Controls.Add(this.CanyonsLabel, 0, 23);
-            this.KeyLayoutPanel.Controls.Add(this.PillarsLabel, 0, 24);
-            this.KeyLayoutPanel.Controls.Add(this.VolcanoLabel, 0, 25);
-            this.KeyLayoutPanel.Controls.Add(this.MshrmForLabel, 0, 26);
-            this.KeyLayoutPanel.Controls.Add(this.LittoralLabel, 0, 27);
-            this.KeyLayoutPanel.Controls.Add(this.KelpForLabel, 0, 28);
-            this.KeyLayoutPanel.Controls.Add(this.CoralLabel, 0, 29);
-            this.KeyLayoutPanel.Controls.Add(this.BenthicLabel, 0, 33);
-            this.KeyLayoutPanel.Controls.Add(this.OceanDesertLabel, 0, 32);
-            this.KeyLayoutPanel.Controls.Add(this.PelagicLabel, 0, 31);
-            this.KeyLayoutPanel.Controls.Add(this.NeriticLabel, 0, 30);
-            this.KeyLayoutPanel.Controls.Add(this.NeriticPictureBox, 1, 30);
-            this.KeyLayoutPanel.Controls.Add(this.PelagicPictureBox, 1, 31);
-            this.KeyLayoutPanel.Controls.Add(this.OceanDesertPictureBox, 1, 32);
-            this.KeyLayoutPanel.Controls.Add(this.BenthicPictureBox, 1, 33);
-            this.KeyLayoutPanel.Controls.Add(this.AbyssalPictureBox, 1, 34);
-            this.KeyLayoutPanel.Location = new System.Drawing.Point(3, 37);
-            this.KeyLayoutPanel.Name = "KeyLayoutPanel";
-            this.KeyLayoutPanel.RowCount = 35;
-            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.KeyLayoutPanel.Size = new System.Drawing.Size(172, 705);
-            this.KeyLayoutPanel.TabIndex = 1;
+            this.KeyLayoutPanel2.ColumnCount = 2;
+            this.KeyLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.KeyLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.KeyLayoutPanel2.Controls.Add(this.AbyssalZonePictureBox, 1, 26);
+            this.KeyLayoutPanel2.Controls.Add(this.AbyssalZoneLabel, 0, 26);
+            this.KeyLayoutPanel2.Controls.Add(this.OceanDeadZonePictureBox, 1, 25);
+            this.KeyLayoutPanel2.Controls.Add(this.BadlandsPictureBox, 1, 10);
+            this.KeyLayoutPanel2.Controls.Add(this.OceanDeadZoneLabel, 0, 25);
+            this.KeyLayoutPanel2.Controls.Add(this.RuinsPictureBox, 1, 9);
+            this.KeyLayoutPanel2.Controls.Add(this.ThermalZonePictureBox, 1, 24);
+            this.KeyLayoutPanel2.Controls.Add(this.BadlandsLabel, 0, 10);
+            this.KeyLayoutPanel2.Controls.Add(this.ThermalZoneLabel, 0, 24);
+            this.KeyLayoutPanel2.Controls.Add(this.BlackDesertPictureBox, 1, 8);
+            this.KeyLayoutPanel2.Controls.Add(this.BenthicZonePictureBox, 1, 23);
+            this.KeyLayoutPanel2.Controls.Add(this.RuinsLabel, 0, 9);
+            this.KeyLayoutPanel2.Controls.Add(this.BenthicZoneLabel, 0, 23);
+            this.KeyLayoutPanel2.Controls.Add(this.CanyonlandsPictureBox, 1, 6);
+            this.KeyLayoutPanel2.Controls.Add(this.PelagicZonePictureBox, 1, 22);
+            this.KeyLayoutPanel2.Controls.Add(this.BlackDesertLabel, 0, 8);
+            this.KeyLayoutPanel2.Controls.Add(this.PelagicZoneLabel, 0, 22);
+            this.KeyLayoutPanel2.Controls.Add(this.CanyonlandsLabel, 0, 6);
+            this.KeyLayoutPanel2.Controls.Add(this.KelpForestPictureBox, 1, 21);
+            this.KeyLayoutPanel2.Controls.Add(this.AcidSwampLabel, 0, 1);
+            this.KeyLayoutPanel2.Controls.Add(this.KelpForestLabel, 0, 21);
+            this.KeyLayoutPanel2.Controls.Add(this.MountainSwampLabel, 0, 0);
+            this.KeyLayoutPanel2.Controls.Add(this.CoralReefPictureBox, 1, 20);
+            this.KeyLayoutPanel2.Controls.Add(this.MountainSwampPictureBox, 1, 0);
+            this.KeyLayoutPanel2.Controls.Add(this.CoralReefLabel, 0, 20);
+            this.KeyLayoutPanel2.Controls.Add(this.AcidSwampPictureBox, 1, 1);
+            this.KeyLayoutPanel2.Controls.Add(this.LittoralZonePictureBox, 1, 19);
+            this.KeyLayoutPanel2.Controls.Add(this.DesertPictureBox, 1, 7);
+            this.KeyLayoutPanel2.Controls.Add(this.LittoralZoneLabel, 0, 19);
+            this.KeyLayoutPanel2.Controls.Add(this.FloodedGrasslandsPictureBox, 1, 2);
+            this.KeyLayoutPanel2.Controls.Add(this.NeriticZonePictureBox, 1, 18);
+            this.KeyLayoutPanel2.Controls.Add(this.DesertLabel, 0, 7);
+            this.KeyLayoutPanel2.Controls.Add(this.NeriticZoneLabel, 0, 18);
+            this.KeyLayoutPanel2.Controls.Add(this.FloodedGrasslandsLabel, 0, 2);
+            this.KeyLayoutPanel2.Controls.Add(this.FrozenOceanPictureBox, 1, 17);
+            this.KeyLayoutPanel2.Controls.Add(this.WetlandPictureBox, 1, 3);
+            this.KeyLayoutPanel2.Controls.Add(this.FrozenOceanLabel, 0, 17);
+            this.KeyLayoutPanel2.Controls.Add(this.WetlandLabel, 0, 3);
+            this.KeyLayoutPanel2.Controls.Add(this.BonefieldsPictureBox, 1, 16);
+            this.KeyLayoutPanel2.Controls.Add(this.MesaPictureBox, 1, 5);
+            this.KeyLayoutPanel2.Controls.Add(this.BonefieldsLabel, 0, 16);
+            this.KeyLayoutPanel2.Controls.Add(this.SandstonePillarsPictureBox, 1, 4);
+            this.KeyLayoutPanel2.Controls.Add(this.DeadlandsPictureBox, 1, 15);
+            this.KeyLayoutPanel2.Controls.Add(this.SandstonePillarsLabel, 0, 4);
+            this.KeyLayoutPanel2.Controls.Add(this.DeadlandsLabel, 0, 15);
+            this.KeyLayoutPanel2.Controls.Add(this.MesaLabel, 0, 5);
+            this.KeyLayoutPanel2.Controls.Add(this.VolcanoPictureBox, 1, 14);
+            this.KeyLayoutPanel2.Controls.Add(this.BoulderlandsLabel, 0, 11);
+            this.KeyLayoutPanel2.Controls.Add(this.VolcanoLabel, 0, 14);
+            this.KeyLayoutPanel2.Controls.Add(this.BoulderlandsPictureBox, 1, 11);
+            this.KeyLayoutPanel2.Controls.Add(this.CrystalShardsPictureBox, 1, 13);
+            this.KeyLayoutPanel2.Controls.Add(this.CoastalCliffsLabel, 0, 12);
+            this.KeyLayoutPanel2.Controls.Add(this.CrystalShardsLabel, 0, 13);
+            this.KeyLayoutPanel2.Controls.Add(this.CoastalCliffsPictureBox, 1, 12);
+            this.KeyLayoutPanel2.Location = new System.Drawing.Point(156, 30);
+            this.KeyLayoutPanel2.Name = "KeyLayoutPanel2";
+            this.KeyLayoutPanel2.RowCount = 27;
+            this.KeyLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.KeyLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.KeyLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.KeyLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.KeyLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.KeyLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.KeyLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.KeyLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.KeyLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.KeyLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.KeyLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.KeyLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.KeyLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.KeyLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.KeyLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.KeyLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.KeyLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.KeyLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.KeyLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.KeyLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.KeyLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.KeyLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.KeyLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.KeyLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.KeyLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.KeyLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.KeyLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.KeyLayoutPanel2.Size = new System.Drawing.Size(150, 708);
+            this.KeyLayoutPanel2.TabIndex = 50;
             // 
-            // AbyssalLabel
+            // AbyssalZonePictureBox
             // 
-            this.AbyssalLabel.AutoSize = true;
-            this.AbyssalLabel.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AbyssalLabel.ForeColor = System.Drawing.Color.White;
-            this.AbyssalLabel.Location = new System.Drawing.Point(3, 686);
-            this.AbyssalLabel.Name = "AbyssalLabel";
-            this.AbyssalLabel.Size = new System.Drawing.Size(56, 15);
-            this.AbyssalLabel.TabIndex = 68;
-            this.AbyssalLabel.Text = "Abyssal";
+            this.AbyssalZonePictureBox.Location = new System.Drawing.Point(128, 523);
+            this.AbyssalZonePictureBox.Name = "AbyssalZonePictureBox";
+            this.AbyssalZonePictureBox.Size = new System.Drawing.Size(19, 14);
+            this.AbyssalZonePictureBox.TabIndex = 50;
+            this.AbyssalZonePictureBox.TabStop = false;
             // 
-            // CoralPictureBox
+            // AbyssalZoneLabel
             // 
-            this.CoralPictureBox.Location = new System.Drawing.Point(149, 589);
-            this.CoralPictureBox.Name = "CoralPictureBox";
-            this.CoralPictureBox.Size = new System.Drawing.Size(25, 14);
-            this.CoralPictureBox.TabIndex = 65;
-            this.CoralPictureBox.TabStop = false;
+            this.AbyssalZoneLabel.AutoSize = true;
+            this.AbyssalZoneLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AbyssalZoneLabel.ForeColor = System.Drawing.Color.White;
+            this.AbyssalZoneLabel.Location = new System.Drawing.Point(3, 520);
+            this.AbyssalZoneLabel.Name = "AbyssalZoneLabel";
+            this.AbyssalZoneLabel.Size = new System.Drawing.Size(91, 14);
+            this.AbyssalZoneLabel.TabIndex = 50;
+            this.AbyssalZoneLabel.Text = "Abyssal Zone";
             // 
-            // KelpForPictureBox
+            // OceanDeadZonePictureBox
             // 
-            this.KelpForPictureBox.Location = new System.Drawing.Point(149, 569);
-            this.KelpForPictureBox.Name = "KelpForPictureBox";
-            this.KelpForPictureBox.Size = new System.Drawing.Size(25, 14);
-            this.KelpForPictureBox.TabIndex = 64;
-            this.KelpForPictureBox.TabStop = false;
+            this.OceanDeadZonePictureBox.Location = new System.Drawing.Point(128, 503);
+            this.OceanDeadZonePictureBox.Name = "OceanDeadZonePictureBox";
+            this.OceanDeadZonePictureBox.Size = new System.Drawing.Size(19, 14);
+            this.OceanDeadZonePictureBox.TabIndex = 49;
+            this.OceanDeadZonePictureBox.TabStop = false;
             // 
-            // LittoralPictureBox
+            // BadlandsPictureBox
             // 
-            this.LittoralPictureBox.Location = new System.Drawing.Point(149, 549);
-            this.LittoralPictureBox.Name = "LittoralPictureBox";
-            this.LittoralPictureBox.Size = new System.Drawing.Size(25, 14);
-            this.LittoralPictureBox.TabIndex = 63;
-            this.LittoralPictureBox.TabStop = false;
+            this.BadlandsPictureBox.Location = new System.Drawing.Point(128, 203);
+            this.BadlandsPictureBox.Name = "BadlandsPictureBox";
+            this.BadlandsPictureBox.Size = new System.Drawing.Size(19, 14);
+            this.BadlandsPictureBox.TabIndex = 20;
+            this.BadlandsPictureBox.TabStop = false;
             // 
-            // MshrmForPictureBox
+            // OceanDeadZoneLabel
             // 
-            this.MshrmForPictureBox.Location = new System.Drawing.Point(149, 529);
-            this.MshrmForPictureBox.Name = "MshrmForPictureBox";
-            this.MshrmForPictureBox.Size = new System.Drawing.Size(25, 14);
-            this.MshrmForPictureBox.TabIndex = 62;
-            this.MshrmForPictureBox.TabStop = false;
+            this.OceanDeadZoneLabel.AutoSize = true;
+            this.OceanDeadZoneLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.OceanDeadZoneLabel.ForeColor = System.Drawing.Color.White;
+            this.OceanDeadZoneLabel.Location = new System.Drawing.Point(3, 500);
+            this.OceanDeadZoneLabel.Name = "OceanDeadZoneLabel";
+            this.OceanDeadZoneLabel.Size = new System.Drawing.Size(70, 14);
+            this.OceanDeadZoneLabel.TabIndex = 48;
+            this.OceanDeadZoneLabel.Text = "Dead Zone";
             // 
-            // VolcanoPictureBox
+            // RuinsPictureBox
             // 
-            this.VolcanoPictureBox.Location = new System.Drawing.Point(149, 509);
-            this.VolcanoPictureBox.Name = "VolcanoPictureBox";
-            this.VolcanoPictureBox.Size = new System.Drawing.Size(25, 14);
-            this.VolcanoPictureBox.TabIndex = 61;
-            this.VolcanoPictureBox.TabStop = false;
+            this.RuinsPictureBox.Location = new System.Drawing.Point(128, 183);
+            this.RuinsPictureBox.Name = "RuinsPictureBox";
+            this.RuinsPictureBox.Size = new System.Drawing.Size(19, 14);
+            this.RuinsPictureBox.TabIndex = 22;
+            this.RuinsPictureBox.TabStop = false;
             // 
-            // PillarsPictureBox
+            // ThermalZonePictureBox
             // 
-            this.PillarsPictureBox.Location = new System.Drawing.Point(149, 489);
-            this.PillarsPictureBox.Name = "PillarsPictureBox";
-            this.PillarsPictureBox.Size = new System.Drawing.Size(25, 14);
-            this.PillarsPictureBox.TabIndex = 60;
-            this.PillarsPictureBox.TabStop = false;
+            this.ThermalZonePictureBox.Location = new System.Drawing.Point(128, 483);
+            this.ThermalZonePictureBox.Name = "ThermalZonePictureBox";
+            this.ThermalZonePictureBox.Size = new System.Drawing.Size(19, 14);
+            this.ThermalZonePictureBox.TabIndex = 47;
+            this.ThermalZonePictureBox.TabStop = false;
             // 
-            // CanyonsPictureBox
+            // BadlandsLabel
             // 
-            this.CanyonsPictureBox.Location = new System.Drawing.Point(149, 469);
-            this.CanyonsPictureBox.Name = "CanyonsPictureBox";
-            this.CanyonsPictureBox.Size = new System.Drawing.Size(25, 14);
-            this.CanyonsPictureBox.TabIndex = 59;
-            this.CanyonsPictureBox.TabStop = false;
+            this.BadlandsLabel.AutoSize = true;
+            this.BadlandsLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BadlandsLabel.ForeColor = System.Drawing.Color.White;
+            this.BadlandsLabel.Location = new System.Drawing.Point(3, 200);
+            this.BadlandsLabel.Name = "BadlandsLabel";
+            this.BadlandsLabel.Size = new System.Drawing.Size(63, 14);
+            this.BadlandsLabel.TabIndex = 19;
+            this.BadlandsLabel.Text = "Badlands";
             // 
-            // MesaPictureBox
+            // ThermalZoneLabel
             // 
-            this.MesaPictureBox.Location = new System.Drawing.Point(149, 449);
-            this.MesaPictureBox.Name = "MesaPictureBox";
-            this.MesaPictureBox.Size = new System.Drawing.Size(25, 14);
-            this.MesaPictureBox.TabIndex = 58;
-            this.MesaPictureBox.TabStop = false;
+            this.ThermalZoneLabel.AutoSize = true;
+            this.ThermalZoneLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ThermalZoneLabel.ForeColor = System.Drawing.Color.White;
+            this.ThermalZoneLabel.Location = new System.Drawing.Point(3, 480);
+            this.ThermalZoneLabel.Name = "ThermalZoneLabel";
+            this.ThermalZoneLabel.Size = new System.Drawing.Size(91, 14);
+            this.ThermalZoneLabel.TabIndex = 46;
+            this.ThermalZoneLabel.Text = "Thermal Zone";
+            // 
+            // BlackDesertPictureBox
+            // 
+            this.BlackDesertPictureBox.Location = new System.Drawing.Point(128, 163);
+            this.BlackDesertPictureBox.Name = "BlackDesertPictureBox";
+            this.BlackDesertPictureBox.Size = new System.Drawing.Size(19, 14);
+            this.BlackDesertPictureBox.TabIndex = 24;
+            this.BlackDesertPictureBox.TabStop = false;
+            // 
+            // BenthicZonePictureBox
+            // 
+            this.BenthicZonePictureBox.Location = new System.Drawing.Point(128, 463);
+            this.BenthicZonePictureBox.Name = "BenthicZonePictureBox";
+            this.BenthicZonePictureBox.Size = new System.Drawing.Size(19, 14);
+            this.BenthicZonePictureBox.TabIndex = 45;
+            this.BenthicZonePictureBox.TabStop = false;
+            // 
+            // RuinsLabel
+            // 
+            this.RuinsLabel.AutoSize = true;
+            this.RuinsLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RuinsLabel.ForeColor = System.Drawing.Color.White;
+            this.RuinsLabel.Location = new System.Drawing.Point(3, 180);
+            this.RuinsLabel.Name = "RuinsLabel";
+            this.RuinsLabel.Size = new System.Drawing.Size(42, 14);
+            this.RuinsLabel.TabIndex = 21;
+            this.RuinsLabel.Text = "Ruins";
+            // 
+            // BenthicZoneLabel
+            // 
+            this.BenthicZoneLabel.AutoSize = true;
+            this.BenthicZoneLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BenthicZoneLabel.ForeColor = System.Drawing.Color.White;
+            this.BenthicZoneLabel.Location = new System.Drawing.Point(3, 460);
+            this.BenthicZoneLabel.Name = "BenthicZoneLabel";
+            this.BenthicZoneLabel.Size = new System.Drawing.Size(91, 14);
+            this.BenthicZoneLabel.TabIndex = 44;
+            this.BenthicZoneLabel.Text = "Benthic Zone";
+            // 
+            // CanyonlandsPictureBox
+            // 
+            this.CanyonlandsPictureBox.Location = new System.Drawing.Point(128, 123);
+            this.CanyonlandsPictureBox.Name = "CanyonlandsPictureBox";
+            this.CanyonlandsPictureBox.Size = new System.Drawing.Size(19, 14);
+            this.CanyonlandsPictureBox.TabIndex = 16;
+            this.CanyonlandsPictureBox.TabStop = false;
+            // 
+            // PelagicZonePictureBox
+            // 
+            this.PelagicZonePictureBox.Location = new System.Drawing.Point(128, 443);
+            this.PelagicZonePictureBox.Name = "PelagicZonePictureBox";
+            this.PelagicZonePictureBox.Size = new System.Drawing.Size(19, 14);
+            this.PelagicZonePictureBox.TabIndex = 43;
+            this.PelagicZonePictureBox.TabStop = false;
+            // 
+            // BlackDesertLabel
+            // 
+            this.BlackDesertLabel.AutoSize = true;
+            this.BlackDesertLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BlackDesertLabel.ForeColor = System.Drawing.Color.White;
+            this.BlackDesertLabel.Location = new System.Drawing.Point(3, 160);
+            this.BlackDesertLabel.Name = "BlackDesertLabel";
+            this.BlackDesertLabel.Size = new System.Drawing.Size(91, 14);
+            this.BlackDesertLabel.TabIndex = 23;
+            this.BlackDesertLabel.Text = "Black Desert";
+            // 
+            // PelagicZoneLabel
+            // 
+            this.PelagicZoneLabel.AutoSize = true;
+            this.PelagicZoneLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PelagicZoneLabel.ForeColor = System.Drawing.Color.White;
+            this.PelagicZoneLabel.Location = new System.Drawing.Point(3, 440);
+            this.PelagicZoneLabel.Name = "PelagicZoneLabel";
+            this.PelagicZoneLabel.Size = new System.Drawing.Size(91, 14);
+            this.PelagicZoneLabel.TabIndex = 42;
+            this.PelagicZoneLabel.Text = "Pelagic Zone";
+            // 
+            // CanyonlandsLabel
+            // 
+            this.CanyonlandsLabel.AutoSize = true;
+            this.CanyonlandsLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CanyonlandsLabel.ForeColor = System.Drawing.Color.White;
+            this.CanyonlandsLabel.Location = new System.Drawing.Point(3, 120);
+            this.CanyonlandsLabel.Name = "CanyonlandsLabel";
+            this.CanyonlandsLabel.Size = new System.Drawing.Size(84, 14);
+            this.CanyonlandsLabel.TabIndex = 16;
+            this.CanyonlandsLabel.Text = "Canyonlands";
+            // 
+            // KelpForestPictureBox
+            // 
+            this.KelpForestPictureBox.Location = new System.Drawing.Point(128, 423);
+            this.KelpForestPictureBox.Name = "KelpForestPictureBox";
+            this.KelpForestPictureBox.Size = new System.Drawing.Size(19, 14);
+            this.KelpForestPictureBox.TabIndex = 41;
+            this.KelpForestPictureBox.TabStop = false;
+            // 
+            // AcidSwampLabel
+            // 
+            this.AcidSwampLabel.AutoSize = true;
+            this.AcidSwampLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AcidSwampLabel.ForeColor = System.Drawing.Color.White;
+            this.AcidSwampLabel.Location = new System.Drawing.Point(3, 20);
+            this.AcidSwampLabel.Name = "AcidSwampLabel";
+            this.AcidSwampLabel.Size = new System.Drawing.Size(77, 14);
+            this.AcidSwampLabel.TabIndex = 6;
+            this.AcidSwampLabel.Text = "Acid Swamp";
+            // 
+            // KelpForestLabel
+            // 
+            this.KelpForestLabel.AutoSize = true;
+            this.KelpForestLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.KelpForestLabel.ForeColor = System.Drawing.Color.White;
+            this.KelpForestLabel.Location = new System.Drawing.Point(3, 420);
+            this.KelpForestLabel.Name = "KelpForestLabel";
+            this.KelpForestLabel.Size = new System.Drawing.Size(84, 14);
+            this.KelpForestLabel.TabIndex = 40;
+            this.KelpForestLabel.Text = "Kelp Forest";
+            // 
+            // MountainSwampLabel
+            // 
+            this.MountainSwampLabel.AutoSize = true;
+            this.MountainSwampLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MountainSwampLabel.ForeColor = System.Drawing.Color.White;
+            this.MountainSwampLabel.Location = new System.Drawing.Point(3, 0);
+            this.MountainSwampLabel.Name = "MountainSwampLabel";
+            this.MountainSwampLabel.Size = new System.Drawing.Size(70, 14);
+            this.MountainSwampLabel.TabIndex = 4;
+            this.MountainSwampLabel.Text = "Mtn Swamp";
+            // 
+            // CoralReefPictureBox
+            // 
+            this.CoralReefPictureBox.Location = new System.Drawing.Point(128, 403);
+            this.CoralReefPictureBox.Name = "CoralReefPictureBox";
+            this.CoralReefPictureBox.Size = new System.Drawing.Size(19, 14);
+            this.CoralReefPictureBox.TabIndex = 39;
+            this.CoralReefPictureBox.TabStop = false;
+            // 
+            // MountainSwampPictureBox
+            // 
+            this.MountainSwampPictureBox.Location = new System.Drawing.Point(128, 3);
+            this.MountainSwampPictureBox.Name = "MountainSwampPictureBox";
+            this.MountainSwampPictureBox.Size = new System.Drawing.Size(19, 14);
+            this.MountainSwampPictureBox.TabIndex = 5;
+            this.MountainSwampPictureBox.TabStop = false;
+            // 
+            // CoralReefLabel
+            // 
+            this.CoralReefLabel.AutoSize = true;
+            this.CoralReefLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CoralReefLabel.ForeColor = System.Drawing.Color.White;
+            this.CoralReefLabel.Location = new System.Drawing.Point(3, 400);
+            this.CoralReefLabel.Name = "CoralReefLabel";
+            this.CoralReefLabel.Size = new System.Drawing.Size(77, 14);
+            this.CoralReefLabel.TabIndex = 38;
+            this.CoralReefLabel.Text = "Coral Reef";
+            // 
+            // AcidSwampPictureBox
+            // 
+            this.AcidSwampPictureBox.Location = new System.Drawing.Point(128, 23);
+            this.AcidSwampPictureBox.Name = "AcidSwampPictureBox";
+            this.AcidSwampPictureBox.Size = new System.Drawing.Size(19, 14);
+            this.AcidSwampPictureBox.TabIndex = 7;
+            this.AcidSwampPictureBox.TabStop = false;
+            // 
+            // LittoralZonePictureBox
+            // 
+            this.LittoralZonePictureBox.Location = new System.Drawing.Point(128, 383);
+            this.LittoralZonePictureBox.Name = "LittoralZonePictureBox";
+            this.LittoralZonePictureBox.Size = new System.Drawing.Size(19, 14);
+            this.LittoralZonePictureBox.TabIndex = 37;
+            this.LittoralZonePictureBox.TabStop = false;
             // 
             // DesertPictureBox
             // 
-            this.DesertPictureBox.Location = new System.Drawing.Point(149, 429);
+            this.DesertPictureBox.Location = new System.Drawing.Point(128, 143);
             this.DesertPictureBox.Name = "DesertPictureBox";
-            this.DesertPictureBox.Size = new System.Drawing.Size(25, 14);
-            this.DesertPictureBox.TabIndex = 57;
+            this.DesertPictureBox.Size = new System.Drawing.Size(19, 14);
+            this.DesertPictureBox.TabIndex = 18;
             this.DesertPictureBox.TabStop = false;
             // 
-            // MangrovePictureBox
-            // 
-            this.MangrovePictureBox.Location = new System.Drawing.Point(149, 409);
-            this.MangrovePictureBox.Name = "MangrovePictureBox";
-            this.MangrovePictureBox.Size = new System.Drawing.Size(25, 14);
-            this.MangrovePictureBox.TabIndex = 56;
-            this.MangrovePictureBox.TabStop = false;
-            // 
-            // MtnSwampPictureBox
-            // 
-            this.MtnSwampPictureBox.Location = new System.Drawing.Point(149, 389);
-            this.MtnSwampPictureBox.Name = "MtnSwampPictureBox";
-            this.MtnSwampPictureBox.Size = new System.Drawing.Size(25, 14);
-            this.MtnSwampPictureBox.TabIndex = 55;
-            this.MtnSwampPictureBox.TabStop = false;
-            // 
-            // WarmSwampPictureBox
-            // 
-            this.WarmSwampPictureBox.Location = new System.Drawing.Point(149, 369);
-            this.WarmSwampPictureBox.Name = "WarmSwampPictureBox";
-            this.WarmSwampPictureBox.Size = new System.Drawing.Size(25, 14);
-            this.WarmSwampPictureBox.TabIndex = 54;
-            this.WarmSwampPictureBox.TabStop = false;
-            // 
-            // WetlandPictureBox
-            // 
-            this.WetlandPictureBox.Location = new System.Drawing.Point(149, 349);
-            this.WetlandPictureBox.Name = "WetlandPictureBox";
-            this.WetlandPictureBox.Size = new System.Drawing.Size(25, 14);
-            this.WetlandPictureBox.TabIndex = 53;
-            this.WetlandPictureBox.TabStop = false;
-            // 
-            // FloodGrassPictureBox
-            // 
-            this.FloodGrassPictureBox.Location = new System.Drawing.Point(149, 329);
-            this.FloodGrassPictureBox.Name = "FloodGrassPictureBox";
-            this.FloodGrassPictureBox.Size = new System.Drawing.Size(25, 14);
-            this.FloodGrassPictureBox.TabIndex = 52;
-            this.FloodGrassPictureBox.TabStop = false;
-            // 
-            // MtnJunglePictureBox
-            // 
-            this.MtnJunglePictureBox.Location = new System.Drawing.Point(149, 309);
-            this.MtnJunglePictureBox.Name = "MtnJunglePictureBox";
-            this.MtnJunglePictureBox.Size = new System.Drawing.Size(25, 14);
-            this.MtnJunglePictureBox.TabIndex = 51;
-            this.MtnJunglePictureBox.TabStop = false;
-            // 
-            // JungleCoastPictureBox
-            // 
-            this.JungleCoastPictureBox.Location = new System.Drawing.Point(149, 289);
-            this.JungleCoastPictureBox.Name = "JungleCoastPictureBox";
-            this.JungleCoastPictureBox.Size = new System.Drawing.Size(25, 14);
-            this.JungleCoastPictureBox.TabIndex = 50;
-            this.JungleCoastPictureBox.TabStop = false;
-            // 
-            // JunglePictureBox
-            // 
-            this.JunglePictureBox.Location = new System.Drawing.Point(149, 269);
-            this.JunglePictureBox.Name = "JunglePictureBox";
-            this.JunglePictureBox.Size = new System.Drawing.Size(25, 14);
-            this.JunglePictureBox.TabIndex = 49;
-            this.JunglePictureBox.TabStop = false;
-            // 
-            // TropGrassPictureBox
-            // 
-            this.TropGrassPictureBox.Location = new System.Drawing.Point(149, 249);
-            this.TropGrassPictureBox.Name = "TropGrassPictureBox";
-            this.TropGrassPictureBox.Size = new System.Drawing.Size(25, 14);
-            this.TropGrassPictureBox.TabIndex = 48;
-            this.TropGrassPictureBox.TabStop = false;
-            // 
-            // TropConForPictureBox
-            // 
-            this.TropConForPictureBox.Location = new System.Drawing.Point(149, 229);
-            this.TropConForPictureBox.Name = "TropConForPictureBox";
-            this.TropConForPictureBox.Size = new System.Drawing.Size(25, 14);
-            this.TropConForPictureBox.TabIndex = 47;
-            this.TropConForPictureBox.TabStop = false;
-            // 
-            // MtnMeadowPictureBox
-            // 
-            this.MtnMeadowPictureBox.Location = new System.Drawing.Point(149, 209);
-            this.MtnMeadowPictureBox.Name = "MtnMeadowPictureBox";
-            this.MtnMeadowPictureBox.Size = new System.Drawing.Size(25, 14);
-            this.MtnMeadowPictureBox.TabIndex = 46;
-            this.MtnMeadowPictureBox.TabStop = false;
-            // 
-            // MtnLakePictureBox
-            // 
-            this.MtnLakePictureBox.Location = new System.Drawing.Point(149, 189);
-            this.MtnLakePictureBox.Name = "MtnLakePictureBox";
-            this.MtnLakePictureBox.Size = new System.Drawing.Size(25, 14);
-            this.MtnLakePictureBox.TabIndex = 45;
-            this.MtnLakePictureBox.TabStop = false;
-            // 
-            // MediScrubPictureBox
-            // 
-            this.MediScrubPictureBox.Location = new System.Drawing.Point(149, 169);
-            this.MediScrubPictureBox.Name = "MediScrubPictureBox";
-            this.MediScrubPictureBox.Size = new System.Drawing.Size(25, 14);
-            this.MediScrubPictureBox.TabIndex = 44;
-            this.MediScrubPictureBox.TabStop = false;
-            // 
-            // TempDecForPictureBox
-            // 
-            this.TempDecForPictureBox.Location = new System.Drawing.Point(149, 149);
-            this.TempDecForPictureBox.Name = "TempDecForPictureBox";
-            this.TempDecForPictureBox.Size = new System.Drawing.Size(25, 14);
-            this.TempDecForPictureBox.TabIndex = 43;
-            this.TempDecForPictureBox.TabStop = false;
-            // 
-            // ColdDesertPictureBox
-            // 
-            this.ColdDesertPictureBox.Location = new System.Drawing.Point(149, 129);
-            this.ColdDesertPictureBox.Name = "ColdDesertPictureBox";
-            this.ColdDesertPictureBox.Size = new System.Drawing.Size(25, 14);
-            this.ColdDesertPictureBox.TabIndex = 42;
-            this.ColdDesertPictureBox.TabStop = false;
-            // 
-            // SnowCoastPictureBox
-            // 
-            this.SnowCoastPictureBox.Location = new System.Drawing.Point(149, 109);
-            this.SnowCoastPictureBox.Name = "SnowCoastPictureBox";
-            this.SnowCoastPictureBox.Size = new System.Drawing.Size(25, 14);
-            this.SnowCoastPictureBox.TabIndex = 41;
-            this.SnowCoastPictureBox.TabStop = false;
-            // 
-            // TempConForPictureBox
-            // 
-            this.TempConForPictureBox.Location = new System.Drawing.Point(149, 89);
-            this.TempConForPictureBox.Name = "TempConForPictureBox";
-            this.TempConForPictureBox.Size = new System.Drawing.Size(25, 14);
-            this.TempConForPictureBox.TabIndex = 40;
-            this.TempConForPictureBox.TabStop = false;
-            // 
-            // IceLandsPictureBox
-            // 
-            this.IceLandsPictureBox.Location = new System.Drawing.Point(149, 69);
-            this.IceLandsPictureBox.Name = "IceLandsPictureBox";
-            this.IceLandsPictureBox.Size = new System.Drawing.Size(25, 14);
-            this.IceLandsPictureBox.TabIndex = 39;
-            this.IceLandsPictureBox.TabStop = false;
-            // 
-            // MtnGrassPictureBox
-            // 
-            this.MtnGrassPictureBox.Location = new System.Drawing.Point(149, 49);
-            this.MtnGrassPictureBox.Name = "MtnGrassPictureBox";
-            this.MtnGrassPictureBox.Size = new System.Drawing.Size(25, 14);
-            this.MtnGrassPictureBox.TabIndex = 10;
-            this.MtnGrassPictureBox.TabStop = false;
-            // 
-            // MtnGrassLabel
-            // 
-            this.MtnGrassLabel.AutoSize = true;
-            this.MtnGrassLabel.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MtnGrassLabel.ForeColor = System.Drawing.Color.White;
-            this.MtnGrassLabel.Location = new System.Drawing.Point(3, 46);
-            this.MtnGrassLabel.Name = "MtnGrassLabel";
-            this.MtnGrassLabel.Size = new System.Drawing.Size(133, 15);
-            this.MtnGrassLabel.TabIndex = 11;
-            this.MtnGrassLabel.Text = "Montane Grasslands";
-            // 
-            // TaigaPictureBox
-            // 
-            this.TaigaPictureBox.Location = new System.Drawing.Point(149, 26);
-            this.TaigaPictureBox.Name = "TaigaPictureBox";
-            this.TaigaPictureBox.Size = new System.Drawing.Size(25, 17);
-            this.TaigaPictureBox.TabIndex = 8;
-            this.TaigaPictureBox.TabStop = false;
-            // 
-            // TaigaLabel
-            // 
-            this.TaigaLabel.AutoSize = true;
-            this.TaigaLabel.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TaigaLabel.ForeColor = System.Drawing.Color.White;
-            this.TaigaLabel.Location = new System.Drawing.Point(3, 23);
-            this.TaigaLabel.Name = "TaigaLabel";
-            this.TaigaLabel.Size = new System.Drawing.Size(42, 15);
-            this.TaigaLabel.TabIndex = 9;
-            this.TaigaLabel.Text = "Taiga";
-            // 
-            // TundraPictureBox
-            // 
-            this.TundraPictureBox.Location = new System.Drawing.Point(149, 3);
-            this.TundraPictureBox.Name = "TundraPictureBox";
-            this.TundraPictureBox.Size = new System.Drawing.Size(25, 17);
-            this.TundraPictureBox.TabIndex = 1;
-            this.TundraPictureBox.TabStop = false;
-            // 
-            // TundraLabel
-            // 
-            this.TundraLabel.AutoSize = true;
-            this.TundraLabel.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TundraLabel.ForeColor = System.Drawing.Color.White;
-            this.TundraLabel.Location = new System.Drawing.Point(3, 0);
-            this.TundraLabel.Name = "TundraLabel";
-            this.TundraLabel.Size = new System.Drawing.Size(49, 15);
-            this.TundraLabel.TabIndex = 2;
-            this.TundraLabel.Text = "Tundra";
-            // 
-            // IceLandsLabel
-            // 
-            this.IceLandsLabel.AutoSize = true;
-            this.IceLandsLabel.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.IceLandsLabel.ForeColor = System.Drawing.Color.White;
-            this.IceLandsLabel.Location = new System.Drawing.Point(3, 66);
-            this.IceLandsLabel.Name = "IceLandsLabel";
-            this.IceLandsLabel.Size = new System.Drawing.Size(63, 15);
-            this.IceLandsLabel.TabIndex = 12;
-            this.IceLandsLabel.Text = "IceLands";
-            // 
-            // TempConForLabel
-            // 
-            this.TempConForLabel.AutoSize = true;
-            this.TempConForLabel.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TempConForLabel.ForeColor = System.Drawing.Color.White;
-            this.TempConForLabel.Location = new System.Drawing.Point(3, 86);
-            this.TempConForLabel.Name = "TempConForLabel";
-            this.TempConForLabel.Size = new System.Drawing.Size(126, 15);
-            this.TempConForLabel.TabIndex = 13;
-            this.TempConForLabel.Text = "Temp Conif Forest";
-            // 
-            // SnowCoast
-            // 
-            this.SnowCoast.AutoSize = true;
-            this.SnowCoast.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SnowCoast.ForeColor = System.Drawing.Color.White;
-            this.SnowCoast.Location = new System.Drawing.Point(3, 106);
-            this.SnowCoast.Name = "SnowCoast";
-            this.SnowCoast.Size = new System.Drawing.Size(77, 15);
-            this.SnowCoast.TabIndex = 14;
-            this.SnowCoast.Text = "Snow Coast";
-            // 
-            // ColdDesertLabel
-            // 
-            this.ColdDesertLabel.AutoSize = true;
-            this.ColdDesertLabel.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ColdDesertLabel.ForeColor = System.Drawing.Color.White;
-            this.ColdDesertLabel.Location = new System.Drawing.Point(3, 126);
-            this.ColdDesertLabel.Name = "ColdDesertLabel";
-            this.ColdDesertLabel.Size = new System.Drawing.Size(84, 15);
-            this.ColdDesertLabel.TabIndex = 15;
-            this.ColdDesertLabel.Text = "Cold Desert";
-            // 
-            // TempDecForLabel
-            // 
-            this.TempDecForLabel.AutoSize = true;
-            this.TempDecForLabel.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TempDecForLabel.ForeColor = System.Drawing.Color.White;
-            this.TempDecForLabel.Location = new System.Drawing.Point(3, 146);
-            this.TempDecForLabel.Name = "TempDecForLabel";
-            this.TempDecForLabel.Size = new System.Drawing.Size(126, 15);
-            this.TempDecForLabel.TabIndex = 16;
-            this.TempDecForLabel.Text = "Temp Decid Forest";
-            // 
-            // MediScrubLabel
-            // 
-            this.MediScrubLabel.AutoSize = true;
-            this.MediScrubLabel.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MediScrubLabel.ForeColor = System.Drawing.Color.White;
-            this.MediScrubLabel.Location = new System.Drawing.Point(3, 166);
-            this.MediScrubLabel.Name = "MediScrubLabel";
-            this.MediScrubLabel.Size = new System.Drawing.Size(112, 15);
-            this.MediScrubLabel.TabIndex = 17;
-            this.MediScrubLabel.Text = "Mediterra Scrub";
-            // 
-            // MtnLakeLabel
-            // 
-            this.MtnLakeLabel.AutoSize = true;
-            this.MtnLakeLabel.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MtnLakeLabel.ForeColor = System.Drawing.Color.White;
-            this.MtnLakeLabel.Location = new System.Drawing.Point(3, 186);
-            this.MtnLakeLabel.Name = "MtnLakeLabel";
-            this.MtnLakeLabel.Size = new System.Drawing.Size(98, 15);
-            this.MtnLakeLabel.TabIndex = 18;
-            this.MtnLakeLabel.Text = "Mountain Lake";
-            // 
-            // MtnMeadowLabel
-            // 
-            this.MtnMeadowLabel.AutoSize = true;
-            this.MtnMeadowLabel.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MtnMeadowLabel.ForeColor = System.Drawing.Color.White;
-            this.MtnMeadowLabel.Location = new System.Drawing.Point(3, 206);
-            this.MtnMeadowLabel.Name = "MtnMeadowLabel";
-            this.MtnMeadowLabel.Size = new System.Drawing.Size(112, 15);
-            this.MtnMeadowLabel.TabIndex = 19;
-            this.MtnMeadowLabel.Text = "Mountain Meadow";
-            // 
-            // TropConForLabel
-            // 
-            this.TropConForLabel.AutoSize = true;
-            this.TropConForLabel.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TropConForLabel.ForeColor = System.Drawing.Color.White;
-            this.TropConForLabel.Location = new System.Drawing.Point(3, 226);
-            this.TropConForLabel.Name = "TropConForLabel";
-            this.TropConForLabel.Size = new System.Drawing.Size(126, 15);
-            this.TropConForLabel.TabIndex = 20;
-            this.TropConForLabel.Text = "Trop Conif Forest";
-            // 
-            // TropGrassLabel
-            // 
-            this.TropGrassLabel.AutoSize = true;
-            this.TropGrassLabel.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TropGrassLabel.ForeColor = System.Drawing.Color.White;
-            this.TropGrassLabel.Location = new System.Drawing.Point(3, 246);
-            this.TropGrassLabel.Name = "TropGrassLabel";
-            this.TropGrassLabel.Size = new System.Drawing.Size(140, 15);
-            this.TropGrassLabel.TabIndex = 21;
-            this.TropGrassLabel.Text = "Tropical Grasslands";
-            // 
-            // Jungle
-            // 
-            this.Jungle.AutoSize = true;
-            this.Jungle.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Jungle.ForeColor = System.Drawing.Color.White;
-            this.Jungle.Location = new System.Drawing.Point(3, 266);
-            this.Jungle.Name = "Jungle";
-            this.Jungle.Size = new System.Drawing.Size(49, 15);
-            this.Jungle.TabIndex = 22;
-            this.Jungle.Text = "Jungle";
-            // 
-            // JungleCoast
-            // 
-            this.JungleCoast.AutoSize = true;
-            this.JungleCoast.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.JungleCoast.ForeColor = System.Drawing.Color.White;
-            this.JungleCoast.Location = new System.Drawing.Point(3, 286);
-            this.JungleCoast.Name = "JungleCoast";
-            this.JungleCoast.Size = new System.Drawing.Size(91, 15);
-            this.JungleCoast.TabIndex = 23;
-            this.JungleCoast.Text = "Jungle Coast";
-            // 
-            // MtnJungle
-            // 
-            this.MtnJungle.AutoSize = true;
-            this.MtnJungle.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MtnJungle.ForeColor = System.Drawing.Color.White;
-            this.MtnJungle.Location = new System.Drawing.Point(3, 306);
-            this.MtnJungle.Name = "MtnJungle";
-            this.MtnJungle.Size = new System.Drawing.Size(112, 15);
-            this.MtnJungle.TabIndex = 24;
-            this.MtnJungle.Text = "Mountain Jungle";
-            // 
-            // FloodGrassLabel
-            // 
-            this.FloodGrassLabel.AutoSize = true;
-            this.FloodGrassLabel.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FloodGrassLabel.ForeColor = System.Drawing.Color.White;
-            this.FloodGrassLabel.Location = new System.Drawing.Point(3, 326);
-            this.FloodGrassLabel.Name = "FloodGrassLabel";
-            this.FloodGrassLabel.Size = new System.Drawing.Size(133, 15);
-            this.FloodGrassLabel.TabIndex = 25;
-            this.FloodGrassLabel.Text = "Flooded Grasslands";
-            // 
-            // WetlandLabel
-            // 
-            this.WetlandLabel.AutoSize = true;
-            this.WetlandLabel.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WetlandLabel.ForeColor = System.Drawing.Color.White;
-            this.WetlandLabel.Location = new System.Drawing.Point(3, 346);
-            this.WetlandLabel.Name = "WetlandLabel";
-            this.WetlandLabel.Size = new System.Drawing.Size(56, 15);
-            this.WetlandLabel.TabIndex = 26;
-            this.WetlandLabel.Text = "Wetland";
-            // 
-            // WarmSwampLabel
-            // 
-            this.WarmSwampLabel.AutoSize = true;
-            this.WarmSwampLabel.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WarmSwampLabel.ForeColor = System.Drawing.Color.White;
-            this.WarmSwampLabel.Location = new System.Drawing.Point(3, 366);
-            this.WarmSwampLabel.Name = "WarmSwampLabel";
-            this.WarmSwampLabel.Size = new System.Drawing.Size(77, 15);
-            this.WarmSwampLabel.TabIndex = 27;
-            this.WarmSwampLabel.Text = "Warm Swamp";
-            // 
-            // MtnSwampLabel
-            // 
-            this.MtnSwampLabel.AutoSize = true;
-            this.MtnSwampLabel.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MtnSwampLabel.ForeColor = System.Drawing.Color.White;
-            this.MtnSwampLabel.Location = new System.Drawing.Point(3, 386);
-            this.MtnSwampLabel.Name = "MtnSwampLabel";
-            this.MtnSwampLabel.Size = new System.Drawing.Size(105, 15);
-            this.MtnSwampLabel.TabIndex = 28;
-            this.MtnSwampLabel.Text = "Mountain Swamp";
-            // 
-            // MangroveLabel
-            // 
-            this.MangroveLabel.AutoSize = true;
-            this.MangroveLabel.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MangroveLabel.ForeColor = System.Drawing.Color.White;
-            this.MangroveLabel.Location = new System.Drawing.Point(3, 406);
-            this.MangroveLabel.Name = "MangroveLabel";
-            this.MangroveLabel.Size = new System.Drawing.Size(63, 15);
-            this.MangroveLabel.TabIndex = 29;
-            this.MangroveLabel.Text = "Mangrove";
+            // LittoralZoneLabel
+            // 
+            this.LittoralZoneLabel.AutoSize = true;
+            this.LittoralZoneLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LittoralZoneLabel.ForeColor = System.Drawing.Color.White;
+            this.LittoralZoneLabel.Location = new System.Drawing.Point(3, 380);
+            this.LittoralZoneLabel.Name = "LittoralZoneLabel";
+            this.LittoralZoneLabel.Size = new System.Drawing.Size(98, 14);
+            this.LittoralZoneLabel.TabIndex = 36;
+            this.LittoralZoneLabel.Text = "Littoral Zone";
+            // 
+            // FloodedGrasslandsPictureBox
+            // 
+            this.FloodedGrasslandsPictureBox.Location = new System.Drawing.Point(128, 43);
+            this.FloodedGrasslandsPictureBox.Name = "FloodedGrasslandsPictureBox";
+            this.FloodedGrasslandsPictureBox.Size = new System.Drawing.Size(19, 14);
+            this.FloodedGrasslandsPictureBox.TabIndex = 8;
+            this.FloodedGrasslandsPictureBox.TabStop = false;
+            // 
+            // NeriticZonePictureBox
+            // 
+            this.NeriticZonePictureBox.Location = new System.Drawing.Point(128, 363);
+            this.NeriticZonePictureBox.Name = "NeriticZonePictureBox";
+            this.NeriticZonePictureBox.Size = new System.Drawing.Size(19, 14);
+            this.NeriticZonePictureBox.TabIndex = 35;
+            this.NeriticZonePictureBox.TabStop = false;
             // 
             // DesertLabel
             // 
             this.DesertLabel.AutoSize = true;
-            this.DesertLabel.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DesertLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DesertLabel.ForeColor = System.Drawing.Color.White;
-            this.DesertLabel.Location = new System.Drawing.Point(3, 426);
+            this.DesertLabel.Location = new System.Drawing.Point(3, 140);
             this.DesertLabel.Name = "DesertLabel";
-            this.DesertLabel.Size = new System.Drawing.Size(49, 15);
-            this.DesertLabel.TabIndex = 30;
+            this.DesertLabel.Size = new System.Drawing.Size(49, 14);
+            this.DesertLabel.TabIndex = 17;
             this.DesertLabel.Text = "Desert";
+            // 
+            // NeriticZoneLabel
+            // 
+            this.NeriticZoneLabel.AutoSize = true;
+            this.NeriticZoneLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NeriticZoneLabel.ForeColor = System.Drawing.Color.White;
+            this.NeriticZoneLabel.Location = new System.Drawing.Point(3, 360);
+            this.NeriticZoneLabel.Name = "NeriticZoneLabel";
+            this.NeriticZoneLabel.Size = new System.Drawing.Size(91, 14);
+            this.NeriticZoneLabel.TabIndex = 34;
+            this.NeriticZoneLabel.Text = "Neritic Zone";
+            // 
+            // FloodedGrasslandsLabel
+            // 
+            this.FloodedGrasslandsLabel.AutoSize = true;
+            this.FloodedGrasslandsLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FloodedGrasslandsLabel.ForeColor = System.Drawing.Color.White;
+            this.FloodedGrasslandsLabel.Location = new System.Drawing.Point(3, 40);
+            this.FloodedGrasslandsLabel.Name = "FloodedGrasslandsLabel";
+            this.FloodedGrasslandsLabel.Size = new System.Drawing.Size(119, 14);
+            this.FloodedGrasslandsLabel.TabIndex = 9;
+            this.FloodedGrasslandsLabel.Text = "Flood Grasslands";
+            // 
+            // FrozenOceanPictureBox
+            // 
+            this.FrozenOceanPictureBox.Location = new System.Drawing.Point(128, 343);
+            this.FrozenOceanPictureBox.Name = "FrozenOceanPictureBox";
+            this.FrozenOceanPictureBox.Size = new System.Drawing.Size(19, 14);
+            this.FrozenOceanPictureBox.TabIndex = 33;
+            this.FrozenOceanPictureBox.TabStop = false;
+            // 
+            // WetlandPictureBox
+            // 
+            this.WetlandPictureBox.Location = new System.Drawing.Point(128, 63);
+            this.WetlandPictureBox.Name = "WetlandPictureBox";
+            this.WetlandPictureBox.Size = new System.Drawing.Size(19, 14);
+            this.WetlandPictureBox.TabIndex = 10;
+            this.WetlandPictureBox.TabStop = false;
+            // 
+            // FrozenOceanLabel
+            // 
+            this.FrozenOceanLabel.AutoSize = true;
+            this.FrozenOceanLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FrozenOceanLabel.ForeColor = System.Drawing.Color.White;
+            this.FrozenOceanLabel.Location = new System.Drawing.Point(3, 340);
+            this.FrozenOceanLabel.Name = "FrozenOceanLabel";
+            this.FrozenOceanLabel.Size = new System.Drawing.Size(91, 14);
+            this.FrozenOceanLabel.TabIndex = 32;
+            this.FrozenOceanLabel.Text = "Frozen Ocean";
+            // 
+            // WetlandLabel
+            // 
+            this.WetlandLabel.AutoSize = true;
+            this.WetlandLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WetlandLabel.ForeColor = System.Drawing.Color.White;
+            this.WetlandLabel.Location = new System.Drawing.Point(3, 60);
+            this.WetlandLabel.Name = "WetlandLabel";
+            this.WetlandLabel.Size = new System.Drawing.Size(56, 14);
+            this.WetlandLabel.TabIndex = 11;
+            this.WetlandLabel.Text = "Wetland";
+            // 
+            // BonefieldsPictureBox
+            // 
+            this.BonefieldsPictureBox.Location = new System.Drawing.Point(128, 323);
+            this.BonefieldsPictureBox.Name = "BonefieldsPictureBox";
+            this.BonefieldsPictureBox.Size = new System.Drawing.Size(19, 14);
+            this.BonefieldsPictureBox.TabIndex = 31;
+            this.BonefieldsPictureBox.TabStop = false;
+            // 
+            // MesaPictureBox
+            // 
+            this.MesaPictureBox.Location = new System.Drawing.Point(128, 103);
+            this.MesaPictureBox.Name = "MesaPictureBox";
+            this.MesaPictureBox.Size = new System.Drawing.Size(19, 14);
+            this.MesaPictureBox.TabIndex = 15;
+            this.MesaPictureBox.TabStop = false;
+            // 
+            // BonefieldsLabel
+            // 
+            this.BonefieldsLabel.AutoSize = true;
+            this.BonefieldsLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BonefieldsLabel.ForeColor = System.Drawing.Color.White;
+            this.BonefieldsLabel.Location = new System.Drawing.Point(3, 320);
+            this.BonefieldsLabel.Name = "BonefieldsLabel";
+            this.BonefieldsLabel.Size = new System.Drawing.Size(77, 14);
+            this.BonefieldsLabel.TabIndex = 30;
+            this.BonefieldsLabel.Text = "Bonefields";
+            // 
+            // SandstonePillarsPictureBox
+            // 
+            this.SandstonePillarsPictureBox.Location = new System.Drawing.Point(128, 83);
+            this.SandstonePillarsPictureBox.Name = "SandstonePillarsPictureBox";
+            this.SandstonePillarsPictureBox.Size = new System.Drawing.Size(19, 14);
+            this.SandstonePillarsPictureBox.TabIndex = 12;
+            this.SandstonePillarsPictureBox.TabStop = false;
+            // 
+            // DeadlandsPictureBox
+            // 
+            this.DeadlandsPictureBox.Location = new System.Drawing.Point(128, 303);
+            this.DeadlandsPictureBox.Name = "DeadlandsPictureBox";
+            this.DeadlandsPictureBox.Size = new System.Drawing.Size(19, 14);
+            this.DeadlandsPictureBox.TabIndex = 29;
+            this.DeadlandsPictureBox.TabStop = false;
+            // 
+            // SandstonePillarsLabel
+            // 
+            this.SandstonePillarsLabel.AutoSize = true;
+            this.SandstonePillarsLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SandstonePillarsLabel.ForeColor = System.Drawing.Color.White;
+            this.SandstonePillarsLabel.Location = new System.Drawing.Point(3, 80);
+            this.SandstonePillarsLabel.Name = "SandstonePillarsLabel";
+            this.SandstonePillarsLabel.Size = new System.Drawing.Size(112, 14);
+            this.SandstonePillarsLabel.TabIndex = 13;
+            this.SandstonePillarsLabel.Text = "Sandstn Pillars";
+            // 
+            // DeadlandsLabel
+            // 
+            this.DeadlandsLabel.AutoSize = true;
+            this.DeadlandsLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DeadlandsLabel.ForeColor = System.Drawing.Color.White;
+            this.DeadlandsLabel.Location = new System.Drawing.Point(3, 300);
+            this.DeadlandsLabel.Name = "DeadlandsLabel";
+            this.DeadlandsLabel.Size = new System.Drawing.Size(70, 14);
+            this.DeadlandsLabel.TabIndex = 28;
+            this.DeadlandsLabel.Text = "Deadlands";
             // 
             // MesaLabel
             // 
             this.MesaLabel.AutoSize = true;
-            this.MesaLabel.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MesaLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MesaLabel.ForeColor = System.Drawing.Color.White;
-            this.MesaLabel.Location = new System.Drawing.Point(3, 446);
+            this.MesaLabel.Location = new System.Drawing.Point(3, 100);
             this.MesaLabel.Name = "MesaLabel";
-            this.MesaLabel.Size = new System.Drawing.Size(35, 15);
-            this.MesaLabel.TabIndex = 31;
+            this.MesaLabel.Size = new System.Drawing.Size(35, 14);
+            this.MesaLabel.TabIndex = 14;
             this.MesaLabel.Text = "Mesa";
             // 
-            // CanyonsLabel
+            // VolcanoPictureBox
             // 
-            this.CanyonsLabel.AutoSize = true;
-            this.CanyonsLabel.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CanyonsLabel.ForeColor = System.Drawing.Color.White;
-            this.CanyonsLabel.Location = new System.Drawing.Point(3, 466);
-            this.CanyonsLabel.Name = "CanyonsLabel";
-            this.CanyonsLabel.Size = new System.Drawing.Size(56, 15);
-            this.CanyonsLabel.TabIndex = 32;
-            this.CanyonsLabel.Text = "Canyons";
+            this.VolcanoPictureBox.Location = new System.Drawing.Point(128, 283);
+            this.VolcanoPictureBox.Name = "VolcanoPictureBox";
+            this.VolcanoPictureBox.Size = new System.Drawing.Size(19, 14);
+            this.VolcanoPictureBox.TabIndex = 27;
+            this.VolcanoPictureBox.TabStop = false;
             // 
-            // PillarsLabel
+            // BoulderlandsLabel
             // 
-            this.PillarsLabel.AutoSize = true;
-            this.PillarsLabel.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PillarsLabel.ForeColor = System.Drawing.Color.White;
-            this.PillarsLabel.Location = new System.Drawing.Point(3, 486);
-            this.PillarsLabel.Name = "PillarsLabel";
-            this.PillarsLabel.Size = new System.Drawing.Size(56, 15);
-            this.PillarsLabel.TabIndex = 33;
-            this.PillarsLabel.Text = "Pillars";
+            this.BoulderlandsLabel.AutoSize = true;
+            this.BoulderlandsLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BoulderlandsLabel.ForeColor = System.Drawing.Color.White;
+            this.BoulderlandsLabel.Location = new System.Drawing.Point(3, 220);
+            this.BoulderlandsLabel.Name = "BoulderlandsLabel";
+            this.BoulderlandsLabel.Size = new System.Drawing.Size(91, 14);
+            this.BoulderlandsLabel.TabIndex = 20;
+            this.BoulderlandsLabel.Text = "Boulderlands";
             // 
             // VolcanoLabel
             // 
             this.VolcanoLabel.AutoSize = true;
-            this.VolcanoLabel.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.VolcanoLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.VolcanoLabel.ForeColor = System.Drawing.Color.White;
-            this.VolcanoLabel.Location = new System.Drawing.Point(3, 506);
+            this.VolcanoLabel.Location = new System.Drawing.Point(3, 280);
             this.VolcanoLabel.Name = "VolcanoLabel";
-            this.VolcanoLabel.Size = new System.Drawing.Size(56, 15);
-            this.VolcanoLabel.TabIndex = 34;
+            this.VolcanoLabel.Size = new System.Drawing.Size(56, 14);
+            this.VolcanoLabel.TabIndex = 26;
             this.VolcanoLabel.Text = "Volcano";
             // 
-            // MshrmForLabel
+            // BoulderlandsPictureBox
             // 
-            this.MshrmForLabel.AutoSize = true;
-            this.MshrmForLabel.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MshrmForLabel.ForeColor = System.Drawing.Color.White;
-            this.MshrmForLabel.Location = new System.Drawing.Point(3, 526);
-            this.MshrmForLabel.Name = "MshrmForLabel";
-            this.MshrmForLabel.Size = new System.Drawing.Size(112, 15);
-            this.MshrmForLabel.TabIndex = 35;
-            this.MshrmForLabel.Text = "Mushroom Forest";
+            this.BoulderlandsPictureBox.Location = new System.Drawing.Point(128, 223);
+            this.BoulderlandsPictureBox.Name = "BoulderlandsPictureBox";
+            this.BoulderlandsPictureBox.Size = new System.Drawing.Size(19, 14);
+            this.BoulderlandsPictureBox.TabIndex = 21;
+            this.BoulderlandsPictureBox.TabStop = false;
             // 
-            // LittoralLabel
+            // CrystalShardsPictureBox
             // 
-            this.LittoralLabel.AutoSize = true;
-            this.LittoralLabel.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LittoralLabel.ForeColor = System.Drawing.Color.White;
-            this.LittoralLabel.Location = new System.Drawing.Point(3, 546);
-            this.LittoralLabel.Name = "LittoralLabel";
-            this.LittoralLabel.Size = new System.Drawing.Size(63, 15);
-            this.LittoralLabel.TabIndex = 36;
-            this.LittoralLabel.Text = "Littoral";
+            this.CrystalShardsPictureBox.Location = new System.Drawing.Point(128, 263);
+            this.CrystalShardsPictureBox.Name = "CrystalShardsPictureBox";
+            this.CrystalShardsPictureBox.Size = new System.Drawing.Size(19, 14);
+            this.CrystalShardsPictureBox.TabIndex = 25;
+            this.CrystalShardsPictureBox.TabStop = false;
             // 
-            // KelpForLabel
+            // CoastalCliffsLabel
             // 
-            this.KelpForLabel.AutoSize = true;
-            this.KelpForLabel.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.KelpForLabel.ForeColor = System.Drawing.Color.White;
-            this.KelpForLabel.Location = new System.Drawing.Point(3, 566);
-            this.KelpForLabel.Name = "KelpForLabel";
-            this.KelpForLabel.Size = new System.Drawing.Size(84, 15);
-            this.KelpForLabel.TabIndex = 37;
-            this.KelpForLabel.Text = "Kelp Forest";
+            this.CoastalCliffsLabel.AutoSize = true;
+            this.CoastalCliffsLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CoastalCliffsLabel.ForeColor = System.Drawing.Color.White;
+            this.CoastalCliffsLabel.Location = new System.Drawing.Point(3, 240);
+            this.CoastalCliffsLabel.Name = "CoastalCliffsLabel";
+            this.CoastalCliffsLabel.Size = new System.Drawing.Size(91, 14);
+            this.CoastalCliffsLabel.TabIndex = 22;
+            this.CoastalCliffsLabel.Text = "Coast Cliffs";
             // 
-            // CoralLabel
+            // CrystalShardsLabel
             // 
-            this.CoralLabel.AutoSize = true;
-            this.CoralLabel.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CoralLabel.ForeColor = System.Drawing.Color.White;
-            this.CoralLabel.Location = new System.Drawing.Point(3, 586);
-            this.CoralLabel.Name = "CoralLabel";
-            this.CoralLabel.Size = new System.Drawing.Size(42, 15);
-            this.CoralLabel.TabIndex = 38;
-            this.CoralLabel.Text = "Coral";
+            this.CrystalShardsLabel.AutoSize = true;
+            this.CrystalShardsLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CrystalShardsLabel.ForeColor = System.Drawing.Color.White;
+            this.CrystalShardsLabel.Location = new System.Drawing.Point(3, 260);
+            this.CrystalShardsLabel.Name = "CrystalShardsLabel";
+            this.CrystalShardsLabel.Size = new System.Drawing.Size(105, 14);
+            this.CrystalShardsLabel.TabIndex = 24;
+            this.CrystalShardsLabel.Text = "Crystal Shards";
             // 
-            // BenthicLabel
+            // CoastalCliffsPictureBox
             // 
-            this.BenthicLabel.AutoSize = true;
-            this.BenthicLabel.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BenthicLabel.ForeColor = System.Drawing.Color.White;
-            this.BenthicLabel.Location = new System.Drawing.Point(3, 666);
-            this.BenthicLabel.Name = "BenthicLabel";
-            this.BenthicLabel.Size = new System.Drawing.Size(56, 15);
-            this.BenthicLabel.TabIndex = 67;
-            this.BenthicLabel.Text = "Benthic";
+            this.CoastalCliffsPictureBox.Location = new System.Drawing.Point(128, 243);
+            this.CoastalCliffsPictureBox.Name = "CoastalCliffsPictureBox";
+            this.CoastalCliffsPictureBox.Size = new System.Drawing.Size(19, 14);
+            this.CoastalCliffsPictureBox.TabIndex = 23;
+            this.CoastalCliffsPictureBox.TabStop = false;
             // 
-            // OceanDesertLabel
+            // KeyLayoutPanel
             // 
-            this.OceanDesertLabel.AutoSize = true;
-            this.OceanDesertLabel.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.OceanDesertLabel.ForeColor = System.Drawing.Color.White;
-            this.OceanDesertLabel.Location = new System.Drawing.Point(3, 646);
-            this.OceanDesertLabel.Name = "OceanDesertLabel";
-            this.OceanDesertLabel.Size = new System.Drawing.Size(91, 15);
-            this.OceanDesertLabel.TabIndex = 66;
-            this.OceanDesertLabel.Text = "Ocean Desert";
+            this.KeyLayoutPanel.ColumnCount = 2;
+            this.KeyLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.KeyLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.KeyLayoutPanel.Controls.Add(this.MangrovePictureBox, 1, 25);
+            this.KeyLayoutPanel.Controls.Add(this.TemperateConiferousForestPictureBox, 1, 10);
+            this.KeyLayoutPanel.Controls.Add(this.MangroveLabel, 0, 25);
+            this.KeyLayoutPanel.Controls.Add(this.MountainConifersPictureBox, 1, 9);
+            this.KeyLayoutPanel.Controls.Add(this.CoastalJunglePictureBox, 1, 24);
+            this.KeyLayoutPanel.Controls.Add(this.TemperateConiferousForestLabel, 0, 10);
+            this.KeyLayoutPanel.Controls.Add(this.CoastalJungleLabel, 0, 24);
+            this.KeyLayoutPanel.Controls.Add(this.MountainLakePictureBox, 1, 8);
+            this.KeyLayoutPanel.Controls.Add(this.TropicalGrasslandsPictureBox, 1, 23);
+            this.KeyLayoutPanel.Controls.Add(this.MountainConifersLabel, 0, 9);
+            this.KeyLayoutPanel.Controls.Add(this.TropicalGrasslandsLabel, 0, 23);
+            this.KeyLayoutPanel.Controls.Add(this.FrozenCoastPictureBox, 1, 6);
+            this.KeyLayoutPanel.Controls.Add(this.JunglePictureBox, 1, 22);
+            this.KeyLayoutPanel.Controls.Add(this.MountainLakeLabel, 0, 8);
+            this.KeyLayoutPanel.Controls.Add(this.JungleLabel, 0, 22);
+            this.KeyLayoutPanel.Controls.Add(this.FrozenCoastLabel, 0, 6);
+            this.KeyLayoutPanel.Controls.Add(this.TropicalConiferousForestPictureBox, 1, 21);
+            this.KeyLayoutPanel.Controls.Add(this.SnowcappedMountainLabel, 0, 1);
+            this.KeyLayoutPanel.Controls.Add(this.TropicalConiferousForestLabel, 0, 21);
+            this.KeyLayoutPanel.Controls.Add(this.HimalayanLabel, 0, 0);
+            this.KeyLayoutPanel.Controls.Add(this.MountainJunglePictureBox, 1, 20);
+            this.KeyLayoutPanel.Controls.Add(this.HimalayanPictureBox, 1, 0);
+            this.KeyLayoutPanel.Controls.Add(this.MountainJungleLabel, 0, 20);
+            this.KeyLayoutPanel.Controls.Add(this.SnowcappedMountainPictureBox, 1, 1);
+            this.KeyLayoutPanel.Controls.Add(this.MushroomCoastPictureBox, 1, 19);
+            this.KeyLayoutPanel.Controls.Add(this.MountainMeadowPictureBox, 1, 7);
+            this.KeyLayoutPanel.Controls.Add(this.MushroomCoastLabel, 0, 19);
+            this.KeyLayoutPanel.Controls.Add(this.IcePillarsPictureBox, 1, 2);
+            this.KeyLayoutPanel.Controls.Add(this.MushroomForestPictureBox, 1, 18);
+            this.KeyLayoutPanel.Controls.Add(this.MountainMeadowLabel, 0, 7);
+            this.KeyLayoutPanel.Controls.Add(this.MushroomForestLabel, 0, 18);
+            this.KeyLayoutPanel.Controls.Add(this.IcePillarsLabel, 0, 2);
+            this.KeyLayoutPanel.Controls.Add(this.MountainMushroomForestPictureBox, 1, 17);
+            this.KeyLayoutPanel.Controls.Add(this.TaigaPictureBox, 1, 3);
+            this.KeyLayoutPanel.Controls.Add(this.MountainMushroomForestLabel, 0, 17);
+            this.KeyLayoutPanel.Controls.Add(this.TaigaLabel, 0, 3);
+            this.KeyLayoutPanel.Controls.Add(this.MediterraneanScrubPictureBox, 1, 16);
+            this.KeyLayoutPanel.Controls.Add(this.TundraPictureBox, 1, 5);
+            this.KeyLayoutPanel.Controls.Add(this.MediterraneanScrubLabel, 0, 16);
+            this.KeyLayoutPanel.Controls.Add(this.MontaneGrasslandsPictureBox, 1, 4);
+            this.KeyLayoutPanel.Controls.Add(this.TemperateGrasslandsPictureBox, 1, 15);
+            this.KeyLayoutPanel.Controls.Add(this.MontaneGrasslandsLabel, 0, 4);
+            this.KeyLayoutPanel.Controls.Add(this.TemperateGrasslandsLabel, 0, 15);
+            this.KeyLayoutPanel.Controls.Add(this.TundraLabel, 0, 5);
+            this.KeyLayoutPanel.Controls.Add(this.BriarPatchPictureBox, 1, 14);
+            this.KeyLayoutPanel.Controls.Add(this.TemperateMixedForestLabel, 0, 11);
+            this.KeyLayoutPanel.Controls.Add(this.BriarPatchLabel, 0, 14);
+            this.KeyLayoutPanel.Controls.Add(this.TemperateMixedForestPictureBox, 1, 11);
+            this.KeyLayoutPanel.Controls.Add(this.RedwoodForestPictureBox, 1, 13);
+            this.KeyLayoutPanel.Controls.Add(this.TemperateDeciduousForestLabel, 0, 12);
+            this.KeyLayoutPanel.Controls.Add(this.RedwoodForestLabel, 0, 13);
+            this.KeyLayoutPanel.Controls.Add(this.TemperateDeciduousForestPictureBox, 1, 12);
+            this.KeyLayoutPanel.Location = new System.Drawing.Point(3, 30);
+            this.KeyLayoutPanel.Name = "KeyLayoutPanel";
+            this.KeyLayoutPanel.RowCount = 26;
+            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.KeyLayoutPanel.Size = new System.Drawing.Size(147, 708);
+            this.KeyLayoutPanel.TabIndex = 1;
             // 
-            // PelagicLabel
+            // MangrovePictureBox
             // 
-            this.PelagicLabel.AutoSize = true;
-            this.PelagicLabel.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PelagicLabel.ForeColor = System.Drawing.Color.White;
-            this.PelagicLabel.Location = new System.Drawing.Point(3, 626);
-            this.PelagicLabel.Name = "PelagicLabel";
-            this.PelagicLabel.Size = new System.Drawing.Size(56, 15);
-            this.PelagicLabel.TabIndex = 69;
-            this.PelagicLabel.Text = "Pelagic";
+            this.MangrovePictureBox.Location = new System.Drawing.Point(125, 503);
+            this.MangrovePictureBox.Name = "MangrovePictureBox";
+            this.MangrovePictureBox.Size = new System.Drawing.Size(19, 14);
+            this.MangrovePictureBox.TabIndex = 49;
+            this.MangrovePictureBox.TabStop = false;
             // 
-            // NeriticLabel
+            // TemperateConiferousForestPictureBox
             // 
-            this.NeriticLabel.AutoSize = true;
-            this.NeriticLabel.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NeriticLabel.ForeColor = System.Drawing.Color.White;
-            this.NeriticLabel.Location = new System.Drawing.Point(3, 606);
-            this.NeriticLabel.Name = "NeriticLabel";
-            this.NeriticLabel.Size = new System.Drawing.Size(56, 15);
-            this.NeriticLabel.TabIndex = 71;
-            this.NeriticLabel.Text = "Neritic";
+            this.TemperateConiferousForestPictureBox.Location = new System.Drawing.Point(125, 203);
+            this.TemperateConiferousForestPictureBox.Name = "TemperateConiferousForestPictureBox";
+            this.TemperateConiferousForestPictureBox.Size = new System.Drawing.Size(19, 14);
+            this.TemperateConiferousForestPictureBox.TabIndex = 20;
+            this.TemperateConiferousForestPictureBox.TabStop = false;
             // 
-            // NeriticPictureBox
+            // MangroveLabel
             // 
-            this.NeriticPictureBox.Location = new System.Drawing.Point(149, 609);
-            this.NeriticPictureBox.Name = "NeriticPictureBox";
-            this.NeriticPictureBox.Size = new System.Drawing.Size(25, 14);
-            this.NeriticPictureBox.TabIndex = 73;
-            this.NeriticPictureBox.TabStop = false;
+            this.MangroveLabel.AutoSize = true;
+            this.MangroveLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MangroveLabel.ForeColor = System.Drawing.Color.White;
+            this.MangroveLabel.Location = new System.Drawing.Point(3, 500);
+            this.MangroveLabel.Name = "MangroveLabel";
+            this.MangroveLabel.Size = new System.Drawing.Size(63, 14);
+            this.MangroveLabel.TabIndex = 48;
+            this.MangroveLabel.Text = "Mangrove";
             // 
-            // PelagicPictureBox
+            // MountainConifersPictureBox
             // 
-            this.PelagicPictureBox.Location = new System.Drawing.Point(149, 629);
-            this.PelagicPictureBox.Name = "PelagicPictureBox";
-            this.PelagicPictureBox.Size = new System.Drawing.Size(25, 14);
-            this.PelagicPictureBox.TabIndex = 74;
-            this.PelagicPictureBox.TabStop = false;
+            this.MountainConifersPictureBox.Location = new System.Drawing.Point(125, 183);
+            this.MountainConifersPictureBox.Name = "MountainConifersPictureBox";
+            this.MountainConifersPictureBox.Size = new System.Drawing.Size(19, 14);
+            this.MountainConifersPictureBox.TabIndex = 22;
+            this.MountainConifersPictureBox.TabStop = false;
             // 
-            // OceanDesertPictureBox
+            // CoastalJunglePictureBox
             // 
-            this.OceanDesertPictureBox.Location = new System.Drawing.Point(149, 649);
-            this.OceanDesertPictureBox.Name = "OceanDesertPictureBox";
-            this.OceanDesertPictureBox.Size = new System.Drawing.Size(25, 14);
-            this.OceanDesertPictureBox.TabIndex = 76;
-            this.OceanDesertPictureBox.TabStop = false;
+            this.CoastalJunglePictureBox.Location = new System.Drawing.Point(125, 483);
+            this.CoastalJunglePictureBox.Name = "CoastalJunglePictureBox";
+            this.CoastalJunglePictureBox.Size = new System.Drawing.Size(19, 14);
+            this.CoastalJunglePictureBox.TabIndex = 47;
+            this.CoastalJunglePictureBox.TabStop = false;
             // 
-            // BenthicPictureBox
+            // TemperateConiferousForestLabel
             // 
-            this.BenthicPictureBox.Location = new System.Drawing.Point(149, 669);
-            this.BenthicPictureBox.Name = "BenthicPictureBox";
-            this.BenthicPictureBox.Size = new System.Drawing.Size(25, 14);
-            this.BenthicPictureBox.TabIndex = 75;
-            this.BenthicPictureBox.TabStop = false;
+            this.TemperateConiferousForestLabel.AutoSize = true;
+            this.TemperateConiferousForestLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TemperateConiferousForestLabel.ForeColor = System.Drawing.Color.White;
+            this.TemperateConiferousForestLabel.Location = new System.Drawing.Point(3, 200);
+            this.TemperateConiferousForestLabel.Name = "TemperateConiferousForestLabel";
+            this.TemperateConiferousForestLabel.Size = new System.Drawing.Size(112, 14);
+            this.TemperateConiferousForestLabel.TabIndex = 19;
+            this.TemperateConiferousForestLabel.Text = "Temp Con Forest";
             // 
-            // AbyssalPictureBox
+            // CoastalJungleLabel
             // 
-            this.AbyssalPictureBox.Location = new System.Drawing.Point(149, 689);
-            this.AbyssalPictureBox.Name = "AbyssalPictureBox";
-            this.AbyssalPictureBox.Size = new System.Drawing.Size(25, 14);
-            this.AbyssalPictureBox.TabIndex = 78;
-            this.AbyssalPictureBox.TabStop = false;
+            this.CoastalJungleLabel.AutoSize = true;
+            this.CoastalJungleLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CoastalJungleLabel.ForeColor = System.Drawing.Color.White;
+            this.CoastalJungleLabel.Location = new System.Drawing.Point(3, 480);
+            this.CoastalJungleLabel.Name = "CoastalJungleLabel";
+            this.CoastalJungleLabel.Size = new System.Drawing.Size(105, 14);
+            this.CoastalJungleLabel.TabIndex = 46;
+            this.CoastalJungleLabel.Text = "Coastal Jungle";
+            // 
+            // MountainLakePictureBox
+            // 
+            this.MountainLakePictureBox.Location = new System.Drawing.Point(125, 163);
+            this.MountainLakePictureBox.Name = "MountainLakePictureBox";
+            this.MountainLakePictureBox.Size = new System.Drawing.Size(19, 14);
+            this.MountainLakePictureBox.TabIndex = 24;
+            this.MountainLakePictureBox.TabStop = false;
+            // 
+            // TropicalGrasslandsPictureBox
+            // 
+            this.TropicalGrasslandsPictureBox.Location = new System.Drawing.Point(125, 463);
+            this.TropicalGrasslandsPictureBox.Name = "TropicalGrasslandsPictureBox";
+            this.TropicalGrasslandsPictureBox.Size = new System.Drawing.Size(19, 14);
+            this.TropicalGrasslandsPictureBox.TabIndex = 45;
+            this.TropicalGrasslandsPictureBox.TabStop = false;
+            // 
+            // MountainConifersLabel
+            // 
+            this.MountainConifersLabel.AutoSize = true;
+            this.MountainConifersLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MountainConifersLabel.ForeColor = System.Drawing.Color.White;
+            this.MountainConifersLabel.Location = new System.Drawing.Point(3, 180);
+            this.MountainConifersLabel.Name = "MountainConifersLabel";
+            this.MountainConifersLabel.Size = new System.Drawing.Size(91, 14);
+            this.MountainConifersLabel.TabIndex = 21;
+            this.MountainConifersLabel.Text = "Mtn Conifers";
+            // 
+            // TropicalGrasslandsLabel
+            // 
+            this.TropicalGrasslandsLabel.AutoSize = true;
+            this.TropicalGrasslandsLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TropicalGrasslandsLabel.ForeColor = System.Drawing.Color.White;
+            this.TropicalGrasslandsLabel.Location = new System.Drawing.Point(3, 460);
+            this.TropicalGrasslandsLabel.Name = "TropicalGrasslandsLabel";
+            this.TropicalGrasslandsLabel.Size = new System.Drawing.Size(112, 14);
+            this.TropicalGrasslandsLabel.TabIndex = 44;
+            this.TropicalGrasslandsLabel.Text = "Trop Grasslands";
+            // 
+            // FrozenCoastPictureBox
+            // 
+            this.FrozenCoastPictureBox.Location = new System.Drawing.Point(125, 123);
+            this.FrozenCoastPictureBox.Name = "FrozenCoastPictureBox";
+            this.FrozenCoastPictureBox.Size = new System.Drawing.Size(19, 14);
+            this.FrozenCoastPictureBox.TabIndex = 16;
+            this.FrozenCoastPictureBox.TabStop = false;
+            // 
+            // JunglePictureBox
+            // 
+            this.JunglePictureBox.Location = new System.Drawing.Point(125, 443);
+            this.JunglePictureBox.Name = "JunglePictureBox";
+            this.JunglePictureBox.Size = new System.Drawing.Size(19, 14);
+            this.JunglePictureBox.TabIndex = 43;
+            this.JunglePictureBox.TabStop = false;
+            // 
+            // MountainLakeLabel
+            // 
+            this.MountainLakeLabel.AutoSize = true;
+            this.MountainLakeLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MountainLakeLabel.ForeColor = System.Drawing.Color.White;
+            this.MountainLakeLabel.Location = new System.Drawing.Point(3, 160);
+            this.MountainLakeLabel.Name = "MountainLakeLabel";
+            this.MountainLakeLabel.Size = new System.Drawing.Size(63, 14);
+            this.MountainLakeLabel.TabIndex = 23;
+            this.MountainLakeLabel.Text = "Mtn Lake";
+            // 
+            // JungleLabel
+            // 
+            this.JungleLabel.AutoSize = true;
+            this.JungleLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.JungleLabel.ForeColor = System.Drawing.Color.White;
+            this.JungleLabel.Location = new System.Drawing.Point(3, 440);
+            this.JungleLabel.Name = "JungleLabel";
+            this.JungleLabel.Size = new System.Drawing.Size(49, 14);
+            this.JungleLabel.TabIndex = 42;
+            this.JungleLabel.Text = "Jungle";
+            // 
+            // FrozenCoastLabel
+            // 
+            this.FrozenCoastLabel.AutoSize = true;
+            this.FrozenCoastLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FrozenCoastLabel.ForeColor = System.Drawing.Color.White;
+            this.FrozenCoastLabel.Location = new System.Drawing.Point(3, 120);
+            this.FrozenCoastLabel.Name = "FrozenCoastLabel";
+            this.FrozenCoastLabel.Size = new System.Drawing.Size(91, 14);
+            this.FrozenCoastLabel.TabIndex = 16;
+            this.FrozenCoastLabel.Text = "Frozen Coast";
+            // 
+            // TropicalConiferousForestPictureBox
+            // 
+            this.TropicalConiferousForestPictureBox.Location = new System.Drawing.Point(125, 423);
+            this.TropicalConiferousForestPictureBox.Name = "TropicalConiferousForestPictureBox";
+            this.TropicalConiferousForestPictureBox.Size = new System.Drawing.Size(19, 14);
+            this.TropicalConiferousForestPictureBox.TabIndex = 41;
+            this.TropicalConiferousForestPictureBox.TabStop = false;
+            // 
+            // SnowcappedMountainLabel
+            // 
+            this.SnowcappedMountainLabel.AutoSize = true;
+            this.SnowcappedMountainLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SnowcappedMountainLabel.ForeColor = System.Drawing.Color.White;
+            this.SnowcappedMountainLabel.Location = new System.Drawing.Point(3, 20);
+            this.SnowcappedMountainLabel.Name = "SnowcappedMountainLabel";
+            this.SnowcappedMountainLabel.Size = new System.Drawing.Size(70, 14);
+            this.SnowcappedMountainLabel.TabIndex = 6;
+            this.SnowcappedMountainLabel.Text = "Snowy Mtn";
+            // 
+            // TropicalConiferousForestLabel
+            // 
+            this.TropicalConiferousForestLabel.AutoSize = true;
+            this.TropicalConiferousForestLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TropicalConiferousForestLabel.ForeColor = System.Drawing.Color.White;
+            this.TropicalConiferousForestLabel.Location = new System.Drawing.Point(3, 420);
+            this.TropicalConiferousForestLabel.Name = "TropicalConiferousForestLabel";
+            this.TropicalConiferousForestLabel.Size = new System.Drawing.Size(112, 14);
+            this.TropicalConiferousForestLabel.TabIndex = 40;
+            this.TropicalConiferousForestLabel.Text = "Trop Con Forest";
+            // 
+            // HimalayanLabel
+            // 
+            this.HimalayanLabel.AutoSize = true;
+            this.HimalayanLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HimalayanLabel.ForeColor = System.Drawing.Color.White;
+            this.HimalayanLabel.Location = new System.Drawing.Point(3, 0);
+            this.HimalayanLabel.Name = "HimalayanLabel";
+            this.HimalayanLabel.Size = new System.Drawing.Size(70, 14);
+            this.HimalayanLabel.TabIndex = 4;
+            this.HimalayanLabel.Text = "Himalayan";
+            // 
+            // MountainJunglePictureBox
+            // 
+            this.MountainJunglePictureBox.Location = new System.Drawing.Point(125, 403);
+            this.MountainJunglePictureBox.Name = "MountainJunglePictureBox";
+            this.MountainJunglePictureBox.Size = new System.Drawing.Size(19, 14);
+            this.MountainJunglePictureBox.TabIndex = 39;
+            this.MountainJunglePictureBox.TabStop = false;
+            // 
+            // HimalayanPictureBox
+            // 
+            this.HimalayanPictureBox.Location = new System.Drawing.Point(125, 3);
+            this.HimalayanPictureBox.Name = "HimalayanPictureBox";
+            this.HimalayanPictureBox.Size = new System.Drawing.Size(19, 14);
+            this.HimalayanPictureBox.TabIndex = 5;
+            this.HimalayanPictureBox.TabStop = false;
+            // 
+            // MountainJungleLabel
+            // 
+            this.MountainJungleLabel.AutoSize = true;
+            this.MountainJungleLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MountainJungleLabel.ForeColor = System.Drawing.Color.White;
+            this.MountainJungleLabel.Location = new System.Drawing.Point(3, 400);
+            this.MountainJungleLabel.Name = "MountainJungleLabel";
+            this.MountainJungleLabel.Size = new System.Drawing.Size(77, 14);
+            this.MountainJungleLabel.TabIndex = 38;
+            this.MountainJungleLabel.Text = "Mtn Jungle";
+            // 
+            // SnowcappedMountainPictureBox
+            // 
+            this.SnowcappedMountainPictureBox.Location = new System.Drawing.Point(125, 23);
+            this.SnowcappedMountainPictureBox.Name = "SnowcappedMountainPictureBox";
+            this.SnowcappedMountainPictureBox.Size = new System.Drawing.Size(19, 14);
+            this.SnowcappedMountainPictureBox.TabIndex = 7;
+            this.SnowcappedMountainPictureBox.TabStop = false;
+            // 
+            // MushroomCoastPictureBox
+            // 
+            this.MushroomCoastPictureBox.Location = new System.Drawing.Point(125, 383);
+            this.MushroomCoastPictureBox.Name = "MushroomCoastPictureBox";
+            this.MushroomCoastPictureBox.Size = new System.Drawing.Size(19, 14);
+            this.MushroomCoastPictureBox.TabIndex = 37;
+            this.MushroomCoastPictureBox.TabStop = false;
+            // 
+            // MountainMeadowPictureBox
+            // 
+            this.MountainMeadowPictureBox.Location = new System.Drawing.Point(125, 143);
+            this.MountainMeadowPictureBox.Name = "MountainMeadowPictureBox";
+            this.MountainMeadowPictureBox.Size = new System.Drawing.Size(19, 14);
+            this.MountainMeadowPictureBox.TabIndex = 18;
+            this.MountainMeadowPictureBox.TabStop = false;
+            // 
+            // MushroomCoastLabel
+            // 
+            this.MushroomCoastLabel.AutoSize = true;
+            this.MushroomCoastLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MushroomCoastLabel.ForeColor = System.Drawing.Color.White;
+            this.MushroomCoastLabel.Location = new System.Drawing.Point(3, 380);
+            this.MushroomCoastLabel.Name = "MushroomCoastLabel";
+            this.MushroomCoastLabel.Size = new System.Drawing.Size(84, 14);
+            this.MushroomCoastLabel.TabIndex = 36;
+            this.MushroomCoastLabel.Text = "Mshrm Coast";
+            // 
+            // IcePillarsPictureBox
+            // 
+            this.IcePillarsPictureBox.Location = new System.Drawing.Point(125, 43);
+            this.IcePillarsPictureBox.Name = "IcePillarsPictureBox";
+            this.IcePillarsPictureBox.Size = new System.Drawing.Size(19, 14);
+            this.IcePillarsPictureBox.TabIndex = 8;
+            this.IcePillarsPictureBox.TabStop = false;
+            // 
+            // MushroomForestPictureBox
+            // 
+            this.MushroomForestPictureBox.Location = new System.Drawing.Point(125, 363);
+            this.MushroomForestPictureBox.Name = "MushroomForestPictureBox";
+            this.MushroomForestPictureBox.Size = new System.Drawing.Size(19, 14);
+            this.MushroomForestPictureBox.TabIndex = 35;
+            this.MushroomForestPictureBox.TabStop = false;
+            // 
+            // MountainMeadowLabel
+            // 
+            this.MountainMeadowLabel.AutoSize = true;
+            this.MountainMeadowLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MountainMeadowLabel.ForeColor = System.Drawing.Color.White;
+            this.MountainMeadowLabel.Location = new System.Drawing.Point(3, 140);
+            this.MountainMeadowLabel.Name = "MountainMeadowLabel";
+            this.MountainMeadowLabel.Size = new System.Drawing.Size(77, 14);
+            this.MountainMeadowLabel.TabIndex = 17;
+            this.MountainMeadowLabel.Text = "Mtn Meadow";
+            // 
+            // MushroomForestLabel
+            // 
+            this.MushroomForestLabel.AutoSize = true;
+            this.MushroomForestLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MushroomForestLabel.ForeColor = System.Drawing.Color.White;
+            this.MushroomForestLabel.Location = new System.Drawing.Point(3, 360);
+            this.MushroomForestLabel.Name = "MushroomForestLabel";
+            this.MushroomForestLabel.Size = new System.Drawing.Size(91, 14);
+            this.MushroomForestLabel.TabIndex = 34;
+            this.MushroomForestLabel.Text = "Mshrm Forest";
+            // 
+            // IcePillarsLabel
+            // 
+            this.IcePillarsLabel.AutoSize = true;
+            this.IcePillarsLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.IcePillarsLabel.ForeColor = System.Drawing.Color.White;
+            this.IcePillarsLabel.Location = new System.Drawing.Point(3, 40);
+            this.IcePillarsLabel.Name = "IcePillarsLabel";
+            this.IcePillarsLabel.Size = new System.Drawing.Size(84, 14);
+            this.IcePillarsLabel.TabIndex = 9;
+            this.IcePillarsLabel.Text = "Ice Pillars";
+            // 
+            // MountainMushroomForestPictureBox
+            // 
+            this.MountainMushroomForestPictureBox.Location = new System.Drawing.Point(125, 343);
+            this.MountainMushroomForestPictureBox.Name = "MountainMushroomForestPictureBox";
+            this.MountainMushroomForestPictureBox.Size = new System.Drawing.Size(19, 14);
+            this.MountainMushroomForestPictureBox.TabIndex = 33;
+            this.MountainMushroomForestPictureBox.TabStop = false;
+            // 
+            // TaigaPictureBox
+            // 
+            this.TaigaPictureBox.Location = new System.Drawing.Point(125, 63);
+            this.TaigaPictureBox.Name = "TaigaPictureBox";
+            this.TaigaPictureBox.Size = new System.Drawing.Size(19, 14);
+            this.TaigaPictureBox.TabIndex = 10;
+            this.TaigaPictureBox.TabStop = false;
+            // 
+            // MountainMushroomForestLabel
+            // 
+            this.MountainMushroomForestLabel.AutoSize = true;
+            this.MountainMushroomForestLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MountainMushroomForestLabel.ForeColor = System.Drawing.Color.White;
+            this.MountainMushroomForestLabel.Location = new System.Drawing.Point(3, 340);
+            this.MountainMushroomForestLabel.Name = "MountainMushroomForestLabel";
+            this.MountainMushroomForestLabel.Size = new System.Drawing.Size(77, 20);
+            this.MountainMushroomForestLabel.TabIndex = 32;
+            this.MountainMushroomForestLabel.Text = "Mtn Mshrm Forest";
+            // 
+            // TaigaLabel
+            // 
+            this.TaigaLabel.AutoSize = true;
+            this.TaigaLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TaigaLabel.ForeColor = System.Drawing.Color.White;
+            this.TaigaLabel.Location = new System.Drawing.Point(3, 60);
+            this.TaigaLabel.Name = "TaigaLabel";
+            this.TaigaLabel.Size = new System.Drawing.Size(42, 14);
+            this.TaigaLabel.TabIndex = 11;
+            this.TaigaLabel.Text = "Taiga";
+            // 
+            // MediterraneanScrubPictureBox
+            // 
+            this.MediterraneanScrubPictureBox.Location = new System.Drawing.Point(125, 323);
+            this.MediterraneanScrubPictureBox.Name = "MediterraneanScrubPictureBox";
+            this.MediterraneanScrubPictureBox.Size = new System.Drawing.Size(19, 14);
+            this.MediterraneanScrubPictureBox.TabIndex = 31;
+            this.MediterraneanScrubPictureBox.TabStop = false;
+            // 
+            // TundraPictureBox
+            // 
+            this.TundraPictureBox.Location = new System.Drawing.Point(125, 103);
+            this.TundraPictureBox.Name = "TundraPictureBox";
+            this.TundraPictureBox.Size = new System.Drawing.Size(19, 14);
+            this.TundraPictureBox.TabIndex = 15;
+            this.TundraPictureBox.TabStop = false;
+            // 
+            // MediterraneanScrubLabel
+            // 
+            this.MediterraneanScrubLabel.AutoSize = true;
+            this.MediterraneanScrubLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MediterraneanScrubLabel.ForeColor = System.Drawing.Color.White;
+            this.MediterraneanScrubLabel.Location = new System.Drawing.Point(3, 320);
+            this.MediterraneanScrubLabel.Name = "MediterraneanScrubLabel";
+            this.MediterraneanScrubLabel.Size = new System.Drawing.Size(112, 14);
+            this.MediterraneanScrubLabel.TabIndex = 30;
+            this.MediterraneanScrubLabel.Text = "Mediterra Scrub";
+            // 
+            // MontaneGrasslandsPictureBox
+            // 
+            this.MontaneGrasslandsPictureBox.Location = new System.Drawing.Point(125, 83);
+            this.MontaneGrasslandsPictureBox.Name = "MontaneGrasslandsPictureBox";
+            this.MontaneGrasslandsPictureBox.Size = new System.Drawing.Size(19, 14);
+            this.MontaneGrasslandsPictureBox.TabIndex = 12;
+            this.MontaneGrasslandsPictureBox.TabStop = false;
+            // 
+            // TemperateGrasslandsPictureBox
+            // 
+            this.TemperateGrasslandsPictureBox.Location = new System.Drawing.Point(125, 303);
+            this.TemperateGrasslandsPictureBox.Name = "TemperateGrasslandsPictureBox";
+            this.TemperateGrasslandsPictureBox.Size = new System.Drawing.Size(19, 14);
+            this.TemperateGrasslandsPictureBox.TabIndex = 29;
+            this.TemperateGrasslandsPictureBox.TabStop = false;
+            // 
+            // MontaneGrasslandsLabel
+            // 
+            this.MontaneGrasslandsLabel.AutoSize = true;
+            this.MontaneGrasslandsLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MontaneGrasslandsLabel.ForeColor = System.Drawing.Color.White;
+            this.MontaneGrasslandsLabel.Location = new System.Drawing.Point(3, 80);
+            this.MontaneGrasslandsLabel.Name = "MontaneGrasslandsLabel";
+            this.MontaneGrasslandsLabel.Size = new System.Drawing.Size(105, 14);
+            this.MontaneGrasslandsLabel.TabIndex = 13;
+            this.MontaneGrasslandsLabel.Text = "Mtn Grasslands";
+            // 
+            // TemperateGrasslandsLabel
+            // 
+            this.TemperateGrasslandsLabel.AutoSize = true;
+            this.TemperateGrasslandsLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TemperateGrasslandsLabel.ForeColor = System.Drawing.Color.White;
+            this.TemperateGrasslandsLabel.Location = new System.Drawing.Point(3, 300);
+            this.TemperateGrasslandsLabel.Name = "TemperateGrasslandsLabel";
+            this.TemperateGrasslandsLabel.Size = new System.Drawing.Size(112, 14);
+            this.TemperateGrasslandsLabel.TabIndex = 28;
+            this.TemperateGrasslandsLabel.Text = "Temp Grasslands";
+            // 
+            // TundraLabel
+            // 
+            this.TundraLabel.AutoSize = true;
+            this.TundraLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TundraLabel.ForeColor = System.Drawing.Color.White;
+            this.TundraLabel.Location = new System.Drawing.Point(3, 100);
+            this.TundraLabel.Name = "TundraLabel";
+            this.TundraLabel.Size = new System.Drawing.Size(49, 14);
+            this.TundraLabel.TabIndex = 14;
+            this.TundraLabel.Text = "Tundra";
+            // 
+            // BriarPatchPictureBox
+            // 
+            this.BriarPatchPictureBox.Location = new System.Drawing.Point(125, 283);
+            this.BriarPatchPictureBox.Name = "BriarPatchPictureBox";
+            this.BriarPatchPictureBox.Size = new System.Drawing.Size(19, 14);
+            this.BriarPatchPictureBox.TabIndex = 27;
+            this.BriarPatchPictureBox.TabStop = false;
+            // 
+            // TemperateMixedForestLabel
+            // 
+            this.TemperateMixedForestLabel.AutoSize = true;
+            this.TemperateMixedForestLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TemperateMixedForestLabel.ForeColor = System.Drawing.Color.White;
+            this.TemperateMixedForestLabel.Location = new System.Drawing.Point(3, 220);
+            this.TemperateMixedForestLabel.Name = "TemperateMixedForestLabel";
+            this.TemperateMixedForestLabel.Size = new System.Drawing.Size(112, 14);
+            this.TemperateMixedForestLabel.TabIndex = 20;
+            this.TemperateMixedForestLabel.Text = "Temp Mix Forest";
+            // 
+            // BriarPatchLabel
+            // 
+            this.BriarPatchLabel.AutoSize = true;
+            this.BriarPatchLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BriarPatchLabel.ForeColor = System.Drawing.Color.White;
+            this.BriarPatchLabel.Location = new System.Drawing.Point(3, 280);
+            this.BriarPatchLabel.Name = "BriarPatchLabel";
+            this.BriarPatchLabel.Size = new System.Drawing.Size(84, 14);
+            this.BriarPatchLabel.TabIndex = 26;
+            this.BriarPatchLabel.Text = "Briar Patch";
+            // 
+            // TemperateMixedForestPictureBox
+            // 
+            this.TemperateMixedForestPictureBox.Location = new System.Drawing.Point(125, 223);
+            this.TemperateMixedForestPictureBox.Name = "TemperateMixedForestPictureBox";
+            this.TemperateMixedForestPictureBox.Size = new System.Drawing.Size(19, 14);
+            this.TemperateMixedForestPictureBox.TabIndex = 21;
+            this.TemperateMixedForestPictureBox.TabStop = false;
+            // 
+            // RedwoodForestPictureBox
+            // 
+            this.RedwoodForestPictureBox.Location = new System.Drawing.Point(125, 263);
+            this.RedwoodForestPictureBox.Name = "RedwoodForestPictureBox";
+            this.RedwoodForestPictureBox.Size = new System.Drawing.Size(19, 14);
+            this.RedwoodForestPictureBox.TabIndex = 25;
+            this.RedwoodForestPictureBox.TabStop = false;
+            // 
+            // TemperateDeciduousForestLabel
+            // 
+            this.TemperateDeciduousForestLabel.AutoSize = true;
+            this.TemperateDeciduousForestLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TemperateDeciduousForestLabel.ForeColor = System.Drawing.Color.White;
+            this.TemperateDeciduousForestLabel.Location = new System.Drawing.Point(3, 240);
+            this.TemperateDeciduousForestLabel.Name = "TemperateDeciduousForestLabel";
+            this.TemperateDeciduousForestLabel.Size = new System.Drawing.Size(112, 14);
+            this.TemperateDeciduousForestLabel.TabIndex = 22;
+            this.TemperateDeciduousForestLabel.Text = "Temp Dec Forest";
+            // 
+            // RedwoodForestLabel
+            // 
+            this.RedwoodForestLabel.AutoSize = true;
+            this.RedwoodForestLabel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RedwoodForestLabel.ForeColor = System.Drawing.Color.White;
+            this.RedwoodForestLabel.Location = new System.Drawing.Point(3, 260);
+            this.RedwoodForestLabel.Name = "RedwoodForestLabel";
+            this.RedwoodForestLabel.Size = new System.Drawing.Size(105, 14);
+            this.RedwoodForestLabel.TabIndex = 24;
+            this.RedwoodForestLabel.Text = "Redwood Forest";
+            // 
+            // TemperateDeciduousForestPictureBox
+            // 
+            this.TemperateDeciduousForestPictureBox.Location = new System.Drawing.Point(125, 243);
+            this.TemperateDeciduousForestPictureBox.Name = "TemperateDeciduousForestPictureBox";
+            this.TemperateDeciduousForestPictureBox.Size = new System.Drawing.Size(19, 14);
+            this.TemperateDeciduousForestPictureBox.TabIndex = 23;
+            this.TemperateDeciduousForestPictureBox.TabStop = false;
             // 
             // KeyLabel
             // 
@@ -1428,7 +1900,7 @@
             this.ImageSizeLabel.AutoSize = true;
             this.ImageSizeLabel.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ImageSizeLabel.ForeColor = System.Drawing.Color.White;
-            this.ImageSizeLabel.Location = new System.Drawing.Point(58, 528);
+            this.ImageSizeLabel.Location = new System.Drawing.Point(59, 504);
             this.ImageSizeLabel.Name = "ImageSizeLabel";
             this.ImageSizeLabel.Size = new System.Drawing.Size(130, 24);
             this.ImageSizeLabel.TabIndex = 3;
@@ -1436,6 +1908,9 @@
             // 
             // ControlPanel
             // 
+            this.ControlPanel.Controls.Add(this.GenerateSettingsCheckBox);
+            this.ControlPanel.Controls.Add(this.NormalizerLabel);
+            this.ControlPanel.Controls.Add(this.NormalizerLayoutPanel);
             this.ControlPanel.Controls.Add(this.ResetButton);
             this.ControlPanel.Controls.Add(this.BMSeedLabel);
             this.ControlPanel.Controls.Add(this.GenerateLogsCheckBox);
@@ -1455,13 +1930,111 @@
             this.ControlPanel.Size = new System.Drawing.Size(247, 743);
             this.ControlPanel.TabIndex = 4;
             // 
+            // GenerateSettingsCheckBox
+            // 
+            this.GenerateSettingsCheckBox.AutoSize = true;
+            this.GenerateSettingsCheckBox.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GenerateSettingsCheckBox.ForeColor = System.Drawing.Color.White;
+            this.GenerateSettingsCheckBox.Location = new System.Drawing.Point(1, 721);
+            this.GenerateSettingsCheckBox.Name = "GenerateSettingsCheckBox";
+            this.GenerateSettingsCheckBox.Size = new System.Drawing.Size(104, 17);
+            this.GenerateSettingsCheckBox.TabIndex = 21;
+            this.GenerateSettingsCheckBox.Text = "Save Settings";
+            this.BiomeMapTesterTooltip.SetToolTip(this.GenerateSettingsCheckBox, "Check this box to generate text file containing all the settings used above.\r\n\r\nN" +
+        "ote: For Debugging/Logging purposes.");
+            this.GenerateSettingsCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // NormalizerLabel
+            // 
+            this.NormalizerLabel.AutoSize = true;
+            this.NormalizerLabel.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NormalizerLabel.ForeColor = System.Drawing.Color.White;
+            this.NormalizerLabel.Location = new System.Drawing.Point(59, 588);
+            this.NormalizerLabel.Name = "NormalizerLabel";
+            this.NormalizerLabel.Size = new System.Drawing.Size(130, 24);
+            this.NormalizerLabel.TabIndex = 31;
+            this.NormalizerLabel.Text = "Normalizer";
+            // 
+            // NormalizerLayoutPanel
+            // 
+            this.NormalizerLayoutPanel.ColumnCount = 2;
+            this.NormalizerLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 55.60166F));
+            this.NormalizerLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 44.39834F));
+            this.NormalizerLayoutPanel.Controls.Add(this.FirstCutoffLabel, 0, 0);
+            this.NormalizerLayoutPanel.Controls.Add(this.SecondCutoffTextBox, 1, 1);
+            this.NormalizerLayoutPanel.Controls.Add(this.SecondCutoffLabel, 0, 1);
+            this.NormalizerLayoutPanel.Controls.Add(this.FirstCutoffTextBox, 1, 0);
+            this.NormalizerLayoutPanel.Location = new System.Drawing.Point(3, 615);
+            this.NormalizerLayoutPanel.Name = "NormalizerLayoutPanel";
+            this.NormalizerLayoutPanel.RowCount = 2;
+            this.NormalizerLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.NormalizerLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.NormalizerLayoutPanel.Size = new System.Drawing.Size(241, 54);
+            this.NormalizerLayoutPanel.TabIndex = 30;
+            // 
+            // FirstCutoffLabel
+            // 
+            this.FirstCutoffLabel.AutoSize = true;
+            this.FirstCutoffLabel.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FirstCutoffLabel.ForeColor = System.Drawing.Color.White;
+            this.FirstCutoffLabel.Location = new System.Drawing.Point(3, 0);
+            this.FirstCutoffLabel.Name = "FirstCutoffLabel";
+            this.FirstCutoffLabel.Size = new System.Drawing.Size(117, 19);
+            this.FirstCutoffLabel.TabIndex = 5;
+            this.FirstCutoffLabel.Text = "First Cutoff";
+            this.BiomeMapTesterTooltip.SetToolTip(this.FirstCutoffLabel, "Decimal number representing the first cutoff value of the normalizer. Default Val" +
+        "ue = \"0.5\"\r\n\r\nNote: Should be less than Second Cutoff value.");
+            // 
+            // SecondCutoffTextBox
+            // 
+            this.SecondCutoffTextBox.Location = new System.Drawing.Point(137, 29);
+            this.SecondCutoffTextBox.Name = "SecondCutoffTextBox";
+            this.SecondCutoffTextBox.Size = new System.Drawing.Size(100, 20);
+            this.SecondCutoffTextBox.TabIndex = 18;
+            this.BiomeMapTesterTooltip.SetToolTip(this.SecondCutoffTextBox, "Decimal number representing the second cutoff value of the normalizer. Default Va" +
+        "lue = \"1.3\"\r\n\r\nNote: Should be greater than First Cutoff value.");
+            // 
+            // SecondCutoffLabel
+            // 
+            this.SecondCutoffLabel.AutoSize = true;
+            this.SecondCutoffLabel.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SecondCutoffLabel.ForeColor = System.Drawing.Color.White;
+            this.SecondCutoffLabel.Location = new System.Drawing.Point(3, 26);
+            this.SecondCutoffLabel.Name = "SecondCutoffLabel";
+            this.SecondCutoffLabel.Size = new System.Drawing.Size(126, 19);
+            this.SecondCutoffLabel.TabIndex = 7;
+            this.SecondCutoffLabel.Text = "Second Cutoff";
+            this.BiomeMapTesterTooltip.SetToolTip(this.SecondCutoffLabel, "Decimal number representing the second cutoff value of the normalizer. Default Va" +
+        "lue = \"1.3\"\r\n\r\nNote: Should be greater than First Cutoff value.");
+            // 
+            // FirstCutoffTextBox
+            // 
+            this.FirstCutoffTextBox.Location = new System.Drawing.Point(137, 3);
+            this.FirstCutoffTextBox.Name = "FirstCutoffTextBox";
+            this.FirstCutoffTextBox.Size = new System.Drawing.Size(100, 20);
+            this.FirstCutoffTextBox.TabIndex = 17;
+            this.BiomeMapTesterTooltip.SetToolTip(this.FirstCutoffTextBox, "Decimal number representing the first cutoff value of the normalizer. Default Val" +
+        "ue = \"0.5\"\r\n\r\nNote: Should be less than Second Cutoff value.");
+            // 
+            // ResetButton
+            // 
+            this.ResetButton.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ResetButton.Location = new System.Drawing.Point(104, 687);
+            this.ResetButton.Name = "ResetButton";
+            this.ResetButton.Size = new System.Drawing.Size(143, 23);
+            this.ResetButton.TabIndex = 22;
+            this.ResetButton.Text = "Reset to Default";
+            this.BiomeMapTesterTooltip.SetToolTip(this.ResetButton, "Reset all values to default.");
+            this.ResetButton.UseVisualStyleBackColor = true;
+            this.ResetButton.Click += new System.EventHandler(this.ResetButton_Click);
+            // 
             // BMSeedLabel
             // 
             this.BMSeedLabel.AutoSize = true;
             this.BMSeedLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BMSeedLabel.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BMSeedLabel.ForeColor = System.Drawing.Color.White;
-            this.BMSeedLabel.Location = new System.Drawing.Point(98, 417);
+            this.BMSeedLabel.Location = new System.Drawing.Point(98, 400);
             this.BMSeedLabel.Name = "BMSeedLabel";
             this.BMSeedLabel.Size = new System.Drawing.Size(58, 24);
             this.BMSeedLabel.TabIndex = 28;
@@ -1470,26 +2043,26 @@
             // GenerateLogsCheckBox
             // 
             this.GenerateLogsCheckBox.AutoSize = true;
-            this.GenerateLogsCheckBox.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GenerateLogsCheckBox.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GenerateLogsCheckBox.ForeColor = System.Drawing.Color.White;
-            this.GenerateLogsCheckBox.Location = new System.Drawing.Point(57, 678);
+            this.GenerateLogsCheckBox.Location = new System.Drawing.Point(1, 697);
             this.GenerateLogsCheckBox.Name = "GenerateLogsCheckBox";
-            this.GenerateLogsCheckBox.Size = new System.Drawing.Size(145, 23);
-            this.GenerateLogsCheckBox.TabIndex = 27;
-            this.GenerateLogsCheckBox.Text = "Generate Logs";
+            this.GenerateLogsCheckBox.Size = new System.Drawing.Size(89, 18);
+            this.GenerateLogsCheckBox.TabIndex = 20;
+            this.GenerateLogsCheckBox.Text = "Save Logs";
             this.BiomeMapTesterTooltip.SetToolTip(this.GenerateLogsCheckBox, resources.GetString("GenerateLogsCheckBox.ToolTip"));
             this.GenerateLogsCheckBox.UseVisualStyleBackColor = true;
             // 
             // GeneratePNGCheckBox
             // 
             this.GeneratePNGCheckBox.AutoSize = true;
-            this.GeneratePNGCheckBox.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GeneratePNGCheckBox.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GeneratePNGCheckBox.ForeColor = System.Drawing.Color.White;
-            this.GeneratePNGCheckBox.Location = new System.Drawing.Point(57, 647);
+            this.GeneratePNGCheckBox.Location = new System.Drawing.Point(1, 675);
             this.GeneratePNGCheckBox.Name = "GeneratePNGCheckBox";
-            this.GeneratePNGCheckBox.Size = new System.Drawing.Size(136, 23);
-            this.GeneratePNGCheckBox.TabIndex = 26;
-            this.GeneratePNGCheckBox.Text = "Generate PNG";
+            this.GeneratePNGCheckBox.Size = new System.Drawing.Size(92, 17);
+            this.GeneratePNGCheckBox.TabIndex = 19;
+            this.GeneratePNGCheckBox.Text = "Save as PNG";
             this.BiomeMapTesterTooltip.SetToolTip(this.GeneratePNGCheckBox, "Check this box to save a copy of the generated biome map as a PNG image file in t" +
         "he folder you ran this application from.\r\n\r\nNote: Only creates file after you cl" +
         "ick Generate Biome Map button.");
@@ -1504,7 +2077,7 @@
             this.ImageSizeLayoutPanel.Controls.Add(this.HeightTextBox, 1, 1);
             this.ImageSizeLayoutPanel.Controls.Add(this.HeightLabel, 0, 1);
             this.ImageSizeLayoutPanel.Controls.Add(this.WidthTextBox, 1, 0);
-            this.ImageSizeLayoutPanel.Location = new System.Drawing.Point(3, 555);
+            this.ImageSizeLayoutPanel.Location = new System.Drawing.Point(4, 531);
             this.ImageSizeLayoutPanel.Name = "ImageSizeLayoutPanel";
             this.ImageSizeLayoutPanel.RowCount = 2;
             this.ImageSizeLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -1523,7 +2096,7 @@
             this.OffsetLayoutPanel.Controls.Add(this.HeightOffsetLabel, 0, 1);
             this.OffsetLayoutPanel.Controls.Add(this.HumidOffsetTextBox, 1, 0);
             this.OffsetLayoutPanel.Controls.Add(this.HumidOffsetLabel, 0, 0);
-            this.OffsetLayoutPanel.Location = new System.Drawing.Point(3, 444);
+            this.OffsetLayoutPanel.Location = new System.Drawing.Point(3, 427);
             this.OffsetLayoutPanel.Name = "OffsetLayoutPanel";
             this.OffsetLayoutPanel.RowCount = 3;
             this.OffsetLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -1545,7 +2118,7 @@
             this.HeightLayoutPanel.Controls.Add(this.HeightOctLabel, 0, 2);
             this.HeightLayoutPanel.Controls.Add(this.HeightOctTextBox, 1, 2);
             this.HeightLayoutPanel.Controls.Add(this.HeightLacTextBox, 1, 1);
-            this.HeightLayoutPanel.Location = new System.Drawing.Point(3, 306);
+            this.HeightLayoutPanel.Location = new System.Drawing.Point(3, 291);
             this.HeightLayoutPanel.Name = "HeightLayoutPanel";
             this.HeightLayoutPanel.RowCount = 4;
             this.HeightLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -1568,7 +2141,7 @@
             this.HumidityLayoutPanel.Controls.Add(this.HumidOctTextBox, 1, 2);
             this.HumidityLayoutPanel.Controls.Add(this.HumidPersLabel, 0, 3);
             this.HumidityLayoutPanel.Controls.Add(this.HumidPersTextBox, 1, 3);
-            this.HumidityLayoutPanel.Location = new System.Drawing.Point(3, 170);
+            this.HumidityLayoutPanel.Location = new System.Drawing.Point(4, 156);
             this.HumidityLayoutPanel.Name = "HumidityLayoutPanel";
             this.HumidityLayoutPanel.RowCount = 4;
             this.HumidityLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -1592,7 +2165,7 @@
             this.TemperatureLayoutPanel.Controls.Add(this.TempOctTextBox, 1, 2);
             this.TemperatureLayoutPanel.Controls.Add(this.TempPersLabel, 0, 3);
             this.TemperatureLayoutPanel.Controls.Add(this.TempPersTextBox, 1, 3);
-            this.TemperatureLayoutPanel.Location = new System.Drawing.Point(3, 31);
+            this.TemperatureLayoutPanel.Location = new System.Drawing.Point(6, 22);
             this.TemperatureLayoutPanel.Name = "TemperatureLayoutPanel";
             this.TemperatureLayoutPanel.RowCount = 4;
             this.TemperatureLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -1602,24 +2175,12 @@
             this.TemperatureLayoutPanel.Size = new System.Drawing.Size(241, 106);
             this.TemperatureLayoutPanel.TabIndex = 0;
             // 
-            // ResetButton
-            // 
-            this.ResetButton.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ResetButton.Location = new System.Drawing.Point(57, 618);
-            this.ResetButton.Name = "ResetButton";
-            this.ResetButton.Size = new System.Drawing.Size(143, 23);
-            this.ResetButton.TabIndex = 29;
-            this.ResetButton.Text = "Reset to Default";
-            this.BiomeMapTesterTooltip.SetToolTip(this.ResetButton, "Create the Biome Map and display it to the right.");
-            this.ResetButton.UseVisualStyleBackColor = true;
-            this.ResetButton.Click += new System.EventHandler(this.ResetButton_Click);
-            // 
             // BiomeMapTester
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
-            this.ClientSize = new System.Drawing.Size(1296, 769);
+            this.ClientSize = new System.Drawing.Size(1443, 764);
             this.Controls.Add(this.ControlPanel);
             this.Controls.Add(this.KeyPanel);
             this.Controls.Add(this.BiomeMapPictureBox);
@@ -1631,45 +2192,67 @@
             ((System.ComponentModel.ISupportInitialize)(this.BiomeMapPictureBox)).EndInit();
             this.KeyPanel.ResumeLayout(false);
             this.KeyPanel.PerformLayout();
+            this.KeyLayoutPanel2.ResumeLayout(false);
+            this.KeyLayoutPanel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.AbyssalZonePictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.OceanDeadZonePictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BadlandsPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.RuinsPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ThermalZonePictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BlackDesertPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BenthicZonePictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CanyonlandsPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PelagicZonePictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.KelpForestPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CoralReefPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MountainSwampPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.AcidSwampPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LittoralZonePictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DesertPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FloodedGrasslandsPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NeriticZonePictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FrozenOceanPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.WetlandPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BonefieldsPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MesaPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SandstonePillarsPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DeadlandsPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.VolcanoPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BoulderlandsPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CrystalShardsPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CoastalCliffsPictureBox)).EndInit();
             this.KeyLayoutPanel.ResumeLayout(false);
             this.KeyLayoutPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.CoralPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.KelpForPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.LittoralPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MshrmForPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.VolcanoPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PillarsPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.CanyonsPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MesaPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.DesertPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.MangrovePictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MtnSwampPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.WarmSwampPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.WetlandPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.FloodGrassPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MtnJunglePictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.JungleCoastPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TemperateConiferousForestPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MountainConifersPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CoastalJunglePictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MountainLakePictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TropicalGrasslandsPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FrozenCoastPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.JunglePictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TropGrassPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TropConForPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MtnMeadowPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MtnLakePictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MediScrubPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TempDecForPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ColdDesertPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SnowCoastPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TempConForPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.IceLandsPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MtnGrassPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TropicalConiferousForestPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MountainJunglePictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.HimalayanPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SnowcappedMountainPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MushroomCoastPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MountainMeadowPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.IcePillarsPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MushroomForestPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MountainMushroomForestPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TaigaPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MediterraneanScrubPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TundraPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NeriticPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PelagicPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.OceanDesertPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.BenthicPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.AbyssalPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MontaneGrasslandsPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TemperateGrasslandsPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BriarPatchPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TemperateMixedForestPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.RedwoodForestPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TemperateDeciduousForestPictureBox)).EndInit();
             this.ControlPanel.ResumeLayout(false);
             this.ControlPanel.PerformLayout();
+            this.NormalizerLayoutPanel.ResumeLayout(false);
+            this.NormalizerLayoutPanel.PerformLayout();
             this.ImageSizeLayoutPanel.ResumeLayout(false);
             this.ImageSizeLayoutPanel.PerformLayout();
             this.OffsetLayoutPanel.ResumeLayout(false);
@@ -1727,89 +2310,133 @@
         private System.Windows.Forms.Label WidthLabel;
         private System.Windows.Forms.TextBox WidthTextBox;
         private System.Windows.Forms.Label ImageSizeLabel;
-        private System.Windows.Forms.Label TundraLabel;
-        private System.Windows.Forms.PictureBox TundraPictureBox;
         private System.Windows.Forms.Label KeyLabel;
-        private System.Windows.Forms.Label TaigaLabel;
-        private System.Windows.Forms.PictureBox TaigaPictureBox;
-        private System.Windows.Forms.Label MtnGrassLabel;
-        private System.Windows.Forms.PictureBox MtnGrassPictureBox;
         private System.Windows.Forms.Panel ControlPanel;
         private System.Windows.Forms.TableLayoutPanel OffsetLayoutPanel;
         private System.Windows.Forms.TableLayoutPanel HeightLayoutPanel;
         private System.Windows.Forms.TableLayoutPanel HumidityLayoutPanel;
         private System.Windows.Forms.TableLayoutPanel TemperatureLayoutPanel;
         private System.Windows.Forms.TableLayoutPanel ImageSizeLayoutPanel;
-        private System.Windows.Forms.TableLayoutPanel KeyLayoutPanel;
-        private System.Windows.Forms.PictureBox CoralPictureBox;
-        private System.Windows.Forms.PictureBox KelpForPictureBox;
-        private System.Windows.Forms.PictureBox LittoralPictureBox;
-        private System.Windows.Forms.PictureBox MshrmForPictureBox;
-        private System.Windows.Forms.PictureBox VolcanoPictureBox;
-        private System.Windows.Forms.PictureBox PillarsPictureBox;
-        private System.Windows.Forms.PictureBox CanyonsPictureBox;
-        private System.Windows.Forms.PictureBox MesaPictureBox;
-        private System.Windows.Forms.PictureBox DesertPictureBox;
-        private System.Windows.Forms.PictureBox MangrovePictureBox;
-        private System.Windows.Forms.PictureBox MtnSwampPictureBox;
-        private System.Windows.Forms.PictureBox WarmSwampPictureBox;
-        private System.Windows.Forms.PictureBox WetlandPictureBox;
-        private System.Windows.Forms.PictureBox FloodGrassPictureBox;
-        private System.Windows.Forms.PictureBox MtnJunglePictureBox;
-        private System.Windows.Forms.PictureBox JungleCoastPictureBox;
-        private System.Windows.Forms.PictureBox JunglePictureBox;
-        private System.Windows.Forms.PictureBox TropGrassPictureBox;
-        private System.Windows.Forms.PictureBox TropConForPictureBox;
-        private System.Windows.Forms.PictureBox MtnMeadowPictureBox;
-        private System.Windows.Forms.PictureBox MtnLakePictureBox;
-        private System.Windows.Forms.PictureBox MediScrubPictureBox;
-        private System.Windows.Forms.PictureBox TempDecForPictureBox;
-        private System.Windows.Forms.PictureBox ColdDesertPictureBox;
-        private System.Windows.Forms.PictureBox SnowCoastPictureBox;
-        private System.Windows.Forms.PictureBox TempConForPictureBox;
-        private System.Windows.Forms.PictureBox IceLandsPictureBox;
-        private System.Windows.Forms.Label IceLandsLabel;
-        private System.Windows.Forms.Label TempConForLabel;
-        private System.Windows.Forms.Label SnowCoast;
-        private System.Windows.Forms.Label ColdDesertLabel;
-        private System.Windows.Forms.Label TempDecForLabel;
-        private System.Windows.Forms.Label MediScrubLabel;
-        private System.Windows.Forms.Label MtnLakeLabel;
-        private System.Windows.Forms.Label MtnMeadowLabel;
-        private System.Windows.Forms.Label TropConForLabel;
-        private System.Windows.Forms.Label TropGrassLabel;
-        private System.Windows.Forms.Label Jungle;
-        private System.Windows.Forms.Label JungleCoast;
-        private System.Windows.Forms.Label MtnJungle;
-        private System.Windows.Forms.Label FloodGrassLabel;
-        private System.Windows.Forms.Label WetlandLabel;
-        private System.Windows.Forms.Label WarmSwampLabel;
-        private System.Windows.Forms.Label MtnSwampLabel;
-        private System.Windows.Forms.Label MangroveLabel;
-        private System.Windows.Forms.Label DesertLabel;
-        private System.Windows.Forms.Label MesaLabel;
-        private System.Windows.Forms.Label CanyonsLabel;
-        private System.Windows.Forms.Label PillarsLabel;
-        private System.Windows.Forms.Label VolcanoLabel;
-        private System.Windows.Forms.Label MshrmForLabel;
-        private System.Windows.Forms.Label LittoralLabel;
-        private System.Windows.Forms.Label KelpForLabel;
-        private System.Windows.Forms.Label CoralLabel;
-        private System.Windows.Forms.Label AbyssalLabel;
-        private System.Windows.Forms.Label BenthicLabel;
-        private System.Windows.Forms.Label OceanDesertLabel;
-        private System.Windows.Forms.Label PelagicLabel;
-        private System.Windows.Forms.Label NeriticLabel;
-        private System.Windows.Forms.PictureBox NeriticPictureBox;
-        private System.Windows.Forms.PictureBox PelagicPictureBox;
-        private System.Windows.Forms.PictureBox OceanDesertPictureBox;
-        private System.Windows.Forms.PictureBox BenthicPictureBox;
-        private System.Windows.Forms.PictureBox AbyssalPictureBox;
         private System.Windows.Forms.CheckBox GenerateLogsCheckBox;
         private System.Windows.Forms.CheckBox GeneratePNGCheckBox;
         private System.Windows.Forms.Label BMSeedLabel;
         private System.Windows.Forms.ToolTip BiomeMapTesterTooltip;
         private System.Windows.Forms.Button ResetButton;
+        private System.Windows.Forms.TableLayoutPanel KeyLayoutPanel;
+        private System.Windows.Forms.Label HimalayanLabel;
+        private System.Windows.Forms.PictureBox HimalayanPictureBox;
+        private System.Windows.Forms.TableLayoutPanel KeyLayoutPanel2;
+        private System.Windows.Forms.PictureBox AbyssalZonePictureBox;
+        private System.Windows.Forms.Label AbyssalZoneLabel;
+        private System.Windows.Forms.PictureBox OceanDeadZonePictureBox;
+        private System.Windows.Forms.PictureBox BadlandsPictureBox;
+        private System.Windows.Forms.Label OceanDeadZoneLabel;
+        private System.Windows.Forms.PictureBox RuinsPictureBox;
+        private System.Windows.Forms.PictureBox ThermalZonePictureBox;
+        private System.Windows.Forms.Label BadlandsLabel;
+        private System.Windows.Forms.Label ThermalZoneLabel;
+        private System.Windows.Forms.PictureBox BlackDesertPictureBox;
+        private System.Windows.Forms.PictureBox BenthicZonePictureBox;
+        private System.Windows.Forms.Label RuinsLabel;
+        private System.Windows.Forms.Label BenthicZoneLabel;
+        private System.Windows.Forms.PictureBox CanyonlandsPictureBox;
+        private System.Windows.Forms.PictureBox PelagicZonePictureBox;
+        private System.Windows.Forms.Label BlackDesertLabel;
+        private System.Windows.Forms.Label PelagicZoneLabel;
+        private System.Windows.Forms.Label CanyonlandsLabel;
+        private System.Windows.Forms.PictureBox KelpForestPictureBox;
+        private System.Windows.Forms.Label AcidSwampLabel;
+        private System.Windows.Forms.Label KelpForestLabel;
+        private System.Windows.Forms.Label MountainSwampLabel;
+        private System.Windows.Forms.PictureBox CoralReefPictureBox;
+        private System.Windows.Forms.PictureBox MountainSwampPictureBox;
+        private System.Windows.Forms.Label CoralReefLabel;
+        private System.Windows.Forms.PictureBox AcidSwampPictureBox;
+        private System.Windows.Forms.PictureBox LittoralZonePictureBox;
+        private System.Windows.Forms.PictureBox DesertPictureBox;
+        private System.Windows.Forms.Label LittoralZoneLabel;
+        private System.Windows.Forms.PictureBox FloodedGrasslandsPictureBox;
+        private System.Windows.Forms.PictureBox NeriticZonePictureBox;
+        private System.Windows.Forms.Label DesertLabel;
+        private System.Windows.Forms.Label NeriticZoneLabel;
+        private System.Windows.Forms.Label FloodedGrasslandsLabel;
+        private System.Windows.Forms.PictureBox FrozenOceanPictureBox;
+        private System.Windows.Forms.PictureBox WetlandPictureBox;
+        private System.Windows.Forms.Label FrozenOceanLabel;
+        private System.Windows.Forms.Label WetlandLabel;
+        private System.Windows.Forms.PictureBox BonefieldsPictureBox;
+        private System.Windows.Forms.PictureBox MesaPictureBox;
+        private System.Windows.Forms.Label BonefieldsLabel;
+        private System.Windows.Forms.PictureBox SandstonePillarsPictureBox;
+        private System.Windows.Forms.PictureBox DeadlandsPictureBox;
+        private System.Windows.Forms.Label SandstonePillarsLabel;
+        private System.Windows.Forms.Label DeadlandsLabel;
+        private System.Windows.Forms.Label MesaLabel;
+        private System.Windows.Forms.PictureBox VolcanoPictureBox;
+        private System.Windows.Forms.Label BoulderlandsLabel;
+        private System.Windows.Forms.Label VolcanoLabel;
+        private System.Windows.Forms.PictureBox BoulderlandsPictureBox;
+        private System.Windows.Forms.PictureBox CrystalShardsPictureBox;
+        private System.Windows.Forms.Label CoastalCliffsLabel;
+        private System.Windows.Forms.Label CrystalShardsLabel;
+        private System.Windows.Forms.PictureBox CoastalCliffsPictureBox;
+        private System.Windows.Forms.PictureBox MangrovePictureBox;
+        private System.Windows.Forms.PictureBox TemperateConiferousForestPictureBox;
+        private System.Windows.Forms.Label MangroveLabel;
+        private System.Windows.Forms.PictureBox MountainConifersPictureBox;
+        private System.Windows.Forms.PictureBox CoastalJunglePictureBox;
+        private System.Windows.Forms.Label TemperateConiferousForestLabel;
+        private System.Windows.Forms.Label CoastalJungleLabel;
+        private System.Windows.Forms.PictureBox MountainLakePictureBox;
+        private System.Windows.Forms.PictureBox TropicalGrasslandsPictureBox;
+        private System.Windows.Forms.Label MountainConifersLabel;
+        private System.Windows.Forms.Label TropicalGrasslandsLabel;
+        private System.Windows.Forms.PictureBox FrozenCoastPictureBox;
+        private System.Windows.Forms.PictureBox JunglePictureBox;
+        private System.Windows.Forms.Label MountainLakeLabel;
+        private System.Windows.Forms.Label JungleLabel;
+        private System.Windows.Forms.Label FrozenCoastLabel;
+        private System.Windows.Forms.PictureBox TropicalConiferousForestPictureBox;
+        private System.Windows.Forms.Label SnowcappedMountainLabel;
+        private System.Windows.Forms.Label TropicalConiferousForestLabel;
+        private System.Windows.Forms.PictureBox MountainJunglePictureBox;
+        private System.Windows.Forms.Label MountainJungleLabel;
+        private System.Windows.Forms.PictureBox SnowcappedMountainPictureBox;
+        private System.Windows.Forms.PictureBox MushroomCoastPictureBox;
+        private System.Windows.Forms.PictureBox MountainMeadowPictureBox;
+        private System.Windows.Forms.Label MushroomCoastLabel;
+        private System.Windows.Forms.PictureBox IcePillarsPictureBox;
+        private System.Windows.Forms.PictureBox MushroomForestPictureBox;
+        private System.Windows.Forms.Label MountainMeadowLabel;
+        private System.Windows.Forms.Label MushroomForestLabel;
+        private System.Windows.Forms.Label IcePillarsLabel;
+        private System.Windows.Forms.PictureBox MountainMushroomForestPictureBox;
+        private System.Windows.Forms.PictureBox TaigaPictureBox;
+        private System.Windows.Forms.Label MountainMushroomForestLabel;
+        private System.Windows.Forms.Label TaigaLabel;
+        private System.Windows.Forms.PictureBox MediterraneanScrubPictureBox;
+        private System.Windows.Forms.PictureBox TundraPictureBox;
+        private System.Windows.Forms.Label MediterraneanScrubLabel;
+        private System.Windows.Forms.PictureBox MontaneGrasslandsPictureBox;
+        private System.Windows.Forms.PictureBox TemperateGrasslandsPictureBox;
+        private System.Windows.Forms.Label MontaneGrasslandsLabel;
+        private System.Windows.Forms.Label TemperateGrasslandsLabel;
+        private System.Windows.Forms.Label TundraLabel;
+        private System.Windows.Forms.PictureBox BriarPatchPictureBox;
+        private System.Windows.Forms.Label TemperateMixedForestLabel;
+        private System.Windows.Forms.Label BriarPatchLabel;
+        private System.Windows.Forms.PictureBox TemperateMixedForestPictureBox;
+        private System.Windows.Forms.PictureBox RedwoodForestPictureBox;
+        private System.Windows.Forms.Label TemperateDeciduousForestLabel;
+        private System.Windows.Forms.Label RedwoodForestLabel;
+        private System.Windows.Forms.PictureBox TemperateDeciduousForestPictureBox;
+        private System.Windows.Forms.Label NormalizerLabel;
+        private System.Windows.Forms.TableLayoutPanel NormalizerLayoutPanel;
+        private System.Windows.Forms.Label FirstCutoffLabel;
+        private System.Windows.Forms.TextBox SecondCutoffTextBox;
+        private System.Windows.Forms.Label SecondCutoffLabel;
+        private System.Windows.Forms.TextBox FirstCutoffTextBox;
+        private System.Windows.Forms.CheckBox GenerateSettingsCheckBox;
     }
 }
 
