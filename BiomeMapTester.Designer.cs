@@ -66,6 +66,7 @@
             this.TempFreqTextBox = new System.Windows.Forms.TextBox();
             this.BiomeMapPictureBox = new System.Windows.Forms.PictureBox();
             this.KeyPanel = new System.Windows.Forms.Panel();
+            this.HelpLabel = new System.Windows.Forms.LinkLabel();
             this.KeyLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.AbyssalZonePictureBox = new System.Windows.Forms.PictureBox();
             this.AbyssalZoneLabel = new System.Windows.Forms.Label();
@@ -306,9 +307,7 @@
             this.HeightPersLabel.Size = new System.Drawing.Size(96, 18);
             this.HeightPersLabel.TabIndex = 31;
             this.HeightPersLabel.Text = "Persistence";
-            this.BiomeMapTesterTooltip.SetToolTip(this.HeightPersLabel, "Decimal number representing the Persistence of the Height noise map. Default Valu" +
-        "e = \"5\"\r\n\r\nNote: Set this between 0 and 100. The higher the number the less each" +
-        " Octave will change the output.");
+            this.BiomeMapTesterTooltip.SetToolTip(this.HeightPersLabel, resources.GetString("HeightPersLabel.ToolTip"));
             // 
             // HeightOctLabel
             // 
@@ -340,9 +339,7 @@
             this.HeightPersTextBox.Name = "HeightPersTextBox";
             this.HeightPersTextBox.Size = new System.Drawing.Size(100, 20);
             this.HeightPersTextBox.TabIndex = 11;
-            this.BiomeMapTesterTooltip.SetToolTip(this.HeightPersTextBox, "Decimal number representing the Persistence of the Height noise map. Default Valu" +
-        "e = \"5\"\r\n\r\nNote: Set this between 0 and 100. The higher the number the less each" +
-        " Octave will change the output.");
+            this.BiomeMapTesterTooltip.SetToolTip(this.HeightPersTextBox, resources.GetString("HeightPersTextBox.ToolTip"));
             // 
             // HeightOctTextBox
             // 
@@ -366,9 +363,7 @@
             this.HeightFreqTextBox.Name = "HeightFreqTextBox";
             this.HeightFreqTextBox.Size = new System.Drawing.Size(100, 20);
             this.HeightFreqTextBox.TabIndex = 8;
-            this.BiomeMapTesterTooltip.SetToolTip(this.HeightFreqTextBox, "Decimal number representing the Frequency of the Height noise map. Default Value " +
-        "= \"0.005\"\r\n\r\nNote: Set this between 0 and 1. Higher numbers mean smaller and mor" +
-        "e frequent biomes. ");
+            this.BiomeMapTesterTooltip.SetToolTip(this.HeightFreqTextBox, resources.GetString("HeightFreqTextBox.ToolTip"));
             // 
             // HeightFreqLabel
             // 
@@ -380,9 +375,7 @@
             this.HeightFreqLabel.Size = new System.Drawing.Size(80, 18);
             this.HeightFreqLabel.TabIndex = 24;
             this.HeightFreqLabel.Text = "Frequency";
-            this.BiomeMapTesterTooltip.SetToolTip(this.HeightFreqLabel, "Decimal number representing the Frequency of the Height noise map. Default Value " +
-        "= \"0.005\"\r\n\r\nNote: Set this between 0 and 1. Higher numbers mean smaller and mor" +
-        "e frequent biomes. ");
+            this.BiomeMapTesterTooltip.SetToolTip(this.HeightFreqLabel, resources.GetString("HeightFreqLabel.ToolTip"));
             // 
             // BMHeightLabel
             // 
@@ -410,9 +403,7 @@
             this.HumidPersTextBox.Name = "HumidPersTextBox";
             this.HumidPersTextBox.Size = new System.Drawing.Size(99, 20);
             this.HumidPersTextBox.TabIndex = 7;
-            this.BiomeMapTesterTooltip.SetToolTip(this.HumidPersTextBox, "Decimal number representing the Persistence of the Humidity noise map. Default Va" +
-        "lue = \"2\"\r\n\r\nNote: Set this between 0 and 100. The higher the number the less ea" +
-        "ch Octave will change the output.");
+            this.BiomeMapTesterTooltip.SetToolTip(this.HumidPersTextBox, resources.GetString("HumidPersTextBox.ToolTip"));
             // 
             // HumidOctTextBox
             // 
@@ -436,9 +427,7 @@
             this.HumidFreqTextBox.Name = "HumidFreqTextBox";
             this.HumidFreqTextBox.Size = new System.Drawing.Size(99, 20);
             this.HumidFreqTextBox.TabIndex = 4;
-            this.BiomeMapTesterTooltip.SetToolTip(this.HumidFreqTextBox, "Decimal number representing the Frequency of the Humidity noise map. Default Valu" +
-        "e = \"0.005\"\r\n\r\nNote: Set this between 0 and 1. Higher numbers mean smaller and m" +
-        "ore frequent biomes. ");
+            this.BiomeMapTesterTooltip.SetToolTip(this.HumidFreqTextBox, resources.GetString("HumidFreqTextBox.ToolTip"));
             // 
             // HumidOffsetLabel
             // 
@@ -462,9 +451,7 @@
             this.HumidPersLabel.Size = new System.Drawing.Size(96, 18);
             this.HumidPersLabel.TabIndex = 15;
             this.HumidPersLabel.Text = "Persistence";
-            this.BiomeMapTesterTooltip.SetToolTip(this.HumidPersLabel, "Decimal number representing the Persistence of the Humidity noise map. Default Va" +
-        "lue = \"2\"\r\n\r\nNote: Set this between 0 and 100. The higher the number the less ea" +
-        "ch Octave will change the output.");
+            this.BiomeMapTesterTooltip.SetToolTip(this.HumidPersLabel, resources.GetString("HumidPersLabel.ToolTip"));
             // 
             // HumidOctLabel
             // 
@@ -500,9 +487,7 @@
             this.HumidFreqLabel.Size = new System.Drawing.Size(80, 18);
             this.HumidFreqLabel.TabIndex = 12;
             this.HumidFreqLabel.Text = "Frequency";
-            this.BiomeMapTesterTooltip.SetToolTip(this.HumidFreqLabel, "Decimal number representing the Frequency of the Humidity noise map. Default Valu" +
-        "e = \"0.005\"\r\n\r\nNote: Set this between 0 and 1. Higher numbers mean smaller and m" +
-        "ore frequent biomes. ");
+            this.BiomeMapTesterTooltip.SetToolTip(this.HumidFreqLabel, resources.GetString("HumidFreqLabel.ToolTip"));
             // 
             // BMHumidLabel
             // 
@@ -550,9 +535,7 @@
             this.TempPersLabel.Size = new System.Drawing.Size(96, 18);
             this.TempPersLabel.TabIndex = 8;
             this.TempPersLabel.Text = "Persistence";
-            this.BiomeMapTesterTooltip.SetToolTip(this.TempPersLabel, "Decimal number representing the Persistence of the Temperature noise map. Default" +
-        " Value = \"2\"\r\n\r\nNote: Set this between 0 and 100. The higher the number the less" +
-        " each Octave will change the output.");
+            this.BiomeMapTesterTooltip.SetToolTip(this.TempPersLabel, resources.GetString("TempPersLabel.ToolTip"));
             // 
             // TempOctLabel
             // 
@@ -588,9 +571,7 @@
             this.TempFreqLabel.Size = new System.Drawing.Size(80, 18);
             this.TempFreqLabel.TabIndex = 3;
             this.TempFreqLabel.Text = "Frequency";
-            this.BiomeMapTesterTooltip.SetToolTip(this.TempFreqLabel, "Decimal number representing the Frequency of the Temperature noise map. Default V" +
-        "alue = \"0.005\"\r\n\r\nNote: Set this between 0 and 1. Higher numbers mean smaller an" +
-        "d more frequent biomes. ");
+            this.BiomeMapTesterTooltip.SetToolTip(this.TempFreqLabel, resources.GetString("TempFreqLabel.ToolTip"));
             // 
             // SeedTextBox
             // 
@@ -606,9 +587,7 @@
             this.TempPersTextBox.Name = "TempPersTextBox";
             this.TempPersTextBox.Size = new System.Drawing.Size(100, 20);
             this.TempPersTextBox.TabIndex = 3;
-            this.BiomeMapTesterTooltip.SetToolTip(this.TempPersTextBox, "Decimal number representing the Persistence of the Temperature noise map. Default" +
-        " Value = \"2\"\r\n\r\nNote: Set this between 0 and 100. The higher the number the less" +
-        " each Octave will change the output.");
+            this.BiomeMapTesterTooltip.SetToolTip(this.TempPersTextBox, resources.GetString("TempPersTextBox.ToolTip"));
             // 
             // TempOctTextBox
             // 
@@ -632,9 +611,7 @@
             this.TempFreqTextBox.Name = "TempFreqTextBox";
             this.TempFreqTextBox.Size = new System.Drawing.Size(100, 20);
             this.TempFreqTextBox.TabIndex = 0;
-            this.BiomeMapTesterTooltip.SetToolTip(this.TempFreqTextBox, "Decimal number representing the Frequency of the Temperature noise map. Default V" +
-        "alue = \"0.005\"\r\n\r\nNote: Set this between 0 and 1. Higher numbers mean smaller an" +
-        "d more frequent biomes. ");
+            this.BiomeMapTesterTooltip.SetToolTip(this.TempFreqTextBox, resources.GetString("TempFreqTextBox.ToolTip"));
             // 
             // BiomeMapPictureBox
             // 
@@ -648,6 +625,7 @@
             // 
             // KeyPanel
             // 
+            this.KeyPanel.Controls.Add(this.HelpLabel);
             this.KeyPanel.Controls.Add(this.KeyLayoutPanel2);
             this.KeyPanel.Controls.Add(this.KeyLayoutPanel);
             this.KeyPanel.Controls.Add(this.KeyLabel);
@@ -655,6 +633,20 @@
             this.KeyPanel.Name = "KeyPanel";
             this.KeyPanel.Size = new System.Drawing.Size(321, 742);
             this.KeyPanel.TabIndex = 3;
+            // 
+            // HelpLabel
+            // 
+            this.HelpLabel.AutoSize = true;
+            this.HelpLabel.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.HelpLabel.Location = new System.Drawing.Point(83, 720);
+            this.HelpLabel.Name = "HelpLabel";
+            this.HelpLabel.Size = new System.Drawing.Size(132, 13);
+            this.HelpLabel.TabIndex = 51;
+            this.HelpLabel.TabStop = true;
+            this.HelpLabel.Text = "Help on Setting Definitions";
+            this.BiomeMapTesterTooltip.SetToolTip(this.HelpLabel, "Click here to open a web browser to a page with helpful definitions for the diffe" +
+        "rent settings on this form.");
+            this.HelpLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.HelpLabel_LinkClicked);
             // 
             // KeyLayoutPanel2
             // 
@@ -745,7 +737,7 @@
             this.KeyLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.KeyLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.KeyLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.KeyLayoutPanel2.Size = new System.Drawing.Size(150, 708);
+            this.KeyLayoutPanel2.Size = new System.Drawing.Size(150, 581);
             this.KeyLayoutPanel2.TabIndex = 50;
             // 
             // AbyssalZonePictureBox
@@ -1347,7 +1339,7 @@
             this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.KeyLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.KeyLayoutPanel.Size = new System.Drawing.Size(147, 708);
+            this.KeyLayoutPanel.Size = new System.Drawing.Size(147, 581);
             this.KeyLayoutPanel.TabIndex = 1;
             // 
             // MangrovePictureBox
@@ -2437,6 +2429,7 @@
         private System.Windows.Forms.Label SecondCutoffLabel;
         private System.Windows.Forms.TextBox FirstCutoffTextBox;
         private System.Windows.Forms.CheckBox GenerateSettingsCheckBox;
+        private System.Windows.Forms.LinkLabel HelpLabel;
     }
 }
 

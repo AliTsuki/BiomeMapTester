@@ -258,6 +258,12 @@ namespace BiomeMapTester
             this.FirstCutoffTextBox.Text = "0.5";
             this.SecondCutoffTextBox.Text = "1.3";
         }
+
+        private void HelpLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            this.HelpLabel.LinkVisited = true;
+            System.Diagnostics.Process.Start("https://code.google.com/archive/p/fractalterraingeneration/wikis/Fractional_Brownian_Motion.wiki");
+        }
     }
 
     public class Biome
